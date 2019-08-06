@@ -1,0 +1,60 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  right: 100;
+  width: 100%;
+  display: flex;
+  padding: 25px;
+  height: 60px;
+  background-color: #e3e3e3;
+
+  .toggle-group {
+    position: absolute;
+    width: 120px;
+    right: 0;
+  }
+}
+
+.navbar-logo {
+  margin-top: -15px;
+  margin-left: -4px;
+  position: fixed;
+}
+
+.nav-dates {
+  text-transform: uppercase;
+  margin-top: 10px;
+  font-weight: 400;
+  font-family: 'Jura', 'Montserrat', sans-serif;
+}
+
+.secondary-nav {
+  height: 30px;
+  display: flex;
+  margin-top: 60px;
+  z-index: 6;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  z-index: 6;
+}
+
+.nav-menu {
+  padding-top: 5px;
+  z-index: 6;
+  background-color: #e3e3e3;
+
+  div {
+    z-index: 6;
+  }
+
+  .nav-large {
+
+  }
+}

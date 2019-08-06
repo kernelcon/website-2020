@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Forum|Jura:300,400,500,700|Montserrat:300,400,500,700|Roboto:100,300,500,700,900');
+
+/* FONT STACK */
+$font-stack: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  
+
+/* FONT WEIGHTS */
+$regular: 400;
+$bold: 700;
+
+/* BODY TEXT */
+$mobile:  13px;
+$tablet:  14px;
+$desktop: 16px;
+
+/* HEADING TEXT */
+$heading-base-size: 1.25em;
+$heading-scale-ratio: 1.333;
+
+/* LINE HEIGHTS */
+$heading-line-height: 1.5;
+$body-line-height: 1.666;
+
+
+@function pow($number, $exponent) {
+  $value: 1;
+
+  @if $exponent > 0 {
+    @for $i from 1 through $exponent {
+      $value: $value * $number;
+    }
+  }
+
+  @return $value;
+}
+
+body,input,textarea,option,select{
+  color: rgb(40,40,40);
+  font-weight: $regular;
+  font-family: $font-stack;
+  line-height: $body-line-height;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  font-family: 'Jura', 'Montserrat', sans-serif;
+}
+
+
+p, input, textarea, select, option{
+  font-size: inherit;
+}
+i, .i, em{
+  font-style:italic;
+}
+b, .b, strong{
+  font-weight: $bold;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  font-size:inherit;
+}
+
+
+h1{
+  font-size: $heading-base-size * pow($heading-scale-ratio, 3);
+}
+h2{
+  font-size: $heading-base-size * pow($heading-scale-ratio, 2);
+}
+h3{
+  font-size: $heading-base-size * pow($heading-scale-ratio, 1);
+}
+h4{
+  font-size: $heading-base-size * pow($heading-scale-ratio, 0);
+}
+h1,h2,h3,h4{
+  line-height: $heading-line-height;
+}
+
+
+@media all and (min-width: 960px) {
+  body{
+    font-size: $desktop;
+  }
+}
+@media all and (max-width: 959px) and (min-width: 600px) {
+  body{
+    font-size: $tablet;
+  }
+}
+@media all and (max-width: 599px) {
+  body{
+    font-size: $mobile;
+  }
+}
+
+.text-highlight {
+  color: $text-highlight;
+}
