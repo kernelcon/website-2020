@@ -35,7 +35,6 @@ export default class OpenCalls extends Component {
           <Tab tabFor="villages">Villages</Tab>
           <Tab tabFor="training">Training</Tab>
           <Tab tabFor="competitions">Competitions</Tab>
-          <Tab tabFor="stickers">Stickers</Tab>
         </TabList>
         <span>
           <TabPanel tabId="papers">
@@ -69,9 +68,6 @@ export default class OpenCalls extends Component {
             </div>  
             <p className='tab-paragraph'>Please consider submitting an idea to <a href='mailto:competitions@kernelcon.org' className='text-highlight' rel='noopener noreferrer'>competitions@kernelcon.org</a> if you would like to host a competition for this year's Kernelcon. If your idea is not fully finessed, no worries! We can help your ideas become a reality.</p>
             <p className='tab-paragraph'>Thanks and Good Luck!</p>
-          </TabPanel>
-          <TabPanel tabId="stickers">
-            <div className='tab-title'>Call for Stickers</div>
           </TabPanel>
         </span>
       </Tabs>
