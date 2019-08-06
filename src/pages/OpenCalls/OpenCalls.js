@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Tabs, Tab, TabPanel, TabList } from 'react-web-tabs';
 import MediaQuery from 'react-responsive';
+import Villages from './Villages';
 import './OpenCalls.scss';
 
 export default class OpenCalls extends Component {
@@ -47,12 +48,27 @@ export default class OpenCalls extends Component {
           </TabPanel>
           <TabPanel tabId="villages">
             <div className='tab-title'>Call for Villages</div>
+            <Villages />
           </TabPanel>
           <TabPanel tabId="training">
             <div className='tab-title'>Call for Training Courses</div>
+            <p className='tab-paragraph'>In 2020, we’ll be offering training to attendees the two days before the Kernelcon main program. All one-day classes will be offered to attendees at $500 and all two-day classes will be offered at $1000.</p>
+            <p className='tab-paragraph'>We expect to open an official Call-for-Training soon and expect the call to close no later than December 1, 2019. We’ll be looking for crafty submissions in the hacking and infosec spaces. Based on feedback, we’d like to see hand’s-on components in training submissions. More details forthcoming, check back here, or watch at @_kernelcon_ for related announcements! Why offer training? Well, primarily because there seems to be a need! Our “workshops” were very well received last year, and we’ve had inquiries from would-be students AND would-be trainers. We exceeded our attendance targets in 2019, so we plan to keep growing the event and serving the needs of our fellow hackers!</p>
           </TabPanel>
           <TabPanel tabId="competitions">
-            <div className='tab-title'>Call for Competitions</div>  
+            <div className='tab-title'>Call for Competitions</div>
+            <p className='tab-paragraph'>Interested in hosting a competition? We are extremely interested in hosting competitions from the community. Some examples of competitions that were hosted last year:</p>
+            <div className='tab-bullets'>
+              <ul>
+                <li>CTF (hosted by Kernelcon)</li>
+                <li>WiFi Fox & Hound</li>
+                <li>Chillout Village Kernel Smash - Super Smash Bros competition</li>
+                <li>Kernel Panic Technology Olympics</li>
+                <li>Kernel Panic Who's Slide Is It Anyways?</li>
+              </ul>
+            </div>  
+            <p className='tab-paragraph'>Please consider submitting an idea to <a href='mailto:competitions@kernelcon.org' className='text-highlight' rel='noopener noreferrer'>competitions@kernelcon.org</a> if you would like to host a competition for this year's Kernelcon. If your idea is not fully finessed, no worries! We can help your ideas become a reality.</p>
+            <p className='tab-paragraph'>Thanks and Good Luck!</p>
           </TabPanel>
           <TabPanel tabId="stickers">
             <div className='tab-title'>Call for Stickers</div>

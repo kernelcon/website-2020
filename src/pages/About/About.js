@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Tabs, Tab, TabPanel, TabList } from 'react-web-tabs';
 import MediaQuery from 'react-responsive';
+import FAQ from './FAQ';
 import './About.scss';
 
 export default class About extends Component {
@@ -34,7 +35,6 @@ export default class About extends Component {
           <Tab tabFor="kernelcon">Kernelcon</Tab>
           <Tab tabFor="code-of-conduct">Code Of Conduct</Tab>
           <Tab tabFor="contact">Contact</Tab>
-          <Tab tabFor="organizers">Organizers</Tab>
           <Tab tabFor="faq">FAQ</Tab>
         </TabList>
         <span>
@@ -82,11 +82,9 @@ export default class About extends Component {
               </a>
             </div>
           </TabPanel>
-          <TabPanel tabId="organizers">
-            <div className='tab-title'>Organizers</div>
-          </TabPanel>
           <TabPanel tabId="faq">
             <div className='tab-title'>FAQ</div>
+            <FAQ />
           </TabPanel>
         </span>
       </Tabs>

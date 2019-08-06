@@ -1,0 +1,50 @@
+[
+  {
+    "question": "I'm not a security professional, should I attend Kernelcon?",
+    "answer": "Yes you should.  Kernelcon is not just for hackers and IT professionals, it is for anyone who has an interest in computer security, hacking, malware research, or electronics.  If those or other similar things interest you, you will likely enjoy Kernelcon."
+  },
+  {
+    "question": "Is there an Internet Connection at Kernelcon?",
+    "answer": "Of course! How else are you going to be able to post pics of all the fun at Kernelcon to IG? We aim to provide a robust and highly capable wireless network. You should consider it semi-hostile. Make sure you use appropriate VPN or other secure methods of communication because it is a security conference after all, and we’re sure people are listening."
+  },
+  {
+    "question": "Is there an age limit for attending Kernelcon?",
+    "answer": "No, while there is not content scheduled that is specifically focused on younger hackers, children are allowed. If they are under 14 years old, they receive free admission with a paid adult purchase.  All minors must be accompanied by a parent."
+  },
+  {
+    "question": "What is the refund policy?",
+    "answer": "We are working hard in the background to line up as much as possible for the con. Therefore, once a ticket is sold, we consider it sold. Because we don't ask for names at the door, you're free to resell the ticket."
+  },
+  {
+    "question": "I want to submit a talk, does it have to be about kernels?",
+    "answer": "No, but we smile when talks include core parts of a operating system, a softer typically edible part of a nut, cereal, grain, fruit, corn, a convolution matrix, classes of algorithms like SVM, or an unmarked linguistic string."
+  },
+  {
+    "question": "Are talks streamed or recorded?",
+    "answer": "There are currently no plans for this."
+  },
+  {
+    "question": "I can't or don't want to register online (technical issue, privacy issue, etc), can I still attend? Can I pay at the door?",
+    "answer": "<span className='flex-override'>Yes!  If you have an issue but still want to register early, please contact us at <a class='gold' href='mailto:info@kernelcon.org'>info@kernelcon.org</a>.  We will be accepting cash at the door.  Keep in mind that registering early guarantees you swag, that clothing is appropriate size, that workshops you want aren't full, etc.</span>"
+  },
+  {
+    "question": "Does the payment name need to match the attendee name?",
+    "answer": "Appropriating the long tradition of other hacking conferences, Kernelcon does not require a 'registration name.'  However, with the desire many folks have to pre-register (e.g. to reserve a workshop space, ensure they have a ticket prior to selling out, etc) we do facilitate pre-sales which limits attendee anonymity in some ways."
+  },
+  {
+    "question": "What do I need to bring with me to the registration desk?",
+    "answer": "If you pre-registered online, you need to bring the barcode you received at the end of the pre-registration process.  If you intend to register at the door you need to bring payment."
+  },
+  {
+    "question": "Do you offer a group discount?",
+    "answer": "<span className='flex-override'>We do!  Please contact <a class='gold' href='mailto:info@kernelcon.org'>info@kernelcon.org</a> for group orders of 10 or more!</span>"
+  },
+  {
+    "question": "Do you offer CPEs?",
+    "answer": "Kernelcon topics satisfy CPE requirements for several certifications, you may self-report and we will support if necessary."
+  },
+  {
+    "question": "Does Kernelcon have a dress code?",
+    "answer": "No.  If you really need guidance, many attendees will likely wear jeans, shirts (t-shirt, sweatshirt, polo shirt, etc), and comfortable shoes. You do you hackers."
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "title": "Registration Open",
+    "description": "Sign up for the Con!",
+    "date": "OCT 1, 2018",
+    "hidden": "false"
+  }, {
+    "title": "Workshop Signups",
+    "description": "Limited number of seats available.",
+    "date": "OCT 1, 2018",
+    "hidden": "false"
+  }, {
+    "title": "Call for Papers Announced",
+    "description": "",
+    "date": "OCT 12, 2018",
+    "hidden": "false"
+  }, {
+    "title": "End of Early Registration",
+    "description": "",
+    "date": "DEC 31, 2018",
+    "hidden": "false"
+  }, {
+    "title": "Call for Papers Close",
+    "description": "",
+    "date": "JAN 25, 2019",
+    "hidden": "false"
+  }, {
+    "title": "Author Notifications Sent",
+    "description": "",
+    "date": "FEB 4, 2019",
+    "hidden": "false"
+  }, {
+    "title": "Resume Workshop Signups",
+    "description": "Signup for one of the coveted Resume Workshop seats!",
+    "date": "FEB 11, 2019",
+    "hidden": "false"
+  },{
+    "title": "Tentative Agenda Announced",
+    "description": "Two tracks. Two days. Too many things you'll wanna do.",
+    "date": "FEB 14, 2019",
+    "hidden": "false"
+  }, {
+    "title": "Hotel Conference Rate Cutoff",
+    "description": "",
+    "date": "MAR 5, 2019",
+    "hidden": "false"
+  }, {
+    "title": "Tech Olympics Signups",
+    "description": "On site signups",
+    "date": "APR 5, 2019",
+    "hidden": "false"
+  }, {
+    "title": "Who's Slide Is It Anyways Signups",
+    "description": "On site signups",
+    "date": "APR 5, 2019",
+    "hidden": "false"
+  }, {
+    "title": "Chillout Video Game Tournament Signups",
+    "description": "On site signups",
+    "date": "APR 5 - 6, 2019",
+    "hidden": "false"
+  }, {
+    "title": "Conference Date",
+    "description": "Kernelcon",
+    "date": "APR 5 - 6, 2019",
+    "hidden": "false"
+  }, {
+    "title": "CTF Registration Available",
+    "description": "Teams of up to four, must be present to claim prizes.",
+    "date": "TBD",
+    "hidden": "false"
+  }, {
+    "title": "WiFi Fox & Hound Registration Available",
+    "description": "",
+    "date": "TBD",
+    "hidden": "false"
+  }
+]

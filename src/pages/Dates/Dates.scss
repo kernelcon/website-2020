@@ -1,3 +1,5 @@
+@import '../../static/styles/base/colors';
+
 $glass: #C5DFEA;
 $main: #c54949;
 $second: #931a1a;
@@ -188,5 +190,48 @@ $red: #ff0000;
 @media (max-width: 800px) {
   .container-view-master, .frame {
     transform: scale(0.7);
+  }
+}
+
+
+
+
+.dates-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: -20px;
+
+  .date-box {
+    font-weight: 300;
+    padding:10px;
+    font-size:14px;
+    background-color: #f3f3f3;
+    width: 220px;
+    margin: 20px;
+    border-left: 6px solid $boston-blue;
+      -webkit-box-shadow: 0 13px 27px -5px rgba(50,50,93,.25), 0 8px 16px -8px rgba(0,0,0,.3), 0 -6px 16px -6px rgba(0,0,0,.025);
+      box-shadow: 0 13px 27px -5px rgba(50,50,93,.25), 0 8px 16px -8px rgba(0,0,0,.3), 0 -6px 16px -6px rgba(0,0,0,.025);
+      -webkit-transition-property: color,background-color,-webkit-box-shadow,-webkit-transform;
+      transition-property: color,background-color,-webkit-box-shadow,-webkit-transform;
+      transition-property: color,background-color,box-shadow,transform;
+      transition-property: color,background-color,box-shadow,transform,-webkit-box-shadow,-webkit-transform;
+      -webkit-transition-duration: .15s;
+      transition-duration: .15s;
+
+    .dl-title {
+      font-weight: 500;
+      font-size:16px;
+      line-height: 20px
+    }
+
+    .dl-description {
+      margin-top: 3px;
+    }
+
+    .dl-date {
+      margin-top:5px;
+      color: $boston-blue;
+    }
   }
 }
