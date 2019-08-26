@@ -21,6 +21,60 @@ body.dark-mode {
       color: lightblue;
     }
   }
+
+  div.page-box {
+    background-color:#212529;
+  }
+  
+  div.secondary-nav {
+    background-color: rgb(16,23,29);
+  }
+  
+  div.nav-menu {
+    background-color: rgb(16, 23, 29);
+  }
+  
+  div.highlight-boxes {
+    background-color: rgb(16, 23, 29) !important;
+  }
+  
+  div.footer-bar {
+    background-color: rgb(16, 23, 29) !important;
+  }
+  
+  div.footer-bar > div {
+    filter: invert(100%);
+  }
+  
+  div.home-page > div.right > img {
+    filter: invert(100%);
+  }
+  
+  img.navbar-logo {
+    filter: invert(100%);
+  }
+  
+  span.focus {
+    filter: invert(100%);
+  }
+  
+  button {
+    color: #dfdfdf !important;
+  }
+  
+  div.date-box {
+    background-color: rgb(16,23,29) !important;
+  }
+  
+  p.about-sub-text {
+    color: #dfdfdf !important;
+  }
+  
+  div.faq-list {
+    // Temporary until CSS is broken down
+    filter: invert(100%);
+  }
+
 }
 
 
@@ -115,6 +169,5 @@ body.dark-mode {
 .page-box {
   background-color: white;
   min-height: calc(100vh - 141px);
-  padding: 30px 0px;
+  padding: 120px 0px;
 }
-
