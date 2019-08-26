@@ -32,7 +32,15 @@ body.dark-mode {
   
   div.nav-menu {
     background-color: rgb(16, 23, 29);
+    .nav-small .nav-links {
+      background-color: rgb(16, 23, 29);
+    }
+    .nav-small div svg {
+      filter: invert(100%);
+    }
   }
+
+  
   
   div.highlight-boxes {
     background-color: rgb(16, 23, 29) !important;

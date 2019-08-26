@@ -61,4 +61,28 @@
   .nav-large {
 
   }
+
+  .nav-small {
+    display: flex;
+  }
+  .nav-small .nav-links {
+    display: block;
+    background-color:#e3e3e3;
+  }
+
+  .nav-small a {
+    display: block;
+    position: relative;
+    box-sizing: content-box;
+    zoom: 1.5;
+    margin: 5px;
+  }
+
+}
+
+@media only screen and (min-width:992px) {
+  div.nav-small { display: none !important; }
+}
+@media only screen and (max-width:779px) {
+  div.twitter-zone { display: none !important; }
 }

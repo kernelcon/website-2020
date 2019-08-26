@@ -12,8 +12,8 @@ export default class SecondaryNav extends Component {
       <div className='secondary-nav'>
         <div className='container nav-menu'>
           <ResponsiveMenu
-            menuOpenButton={<FaBars size={30} color="#fff" />}
-            menuCloseButton={<FaTimes size={30} color="#fff" />}
+            menuOpenButton={<FaBars size={24} color="#000" />}
+            menuCloseButton={<FaTimes size={24} color="#000" />}
             changeMenuOn="992px"
             largeMenuClassName="nav-large"
             smallMenuClassName="nav-small"
