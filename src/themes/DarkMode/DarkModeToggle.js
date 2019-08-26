@@ -12,6 +12,7 @@ const DarkModeToggle = () => {
         className="icon glasses"
         type="checkbox"
         checked={darkMode.value}
+        onChange={darkMode.toggle}
         id="dm-toggle"
       />
     </div>

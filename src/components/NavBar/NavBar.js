@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import DarkModeToggle from '../../themes/DarkMode/DarkModeToggle';
 
 import BlackLogo from '../../static/images/logos/kernelcon_black.png';
-import WhiteLogo from '../../static/images/logos/kernelcon_white.png';
 import './NavBar.scss';
 
 export default class NavBar extends Component {
