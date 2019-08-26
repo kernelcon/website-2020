@@ -43,6 +43,15 @@
     }
   }
 
+  @media only screen and (max-width:779px) {
+    .left { display: none !important; }
+    .hiddenVision { display: inline !important; filter: invert(0%) !important; }
+  }
+  
+  .hiddenVision {
+    display: none;
+  }
+
   .right {
     flex: 1;
     img {

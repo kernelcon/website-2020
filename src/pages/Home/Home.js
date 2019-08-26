@@ -21,6 +21,7 @@ export default class Home extends Component {
         </div>
         <div className='col right'>
           <img src={BlackLogo}/>
+          <img className='hiddenVision' src={Vision}/>
 
           <div className='highlight-box'>
             <div className='vision-highlight'>
