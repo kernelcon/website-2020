@@ -11,8 +11,7 @@ export default class Home extends Component {
     return (
       <div className='home-page'>
         <div className='col left'>
-          <img alt="Vision" src={Vision}/>
-          <a class='reg-button' target="_new" href="https://mailchi.mp/4305c17b886e/kernelcon">sign up for updates</a>
+          <img src={Vision}/>
           <div className='twitter-zone'>
             <a className="twitter-timeline"
               data-height="400"
@@ -21,8 +20,8 @@ export default class Home extends Component {
           </div>
         </div>
         <div className='col right'>
-          <img alt="Kernelcon" src={BlackLogo}/>
-          <img alt="Vision" className='hiddenVision' src={Vision}/>
+          <img src={BlackLogo}/>
+          <img className='hiddenVision' src={Vision}/>
 
           <div className='highlight-box'>
             <div className='vision-highlight'>
