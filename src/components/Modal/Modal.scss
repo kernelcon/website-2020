@@ -1,0 +1,48 @@
+//@import '../../static/styles/base';
+.backdrop {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 50px;
+    z-index: 100;
+}
+
+.modal-container {
+    background-color: #fff;
+    max-width: 560px;
+    min-height: 300px;
+    margin: 0 auto;
+    padding: 0px;
+    overflow: hidden;
+    .modal-header {
+        border-top: 6px solid rgb(64, 154, 191);
+        border-bottom: 1px solid rgb(227, 227, 227);
+        height: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #fff;
+        padding: 0px 20px;
+        position: relative;
+    }
+    .modal-title {
+        color: #111;
+        font-family: Montserrat, sans-serif;
+        font-size: 18px;
+    }
+    .modal-close {
+        color: rgb(64, 154, 191);
+        &:hover {
+            cursor: pointer;
+            color: #111;
+        }
+    }
+}
+
+.volunteer-modal {
+    height: auto;
+}

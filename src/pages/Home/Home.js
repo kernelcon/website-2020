@@ -1,16 +1,24 @@
 import React, { Component } from 'react';
 import Vision from '../../static/images/kernelcon_vision.png';
 import BlackLogo from '../../static/images/logos/kernelcon_black.png';
+import Modal from '../../components/Modal/Modal';
 
 import './Home.scss';
 
 export default class Home extends Component {
   static displayName = 'Home';
 
+  toggleModal = () => {
+    this.setState({
+      isOpen: !this.state.isOpen
+    });
+  }
+
   constructor(props) {
     super(props);
     this.state = {
-      mode: ''
+      mode: '',
+      isOpen: false
     }
   }
 
@@ -26,14 +34,37 @@ export default class Home extends Component {
   }
 
   render() {
+
+    const modalContentStyle = {
+      padding: '0px',
+      marginTop: '-100px'
+    }
+
     const twit = this.getTwitter();
     return (
       <div className='home-page'>
         <div className='col left'>
           <img src={Vision}
             alt='vision-splash'/>
-          <a class='reg-button' target="_new" href="https://mailchi.mp/4305c17b886e/kernelcon">sign up for updates</a>
-          {twit}
+          <a class='reg-button' onClick={this.toggleModal} href="#">sign up for updates</a>
+
+<Modal show={this.state.isOpen}
+      onClose={this.toggleModal}
+      title='Subscribe for Updates'
+      modalContentStyle={modalContentStyle}
+      height='620'
+      width='600'>
+        <iframe src="https://mailchi.mp/4305c17b886e/kernelcon"
+          title="sign-up-form"
+          frameBorder="0"
+          marginHeight="0"
+          marginWidth="0"
+          className='mail-form'
+          style={{'marginLeft': '0px', 'width': '580px', 'height': '550px'}}>
+          Loading...
+        </iframe>
+    </Modal>
+{twit}
         </div>
         <div className='col right'>
           <img src={BlackLogo}
