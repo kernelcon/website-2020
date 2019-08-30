@@ -32,6 +32,7 @@ export default class Home extends Component {
         <div className='col left'>
           <img src={Vision}
             alt='vision-splash'/>
+          <a class='reg-button' target="_new" href="https://mailchi.mp/4305c17b886e/kernelcon">sign up for updates</a>
           {twit}
         </div>
         <div className='col right'>
