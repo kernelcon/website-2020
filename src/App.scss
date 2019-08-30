@@ -1,182 +1,160 @@
 @import 'static/styles/base/base';
-
-
 body.light-mode {
-  background-color: #e3e3e3;
-  color: #333;
-  transition: background-color 0.3s ease;
+    background-color: #e3e3e3;
+    color: #333;
+    transition: background-color 0.3s ease;
 }
 
 body.dark-mode {
-  background-color: #10171d;
-  color: #dfdfdf;
-
-  .navbar {
-    background-color: #1b2938;
-  }
-
-  .dark-mode-toggle > button {
-    color: #999;
-    &:last-child {
-      color: lightblue;
+    background-color: #10171d;
+    color: #dfdfdf;
+    .navbar {
+        background-color: #1b2938;
     }
-  }
-
-  div.page-box {
-    background-color:#212529;
-  }
-  
-  div.secondary-nav {
-    background-color: rgb(16,23,29);
-  }
-  
-  div.nav-menu {
-    background-color: rgb(16, 23, 29);
-    .nav-small .nav-links {
-      background-color: rgb(16, 23, 29);
+    .dark-mode-toggle>button {
+        color: #999;
+        &:last-child {
+            color: lightblue;
+        }
     }
-    .nav-small div svg {
-      filter: invert(100%);
+    div.page-box {
+        background-color: #212529;
     }
-  }
-
-  
-  
-  div.highlight-boxes {
-    background-color: rgb(16, 23, 29) !important;
-  }
-  
-  div.footer-bar {
-    background-color: rgb(16, 23, 29) !important;
-  }
-  
-  div.footer-bar > div {
-    filter: invert(100%);
-  }
-  
-  div.home-page > div.right > img {
-    filter: invert(100%);
-  }
-  
-  img.navbar-logo {
-    filter: invert(100%);
-  }
-  
-  span.focus {
-    filter: invert(100%);
-  }
-  
-  button {
-    color: #dfdfdf !important;
-  }
-  
-  div.date-box {
-    background-color: rgb(16,23,29) !important;
-  }
-  
-  p.about-sub-text {
-    color: #dfdfdf !important;
-  }
-  
-  div.faq-list {
-    // Temporary until CSS is broken down
-    filter: invert(100%);
-  }
-
+    div.secondary-nav {
+        background-color: rgb(16, 23, 29);
+    }
+    div.nav-menu {
+        background-color: rgb(16, 23, 29);
+        .nav-small .nav-links {
+            background-color: rgb(16, 23, 29);
+        }
+        .nav-small div svg {
+            filter: invert(100%);
+        }
+    }
+    div.footer-bar {
+        background-color: rgb(16, 23, 29) !important;
+    }
+    div.footer-bar>div {
+        filter: invert(100%);
+    }
+    div.home-page>div.right>img {
+        filter: invert(100%);
+    }
+    img.navbar-logo {
+        filter: invert(100%);
+    }
+    span.focus {
+        filter: invert(100%);
+    }
+    button {
+        color: #dfdfdf !important;
+    }
+    div.date-box {
+        background-color: rgb(16, 23, 29) !important;
+    }
+    p.about-sub-text {
+        color: #dfdfdf !important;
+    }
+    div.faq-list {
+        // Temporary until CSS is broken down
+        filter: invert(100%);
+    }
 }
-
 
 .content {
-  margin-top: 60px;
-
-  h1 {
-    font-size: 2rem;
-  }
-
-  img {
-    width: 100%;
-  }
-
-  code {
-    background-color: #cbe9ff;
-    border-radius: 2px;
-    font-size: 1em;
-    padding: 0 5px;
-  }
-
-  a {
-    text-decoration: none;
-    color: #006688;
-  }
-
-  button {
-    color: #006688;
-    background-color: transparent;
-    border: none;
-    font-size: 1em;
-    padding: 0;
-  }
+    margin-top: 60px;
+    h1 {
+        font-size: 2rem;
+    }
+    img {
+        width: 100%;
+    }
+    code {
+        background-color: #cbe9ff;
+        border-radius: 2px;
+        font-size: 1em;
+        padding: 0 5px;
+    }
+    a {
+        text-decoration: none;
+        color: #006688;
+    }
+    button {
+        color: #006688;
+        background-color: transparent;
+        border: none;
+        font-size: 1em;
+        padding: 0;
+    }
 }
 
 body.dark-mode {
-  .content code {
-    background-color: #1b2938;
-  }
-  .content a {
-    color: #ee09;
-  }
-  .content button {
-    color: #ee09;
-  }
-  .glasses {
-    border-color: #ddd;
-  }
-  .glasses:before {
-    background: -moz-linear-gradient(-45deg, rgba(255,255,255,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg, rgba(255,255,255,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg, rgba(255,255,255,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-    border-color: #ddd;
-  }
-  .icon:after {
-    background: -moz-linear-gradient(-45deg, rgba(255,255,255,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg, rgba(255,255,255,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg, rgba(255,255,255,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-    border-color: #ddd;
-  }
+    .content code {
+        background-color: #1b2938;
+    }
+    .content a {
+        color: #ee09;
+    }
+    .content button {
+        color: #ee09;
+    }
+    .glasses {
+        border-color: #ddd;
+    }
+    .glasses:before {
+        background: -moz-linear-gradient(-45deg, rgba(255, 255, 255, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: "progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000', GradientType=1);";
+        /* IE6-9 fallback on horizontal gradient */
+        border-color: #ddd;
+    }
+    .icon:after {
+        background: -moz-linear-gradient(-45deg, rgba(255, 255, 255, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: "progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000', GradientType=1);";
+        /* IE6-9 fallback on horizontal gradient */
+        border-color: #ddd;
+    }
 }
 
 .dark-mode-toggle {
-  display: flex;
-  margin: 4px auto;
-  & > button {
-    font-size: 1.2em;
-    background: none;
-    border: none;
-    color: #ffe600;
-    cursor: pointer;
-    transition: color 0.3s ease;
-    &:last-child {
-      color: #666;
+    display: flex;
+    margin: 4px auto;
+    &>button {
+        font-size: 1.2em;
+        background: none;
+        border: none;
+        color: #ffe600;
+        cursor: pointer;
+        transition: color 0.3s ease;
+        &:last-child {
+            color: #666;
+        }
+        &:focus {
+            outline: none;
+        }
     }
-
-    &:focus {
-      outline: none;
+    .glasses:before {
+        background-color: rgba(255, 255, 255, .75);
+        ;
     }
-  }
-  .glasses:before {
-    background-color: rgba(255,255,255,.75);;
-  }
-  .icon:after {
-    background-color: rgba(255,255,255,.75);;
-  }
+    .icon:after {
+        background-color: rgba(255, 255, 255, .75);
+        ;
+    }
 }
-
 
 .page-box {
-  background-color: white;
-  min-height: calc(100vh - 141px);
-  padding: 120px 0px;
+    background-color: white;
+    min-height: calc(100vh - 141px);
+    padding: 120px 0px;
 }
-
