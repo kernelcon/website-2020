@@ -7,21 +7,39 @@ import './Home.scss';
 export default class Home extends Component {
   static displayName = 'Home';
 
+  constructor(props) {
+    super(props);
+    this.state = {
+      mode: ''
+    }
+  }
+
+  getTwitter = () => {
+    return (
+      <div className='twitter-zone'>
+        <a className="twitter-timeline"
+          data-height="400"
+          data-theme={document.body.classList.value.split('-')[0]} 
+          href="https://twitter.com/_kernelcon_?ref_src=twsrc%5Etfw">Tweets by _kernelcon_</a> 
+      </div>
+    );
+  }
+
   render() {
+    const twit = this.getTwitter();
     return (
       <div className='home-page'>
         <div className='col left'>
-          <img src={Vision}/>
-          <div className='twitter-zone'>
-            <a className="twitter-timeline"
-              data-height="400"
-              data-theme="light" 
-              href="https://twitter.com/_kernelcon_?ref_src=twsrc%5Etfw">Tweets by _kernelcon_</a> 
-          </div>
+          <img src={Vision}
+            alt='vision-splash'/>
+          {twit}
         </div>
         <div className='col right'>
-          <img src={BlackLogo}/>
-          <img className='hiddenVision' src={Vision}/>
+          <img src={BlackLogo}
+            alt='black-kernelcon-logo'/>
+          <img className='hiddenVision' 
+            src={Vision}
+            alt='vision-splash-hidden'/>
 
           <div className='highlight-box'>
             <div className='vision-highlight'>

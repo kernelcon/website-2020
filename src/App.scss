@@ -77,12 +77,15 @@ body.dark-mode {
   p.about-sub-text {
     color: #dfdfdf !important;
   }
+
+  .in-touch-icons {
+    fill: #ddd;
+  }
   
-  div.faq-list {
-    // Temporary until CSS is broken down
+  div.faq-list :not(.question) {
+    /* Temporary until CSS is broken down */
     filter: invert(100%);
   }
-
 }
 
 
@@ -176,7 +179,7 @@ body.dark-mode {
 
 .page-box {
   background-color: white;
-  min-height: calc(100vh - 141px);
+  min-height: calc(100vh - 50px);
   padding: 120px 0px;
 }
 

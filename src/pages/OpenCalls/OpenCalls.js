@@ -3,6 +3,7 @@ import { Tabs, Tab, TabPanel, TabList } from 'react-web-tabs';
 import MediaQuery from 'react-responsive';
 import Villages from './Villages';
 import './OpenCalls.scss';
+import Stickers from '../../static/images/sticker-sheet-proof.png';
 
 export default class OpenCalls extends Component {
   static displayName = 'OpenCalls';
@@ -35,6 +36,7 @@ export default class OpenCalls extends Component {
           <Tab tabFor="villages">Villages</Tab>
           <Tab tabFor="training">Training</Tab>
           <Tab tabFor="competitions">Competitions</Tab>
+          <Tab tabFor="stickers">Stickers</Tab>
         </TabList>
         <span>
           <TabPanel tabId="papers">
@@ -68,6 +70,20 @@ export default class OpenCalls extends Component {
             </div>  
             <p className='tab-paragraph'>Please consider submitting an idea to <a href='mailto:competitions@kernelcon.org' className='text-highlight' rel='noopener noreferrer'>competitions@kernelcon.org</a> if you would like to host a competition for this year's Kernelcon. If your idea is not fully finessed, no worries! We can help your ideas become a reality.</p>
             <p className='tab-paragraph'>Thanks and Good Luck!</p>
+          </TabPanel>
+          <TabPanel tabId="stickers">
+            <div className='tab-title'>Call for Stickers</div>
+            <p className='tab-sub-heading'>Can't get enough stickers in your life? Us either.</p>
+            <p className='tab-paragraph'>One of the most talked about swag items last year was a handful of the same unique Kernelcon sticker. We spent hours tapping our most creative individuals (and sometimes their families) for their individual take on a kernelcon sticker.</p>
+            <p className='tab-paragraph'><b>This year, we would like our community to be a part of the sticker proess.</b></p>
+            <p className='tab-paragraph'>So, even if you don't have a creative bone in your body, we would love to see your design! If your design is just an idea, we will try to help fledging artists achieve their <span className='text-highlight'>vision</span>. Do you have an innovative artist in your family? We accept designs from attendee's family members too! It would be wonderful to include as many people as we can!</p>
+            <p className='tab-paragraph'>Are you still interested?  If so, please send your sticker design to <a href='mailto:stickers@kernelcon.org' className='text-highlight' rel='noopener noreferrer'>stickers@kernelcon.org</a>.  We will pick twelve awesome designs for this year's stickers and you will each get a shoutout and a paragraph in the conference book to describe your design.</p>
+            <p className='fine-notes'>Note: Please keep your design to a high resolution (> 300dpi) file.  Formats *.(png | pdf | ai | eps | psd) are all acceptable.</p>
+            <p className='tab-paragraph'>Looking for inspiration? Look no further! Here are the twelve designs from last year.</p>
+            <img src={Stickers}
+              width="100"
+              className='stickers'
+              alt='stickers' />
           </TabPanel>
         </span>
       </Tabs>

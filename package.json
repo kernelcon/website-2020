@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@babel/core": "7.4.3",
+    "@babel/runtime": "^7.5.5",
     "@svgr/webpack": "4.1.0",
     "@typescript-eslint/eslint-plugin": "1.6.0",
     "@typescript-eslint/parser": "1.6.0",
@@ -46,7 +47,6 @@
     "rc-collapse": "^1.11.3",
     "react": "^16.8.6",
     "react-app-polyfill": "^1.0.1",
-    "react-dev-utils": "^9.0.1",
     "react-dom": "^16.8.6",
     "react-icons": "^3.7.0",
     "react-responsive": "^7.0.0",
@@ -135,5 +135,8 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "react-dev-utils": "^9.0.1"
   }
 }
