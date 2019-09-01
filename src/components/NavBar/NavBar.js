@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import DarkModeToggle from '../../themes/DarkMode/DarkModeToggle';
-
 import BlackLogo from '../../static/images/logos/kernelcon_black.png';
 import './NavBar.scss';
 

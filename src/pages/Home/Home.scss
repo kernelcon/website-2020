@@ -1,4 +1,30 @@
 @import '../../static/styles/base/colors';
+body.dark-mode {
+    div.highlight-boxes {
+        background-color: rgb(16, 23, 29);
+    }
+    @media only screen and (min-width:780px) {
+        .twitter-dark {
+            display: block !important;
+            background-color: rgb(16, 23, 29);
+        }
+    }
+    .twitter-light {
+        display: none;
+        background-color: rgb(240, 248, 255);
+    }
+    .reg-button {
+        color: rgb(64, 154, 191) !important;
+        background: linear-gradient(to right, rgb(64, 154, 191) 25%, rgb(16, 23, 29) 75%) !important;
+        background-size: 400% 100% !important;
+        background-position: right bottom !important;
+    }
+    .reg-button:hover {
+        color: #fff !important;
+        background-position: left bottom !important;
+    }
+}
+
 .home-page {
     display: flex;
     flex-direction: row;
@@ -19,6 +45,7 @@
             margin-bottom: -60px;
         }
         .reg-button {
+            display: block;
             font-size: 16px;
             font-weight: medium;
             text-transform: uppercase;
@@ -47,7 +74,6 @@
             margin-left: 5px;
         }
         .twitter-zone {
-            display: block;
             width: 90%;
             border-radius: 5px;
             -webkit-box-shadow: 0 13px 27px -5px rgba(50, 50, 93, .25), 0 8px 16px -8px rgba(0, 0, 0, .3), 0 -6px 16px -6px rgba(0, 0, 0, .025);
@@ -59,6 +85,9 @@
             -webkit-transition-duration: .15s;
             transition-duration: .15s;
         }
+        .twitter-dark {
+            display: none;
+        }
         p.timeline-Tweet-text {
             margin-block-end: 0px !important;
             white-space: normal !important;
@@ -66,21 +95,36 @@
         }
     }
     @media only screen and (max-width:779px) {
+        .col {
+            display: inline-block;
+        }
+        .twitter-zone {
+            display: none;
+        }
         .left {
-            display: none !important;
+            img {
+                margin-top: -120px;
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-bottom: -50px;
+            }
+            .reg-button {
+                width: 100%;
+                background: none !important;
+                background-color: rgb(64, 154, 191) !important;
+                color: #fff !important;
+            }
         }
-        .hiddenVision {
-            display: inline !important;
-            filter: invert(0%) !important;
+        .right {
+            img {
+                display: none;
+            }
         }
-    }
-    .hiddenVision {
-        display: none;
     }
     .right {
         flex: 1;
         img {
-            width: 100%;
+            width: 100% !important;
         }
         .highlight-box {
             margin-top: 20px;
@@ -114,21 +158,5 @@
                 transition-duration: .15s;
             }
         }
-    }
-}
-
-body.dark-mode {
-    div.highlight-boxes {
-        background-color: rgb(16, 23, 29) !important;
-    }
-    .reg-button {
-        color: rgb(64, 154, 191) !important;
-        background: linear-gradient(to right, rgb(64, 154, 191) 25%, rgb(16, 23, 29) 75%) !important;
-        background-size: 400% 100% !important;
-        background-position: right bottom !important;
-    }
-    .reg-button:hover {
-        color: #fff !important;
-        background-position: left bottom !important;
     }
 }

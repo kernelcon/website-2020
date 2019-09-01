@@ -22,16 +22,6 @@ export default class Home extends Component {
     }
   }
 
-  getTwitter = () => {
-    return (
-      <div className='twitter-zone'>
-        <a className="twitter-timeline"
-          data-height="400"
-          data-theme={document.body.classList.value.split('-')[0]} 
-          href="https://twitter.com/_kernelcon_?ref_src=twsrc%5Etfw">Tweets by _kernelcon_</a> 
-      </div>
-    );
-  }
 
   render() {
 
@@ -40,12 +30,11 @@ export default class Home extends Component {
       marginTop: '-100px'
     }
 
-    const twit = this.getTwitter();
     return (
       <div className='home-page'>
         <div className='col left'>
           <img src={Vision}
-            alt='vision-splash'/>
+            alt='Vision 2020'/>
           <a class='reg-button' onClick={this.toggleModal} href="#">sign up for updates</a>
 
 <Modal show={this.state.isOpen}
@@ -60,18 +49,31 @@ export default class Home extends Component {
           marginHeight="0"
           marginWidth="0"
           className='mail-form'
-          style={{'marginLeft': '0px', 'width': '580px', 'height': '550px'}}>
+          style={{'marginLeft': '0px', 'width': '580px', 'height': '720px'}}>
           Loading...
         </iframe>
     </Modal>
-{twit}
+
+    <div className='twitter-zone twitter-dark'>
+        <a className="twitter-timeline"
+          data-height="400"
+          data-theme="dark"
+          data-chrome="transparent noheader nofooter noborders"
+          href="https://twitter.com/_kernelcon_?ref_src=twsrc%5Etfw">Tweets by _kernelcon_</a> 
+      </div>
+
+      <div className='twitter-zone twitter-light'>
+        <a className="twitter-timeline"
+          data-height="400"
+          data-theme="light"
+          data-chrome="transparent noheader nofooter noborders"
+          href="https://twitter.com/_kernelcon_?ref_src=twsrc%5Etfw">Tweets by _kernelcon_</a> 
+      </div>
+
         </div>
         <div className='col right'>
           <img src={BlackLogo}
-            alt='black-kernelcon-logo'/>
-          <img className='hiddenVision' 
-            src={Vision}
-            alt='vision-splash-hidden'/>
+            alt='Kernelcon'/>
 
           <div className='highlight-box'>
             <div className='vision-highlight'>

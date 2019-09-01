@@ -49,6 +49,7 @@
     "react-app-polyfill": "^1.0.1",
     "react-dom": "^16.8.6",
     "react-icons": "^3.7.0",
+    "react-noscript": "^1.0.2",
     "react-responsive": "^7.0.0",
     "react-responsive-navbar": "^1.0.11",
     "react-router-dom": "^5.0.1",
