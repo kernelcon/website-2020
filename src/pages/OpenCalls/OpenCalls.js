@@ -166,7 +166,7 @@ export default class OpenCalls extends Component {
             <p className='fine-notes'>Note: Please keep your design to a high resolution (> 300dpi) file.  Formats *.(png | pdf | ai | eps | psd) are all acceptable.</p>
             <p className='tab-paragraph'>Looking for inspiration? Look no further! Here are the twelve designs from last year.</p>
             <img src={Stickers}
-              width="100"
+              width="100%"
               className='stickers'
               alt='stickers' />
           </TabPanel>
