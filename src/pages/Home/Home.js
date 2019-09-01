@@ -58,7 +58,7 @@ export default class Home extends Component {
         <a className="twitter-timeline"
           data-height="400"
           data-theme="dark"
-          data-chrome="transparent noheader nofooter noborders"
+          data-chrome="transparent nofooter noborders"
           href="https://twitter.com/_kernelcon_?ref_src=twsrc%5Etfw">Tweets by _kernelcon_</a> 
       </div>
 
@@ -66,7 +66,7 @@ export default class Home extends Component {
         <a className="twitter-timeline"
           data-height="400"
           data-theme="light"
-          data-chrome="transparent noheader nofooter noborders"
+          data-chrome="transparent nofooter noborders"
           href="https://twitter.com/_kernelcon_?ref_src=twsrc%5Etfw">Tweets by _kernelcon_</a> 
       </div>
 

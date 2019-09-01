@@ -160,3 +160,9 @@ body.dark-mode {
         }
     }
 }
+
+// this is a stupid fix to make blurry text show up on certain versions of microsoft edge because why would we ever want every browser to render things the same way thats crazy lol 
+_:-ms-lang(x),
+.focus {
+    color: rgba(0, 0, 0, .5) !important;
+}
