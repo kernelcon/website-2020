@@ -53,3 +53,17 @@ input[type='checkbox'].icon {
         outline: solid 2px white;
     }
 }
+
+//edge does not support :before and :after on a checkbox element
+_:-ms-lang(x),
+.glasses {
+    border: solid 1px black !important;
+    border-radius: 0% !important;
+    font-size: 10px;
+}
+
+_:-ms-lang(x),
+.dark-mode-toggle:after {
+    content: 'Shades';
+    font-size: 14px;
+}
