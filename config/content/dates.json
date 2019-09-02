@@ -15,16 +15,6 @@
     "date": "OCT 8, 2019",
     "hidden": "false"
   }, {
-    "title": "Early Speakers Announced",
-    "description": "",
-    "date": "OCT 28, 2019",
-    "hidden": "false"
-  }, {
-    "title": "Early Speakers Announced",
-    "description": "",
-    "date": "DEC 17, 2019",
-    "hidden": "false"
-  }, {
     "title": "End of Early Registration",
     "description": "",
     "date": "DEC 27, 2019",
@@ -43,6 +33,21 @@
     "title": "Tentative Agenda Announced",
     "description": "",
     "date": "FEB 25, 2020",
+    "hidden": "false"
+  }, {
+    "title": "Pre-conference Training",
+    "description": "On-site training days (additional cost)",
+    "date": "March 25-26, 2020",
+    "hidden": "false"  
+  }, {
+    "title": "Tech Olympics Sign up",
+    "description": "On-site sign-up for annual Tech Olympics",
+    "date": "March 27, 2020",
+    "hidden": "false"
+  }, {
+    "title": "Conference Days",
+    "description": "Kernelcon 2020",
+    "date": "March 28, 2020",
     "hidden": "false"
   }
 ]
