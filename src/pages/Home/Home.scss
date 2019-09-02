@@ -11,11 +11,10 @@ body.dark-mode {
     }
     .twitter-light {
         display: none;
-        background-color: rgb(240, 248, 255);
     }
     .reg-button {
-        color: rgb(64, 154, 191) !important;
-        background: linear-gradient(to right, rgb(64, 154, 191) 25%, rgb(16, 23, 29) 75%) !important;
+        color: #fff !important;
+        background: linear-gradient(to left, rgb(64, 154, 191) 25%, rgb(16, 23, 29) 75%) !important;
         background-size: 400% 100% !important;
         background-position: right bottom !important;
     }
@@ -30,11 +29,44 @@ body.dark-mode {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
+    .twitter-light {
+        background-color: aliceblue;
+    }
     .col {
         display: flex;
         flex-direction: column;
         flex-basis: 100%;
         /*flex: 1;*/
+    }
+    .reg-button {
+        display: block;
+        font-size: 16px;
+        font-weight: medium;
+        text-transform: uppercase;
+        font-family: Montserrat, sans-serif;
+        padding: 8px;
+        margin-bottom: 20px;
+        width: 90%;
+        height: 40px;
+        border-radius: 5px;
+        box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25), 0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+        transition: all .5s;
+        border: solid 0px;
+        color: #fff;
+        background: linear-gradient(to left, skyblue 25%, aliceblue 75%);
+        background-size: 400% 100%;
+        background-position: right bottom;
+        font-weight: bold;
+        z-index: 3;
+        text-align: center;
+    }
+    .reg-button:hover {
+        color: rgb(64, 154, 191);
+        background-position: left bottom;
+    }
+    .reg-button:active {
+        margin-top: 5px;
+        margin-left: 5px;
     }
     .left {
         flex: 1;
@@ -43,35 +75,6 @@ body.dark-mode {
             margin-top: -180px;
             margin-left: -45px;
             margin-bottom: -60px;
-        }
-        .reg-button {
-            display: block;
-            font-size: 16px;
-            font-weight: medium;
-            text-transform: uppercase;
-            font-family: Montserrat, sans-serif;
-            padding: 8px;
-            margin-bottom: 20px;
-            width: 90%;
-            border-radius: 5px;
-            box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25), 0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
-            transition: all .5s;
-            border: solid 0px;
-            color: rgb(64, 154, 191);
-            background: linear-gradient(to right, skyblue 25%, aliceblue 75%);
-            background-size: 400% 100%;
-            background-position: right bottom;
-            font-weight: bold;
-            z-index: 3;
-            text-align: center;
-        }
-        .reg-button:hover {
-            color: #fff;
-            background-position: left bottom;
-        }
-        .reg-button:active {
-            margin-top: 5px;
-            margin-left: 5px;
         }
         .twitter-zone {
             width: 90%;
@@ -97,6 +100,12 @@ body.dark-mode {
     @media only screen and (max-width:779px) {
         .col {
             display: inline-block;
+            .reg-button {
+                width: 100%;
+                background: none !important;
+                background-color: rgb(64, 154, 191) !important;
+                color: #fff !important;
+            }
         }
         .twitter-zone {
             display: none;
@@ -108,20 +117,21 @@ body.dark-mode {
                 margin-right: 0px;
                 margin-bottom: -50px;
             }
-            .reg-button {
-                width: 100%;
-                background: none !important;
-                background-color: rgb(64, 154, 191) !important;
-                color: #fff !important;
-            }
         }
         .right {
             img {
                 display: none;
             }
+            .highlight-box {
+                margin: 0px !important;
+            }
         }
     }
     .right {
+        .reg-button {
+            width: 100% !important;
+            visibility: hidden; // Remove this when registration goes live // 
+        }
         flex: 1;
         img {
             width: 100% !important;

@@ -58,6 +58,7 @@ export default class About extends Component {
           </TabPanel>
           <TabPanel tabId="contact">
             <div className='tab-title'>Stay in Touch</div>
+            <div classname='tab-paragraph'>We've got the social!  Follow us for updates and announcements before, during, and after the con!  Or, if you need to contact us directly send us an email.</div>
             <div className=''>
               <a href='http://twitter.com/_kernelcon_'
                 target='_blank'
@@ -116,6 +117,29 @@ export default class About extends Component {
                   <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
                 </svg>
               </a>
+              <div className='tab-title'>Join our Mailing List</div>
+              <div className='tab-text'>Join our mailing list to have the most important updates sent right to you.  We won't spam or sell your info.</div>
+              <div>
+
+
+              <div id='mc_embed_signup'>
+              <form action='https://kernelcon.us3.list-manage.com/subscribe/post?u=09ee8b91c15e71e4ea26fcb3a&amp;id=698defb12e' method='post' id='mc-embedded-subscribe-form' name='mc-embedded-subscribe-form' class='validate' target='_blank' novalidate=''>
+              <div id='mc_embed_signup_scroll'>
+              <div class='indicates-required'><span class='asterisk'>*</span> indicates required</div>
+              <div class='mc-field-group'>
+	            <label for='mce-EMAIL'>Email Address  <span class='asterisk'>*</span></label>
+	            <input type='email' value='' name='EMAIL' class='required email' id='mce-EMAIL' /></div>
+	            <div id='mce-responses' class='clear'>
+              <div class='response' id='mce-error-response' ></div>
+              <div class='response' id='mce-success-response'></div>
+              </div>
+              <div  aria-hidden='true'><input type='text' name='b_09ee8b91c15e71e4ea26fcb3a_698defb12e' tabindex='-1' value='' /></div>
+              <div class='clear'><input type='submit' value='Subscribe' name='subscribe' id='mc-embedded-subscribe' class='button' /></div>
+              </div>
+              </form>
+          </div>
+                
+              </div>
             </div>
           </TabPanel>
           <TabPanel tabId="faq">

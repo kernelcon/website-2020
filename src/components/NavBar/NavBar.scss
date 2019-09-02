@@ -6,7 +6,7 @@
     display: flex;
     padding: 25px;
     height: 60px;
-    background-color: #e3e3e3;
+    background-color: rgba(215, 215, 215, .8);
     z-index: 7;
     .toggle-group {
         position: absolute;
@@ -33,7 +33,7 @@
     display: flex;
     position: fixed;
     width: 100%;
-    background-color: #e3e3e3;
+    background-color: rgba(235, 235, 235, .8);
     margin-top: 60px;
     z-index: 6;
 }
@@ -51,12 +51,10 @@
 .nav-menu {
     padding-top: 5px;
     z-index: 6;
-    background-color: #e3e3e3;
     div {
         z-index: 6;
     }
     .nav-small {
-        background-color: #e3e3e3;
         display: block;
         position: absolute;
         top: 0px;
@@ -94,6 +92,7 @@
     .navbar {
         margin-left: 50px;
         width: 80%;
+        background-color: transparent !important;
         .container {
             padding: 0px;
             margin: 0px;

@@ -56,7 +56,7 @@ export default class Home extends Component {
 
     <div className='twitter-zone twitter-dark'>
         <a className="twitter-timeline"
-          data-height="400"
+          data-height="420"
           data-theme="dark"
           data-chrome="transparent nofooter noborders"
           href="https://twitter.com/_kernelcon_?ref_src=twsrc%5Etfw">Tweets by _kernelcon_</a> 
@@ -64,7 +64,7 @@ export default class Home extends Component {
 
       <div className='twitter-zone twitter-light'>
         <a className="twitter-timeline"
-          data-height="400"
+          data-height="420"
           data-theme="light"
           data-chrome="transparent nofooter noborders"
           href="https://twitter.com/_kernelcon_?ref_src=twsrc%5Etfw">Tweets by _kernelcon_</a> 
@@ -79,6 +79,8 @@ export default class Home extends Component {
             <div className='vision-highlight'>
               Our 2020 theme is <span className='text-highlight'><b>Vision</b></span>. Our <span className='focus'>focus</span> will revolve around both learning from hindsight and looking towards the future!
             </div>
+            <a class='reg-button' href="#">register for kernelcon</a>
+
             <div className='highlight-boxes'>
               <div className='highlight-text-box'>
                 <span className='num-highlight'>2</span>

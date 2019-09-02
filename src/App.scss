@@ -10,7 +10,7 @@ body.dark-mode {
     color: #dfdfdf;
     .navbar,
     .nav-small {
-        background-color: #1b2938;
+        background-color: rgba(27, 42, 59, .8) //        background-color: #1b2938;
     }
     .dark-mode-toggle>button {
         color: #999;
@@ -22,10 +22,10 @@ body.dark-mode {
         background-color: #212529;
     }
     div.secondary-nav {
-        background-color: rgb(16, 23, 29);
+        background-color: rgba(12, 20, 26, .8) // background-color: rgb(16, 23, 29);
     }
     div.nav-menu {
-        background-color: rgb(16, 23, 29);
+        //        background-color: rgb(16, 23, 29);
         .nav-small .nav-links {
             background-color: rgb(16, 23, 29);
         }
