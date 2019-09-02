@@ -6,7 +6,8 @@
     display: flex;
     padding: 25px;
     height: 60px;
-    background-color: rgba(215, 215, 215, .8);
+    //background-color: rgba(215, 215, 215, .8);
+    background-color: #e3e3e3;
     z-index: 7;
     .toggle-group {
         position: absolute;
@@ -33,7 +34,8 @@
     display: flex;
     position: fixed;
     width: 100%;
-    background-color: rgba(235, 235, 235, .8);
+    //background-color: rgba(235, 235, 235, .8);
+    background-color: #e3e3e3;
     margin-top: 60px;
     z-index: 6;
 }

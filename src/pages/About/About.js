@@ -27,6 +27,9 @@ export default class About extends Component {
   }
 
   getTabs(vert) {
+
+    
+
     return (
       <Tabs defaultTab={this.state.defaultTab}
         onChange={(tabId) => { this.changeTab(tabId) }}
@@ -58,7 +61,7 @@ export default class About extends Component {
           </TabPanel>
           <TabPanel tabId="contact">
             <div className='tab-title'>Stay in Touch</div>
-            <div classname='tab-paragraph'>We've got the social!  Follow us for updates and announcements before, during, and after the con!  Or, if you need to contact us directly send us an email.</div>
+            <div className='tab-paragraph'>We've got the social!  Follow us for updates and announcements before, during, and after the con!  Or, if you need to contact us directly send us an email.</div>
             <div className=''>
               <a href='http://twitter.com/_kernelcon_'
                 target='_blank'
@@ -123,18 +126,16 @@ export default class About extends Component {
 
 
               <div id='mc_embed_signup'>
-              <form action='https://kernelcon.us3.list-manage.com/subscribe/post?u=09ee8b91c15e71e4ea26fcb3a&amp;id=698defb12e' method='post' id='mc-embedded-subscribe-form' name='mc-embedded-subscribe-form' class='validate' target='_blank' novalidate=''>
+              <form action='https://kernelcon.us3.list-manage.com/subscribe/post?u=09ee8b91c15e71e4ea26fcb3a&amp;id=698defb12e' method='post' id='mc-embedded-subscribe-form' name='mc-embedded-subscribe-form' className='validate' target='_blank' noValidate=''>
               <div id='mc_embed_signup_scroll'>
-              <div class='indicates-required'><span class='asterisk'>*</span> indicates required</div>
-              <div class='mc-field-group'>
-	            <label for='mce-EMAIL'>Email Address  <span class='asterisk'>*</span></label>
-	            <input type='email' value='' name='EMAIL' class='required email' id='mce-EMAIL' /></div>
-	            <div id='mce-responses' class='clear'>
-              <div class='response' id='mce-error-response' ></div>
-              <div class='response' id='mce-success-response'></div>
+              <div className='mc-field-group'>
+	            <input type='email' name='EMAIL' className='required email' id='mce-EMAIL' /></div>
+	            <div id='mce-responses' className='clear'>
+              <div className='response' id='mce-error-response'></div>
+              <div className='response' id='mce-success-response'></div>
               </div>
-              <div  aria-hidden='true'><input type='text' name='b_09ee8b91c15e71e4ea26fcb3a_698defb12e' tabindex='-1' value='' /></div>
-              <div class='clear'><input type='submit' value='Subscribe' name='subscribe' id='mc-embedded-subscribe' class='button' /></div>
+              <div  aria-hidden='true' className='clear'><input type='text' name='b_09ee8b91c15e71e4ea26fcb3a_698defb12e' tabIndex='-1'/></div>
+              <div><input type='submit' value='Subscribe' name='subscribe' id='mc-embedded-subscribe' className='button' /></div>
               </div>
               </form>
           </div>
