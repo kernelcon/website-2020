@@ -123,7 +123,7 @@ export default class OpenCalls extends Component {
                 <li>Kernelcon will host digital media training material in a fashion readily accessible by students if said material is in Kernelcon's possession by March 1st, 2020.</li>
                 <li>Attendee registration services.</li>
                 <li>Results from attendee feedback surveys.</li>
-                <li>Snacks for instructors (and attendees0.</li>
+                <li>Snacks for instructors (and attendees).</li>
                 <li>Payment to the instructor on NET60 terms.</li>
               </ol>
             </p>
