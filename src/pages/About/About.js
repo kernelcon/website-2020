@@ -4,6 +4,8 @@ import MediaQuery from 'react-responsive';
 import FAQ from './FAQ';
 import './About.scss';
 
+import GrrCon from '../../static/images/other-cons/grrcon.png';
+
 export default class About extends Component {
   static displayName = 'About';
 
@@ -37,6 +39,7 @@ export default class About extends Component {
         <TabList vertical>
           <Tab tabFor="kernelcon">Kernelcon</Tab>
           <Tab tabFor="code-of-conduct">Code Of Conduct</Tab>
+          <Tab tabFor="reciprocity">Reciprocity</Tab>
           <Tab tabFor="contact">Contact</Tab>
           <Tab tabFor="faq">FAQ</Tab>
         </TabList>
@@ -57,6 +60,26 @@ export default class About extends Component {
               <p className='about-sub-text'>Anyone can report harassment. If you are being harassed, notice that someone else is being harassed, or have any other concerns, you can contact a Kernelcon Crew member, go to the registration desk, or info booth.</p>
               <p className='about-sub-text'>Conference staff will be happy to help participants contact hotel security, local law enforcement, or otherwise assist those experiencing harassment to feel safe for the duration of Kernelcon.</p>
               <p className='about-sub-text'>Remember: The CON is what you make of it, and as a community we can create a great experience for everyone.</p>
+            </div>
+          </TabPanel>
+          <TabPanel tabId="reciprocity">
+            <div className='reciprocity'>
+              <div className='wording'>
+                <div className='tab-title'>Stronger Together</div>
+                <p className='tab-paragraph'>
+                  This is where the text goes...
+                  {/*
+
+                          TODO - TIM
+                  */}
+                </p>
+              </div>
+              <div className='logo-space'>
+                <img src={GrrCon} />
+
+
+
+              </div>
             </div>
           </TabPanel>
           <TabPanel tabId="contact">

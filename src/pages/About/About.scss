@@ -140,3 +140,40 @@ i.arrow {
     color: #409ABF;
     display: block !important;
 }
+
+
+
+.reciprocity {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+  .wording, .logo-space {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .wording {
+    width: inherit;
+  }
+
+  .logo-space {
+    width: 200px;
+    height: inherit;
+    padding-left: 10px;
+    border-left: 1px solid #409ABF;
+
+    img {
+      width: inherit;
+    }
+  }
+
+
+}
+
+
+
+
+
+
+
