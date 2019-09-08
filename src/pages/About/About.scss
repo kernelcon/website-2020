@@ -155,6 +155,7 @@ i.arrow {
 
   .wording {
     width: inherit;
+    padding-right: 30px;
   }
 
   .logo-space {
@@ -163,8 +164,15 @@ i.arrow {
     padding-left: 10px;
     border-left: 1px solid #409ABF;
 
-    img {
-      width: inherit;
+    a {
+      img {
+        width: inherit;
+        padding-bottom: 30px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        max-width: 200px;
+      }
     }
   }
 

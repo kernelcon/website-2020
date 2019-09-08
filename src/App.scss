@@ -3,6 +3,10 @@ body.light-mode {
     background-color: #e3e3e3;
     color: #333;
     transition: background-color 0.3s ease;
+
+    img.con-logo-flip-flip {
+        filter: invert(100%);
+    }
 }
 
 body.dark-mode {
@@ -47,7 +51,7 @@ body.dark-mode {
     div.home-page>div.right>img {
         filter: invert(100%);
     }
-    img.navbar-logo {
+    img.navbar-logo, img.con-logo-flip {
         filter: invert(100%);
     }
     span.focus {
