@@ -159,7 +159,6 @@ i.arrow {
   }
 
   .logo-space {
-    width: 200px;
     height: inherit;
     padding-left: 10px;
     border-left: 1px solid #409ABF;
@@ -171,13 +170,39 @@ i.arrow {
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        max-width: 200px;
       }
     }
   }
 
 
 }
+
+
+@media (min-width: 200px) {
+  .logo-space {
+    width: 100px;
+
+    a {
+      img {
+        max-width: 100px;
+      }
+    }
+  }
+}
+
+
+@media (min-width: 576px) {
+  .logo-space {
+    width: 200px;
+
+    a {
+      img {
+        max-width: 200px;
+      }
+    }
+  }
+}
+
 
 
 
