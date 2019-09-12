@@ -53,7 +53,7 @@ export default class OpenCalls extends Component {
           </TabPanel>
           <TabPanel tabId="training">
             <div className='tab-title'>Call for Training Courses</div>
-            <p className='tab-paragraph'>The Kernelcon Trainings offer attendees technical courses on topics from the informattion security field. These will be hands-on courses that help expand attendees' skill sets and knowledge.</p>
+            <p className='tab-paragraph'>The Kernelcon Trainings offer attendees technical courses on topics from the information security field. These will be hands-on courses that help expand attendees' skill sets and knowledge.</p>
             
             <p className='tab-heading'>Length and Cost</p>
             <p className='tab-paragraph'>The Kernelcon Crew is looking for training proposals that can fit into a full one-day or two-day format. Classes should typically follow a standard daily schedule, with short morning and afternoon breaks, and a one hour break for lunch.</p>
@@ -90,7 +90,7 @@ export default class OpenCalls extends Component {
             </p>
 
             <p className='tab-heading'>How do I submit?</p>
-            <p className='tab-paragraph'>Email a single PDF document containing ALL the required items detailed above to <a href='mailto:trainings@kernelcon.org' className='text-highlight' rel='noopener noreferrer'>trainings@kernelcon.org</a>. You can expect a confirmation that the submission was RECEIVED (not that it was accepted) in 48 hours. If you do not receive confirmation, please reach out to <a href='mailto:info@kernelcon.org' className='text-highlight' rel='noopener noreferrer'>info@kernelcon.org</a>, <a href='https://twitter.com/_kernelcon_' className='text-highlight' rel='noopener noreferrer' target='_blank'>@_kernelcon_</a>, or any organizing committee member you can find.</p>
+            <p className='tab-paragraph'>Email a single PDF document containing ALL the required items detailed above to <a href='mailto:training@kernelcon.org' className='text-highlight' rel='noopener noreferrer'>training@kernelcon.org</a>. You can expect a confirmation that the submission was RECEIVED (not that it was accepted) in 48 hours. If you do not receive confirmation, please reach out to <a href='mailto:info@kernelcon.org' className='text-highlight' rel='noopener noreferrer'>info@kernelcon.org</a>, <a href='https://twitter.com/_kernelcon_' className='text-highlight' rel='noopener noreferrer' target='_blank'>@_kernelcon_</a>, or any organizing committee member you can find.</p>
           
             <p className='tab-heading'>Trainer Responsibilities</p>
             <p className='tab-note'>This is only for confirmed Trainers.</p>
