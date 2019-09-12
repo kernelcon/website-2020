@@ -77,9 +77,9 @@ export default class About extends Component {
                 <p className='tab-paragraph'>Some hacker conferences (or "cons") have developed a tradition of awarding a coveted, relatively rare, token to deserving folks.  Typically, the primary recipient of these tokens are the champions of the most difficult competitions conducted at the con.  For instance, the primary CTF contest is often a "Black Badge event."</p>
                 <p className='tab-paragraph'>In addition to the accolades, the awarding of these tokens often carry other benefits.  Perhaps the most common is free entry to the conference for life.  </p>
                 <p className='tab-paragraph'>Not all conferences are the same, and many bestow other perks with the token.  Some cons take the right to anonymity very seriously, while others require attributed registration for their conference.</p>
-                <p className='tab-paragraph'>One common characteristic to most hacker (and security, infosec, etc) cons, is the underpinning natural curiosity found in attendees, but keenly present in those that elect to spend their conference time competing in events.  Often this events are "winner-takes-all" with little or no perks for places other than first.</p>
-                <p className='tab-paragraph'>Another very common characteristic is the sense of community.  Each con develops it's own sense of community, but there is also a sense of togetherness that spans cons, not owned or governed by any one con, but embodied by all.</p>
-                <p className='tab-paragraph'>Merging these components is long past due.  Starting today, with the end of Derbycon, several peers in the community will begin honoring not only Derbycon's black badge holders with free registration at their own conferences, but also each others.  Our hope is that this black badge reciprocity brings us even closer together as a community while also strengthening the ingrained traditions of curiosity and competition.</p>
+                <p className='tab-paragraph'>One common characteristic to most hacker (and security, infosec, etc) cons, is the underpinning natural curiosity found in attendees, but keenly present in those that elect to spend their conference time competing in events.  Often these events are "winner-takes-all" with little or no perks for places other than first.</p>
+                <p className='tab-paragraph'>Another very common characteristic is the sense of community.  Each con develops its own sense of community, but there is also a sense of togetherness that spans cons, not owned or governed by any one con, but embodied by all.</p>
+                <p className='tab-paragraph'>Merging these components is long past due.  Starting today, with the end of DerbyCon, several peers in the community will begin honoring not only DerbyCon's black badge holders with free registration at their own conferences, but also each others.  Our hope is that this black badge reciprocity brings us even closer together as a community while also strengthening the ingrained traditions of curiosity and competition.</p>
                 <p className='tab-paragraph'>The specifics of how each conference will handle things like registration complexities are actively being worked out, but many have confidence that the problem is tractable.  Accordingly, several are already pledging broad support, and each venue will ultimately be individually communicating details pertinent to registration.</p>
                 <p className='tab-paragraph'>#strongertogether</p>
                 <p className='tab-paragraph'>#hackercommunity</p>
@@ -96,7 +96,7 @@ export default class About extends Component {
                   rel='noopener noreferrer'>
                   <img src={GrrCon} />
                 </a>
-                <a href='http://twitter.com/derbycon'
+                <a href='http://twitter.com/DerbyCon'
                   target='_blank'
                   rel='noopener noreferrer'>
                   <img src={DerbyCon}

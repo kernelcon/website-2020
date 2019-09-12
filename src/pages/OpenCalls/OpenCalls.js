@@ -150,7 +150,7 @@ export default class OpenCalls extends Component {
                 <li>WiFi Fox & Hound</li>
                 <li>Chillout Village Kernel Smash - Super Smash Bros competition</li>
                 <li>Kernel Panic Technology Olympics</li>
-                <li>Kernel Panic Who's Slide Is It Anyways?</li>
+                <li>Kernel Panic Whose Slide Is It Anyways?</li>
               </ul>
             </div>  
             <p className='tab-paragraph'>Please consider submitting an idea to <a href='mailto:competitions@kernelcon.org' className='text-highlight' rel='noopener noreferrer'>competitions@kernelcon.org</a> if you would like to host a competition for this year's Kernelcon. If your idea is not fully finessed, no worries! We can help your ideas become a reality.</p>
