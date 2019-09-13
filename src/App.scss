@@ -76,7 +76,9 @@ body.dark-mode {
     p.tab-heading, a.oc-twitter {
       color: #fff;
     }
-
+    img.spons-white-img {
+      filter: invert(100%) brightness(2);
+    }
 }
 
 .content {

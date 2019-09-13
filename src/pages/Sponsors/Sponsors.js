@@ -152,23 +152,23 @@ export default class Sponsors extends Component {
                 <div className='foodbev-spons'>
                 
                   <div className='single-foodbev-spons'>
-                    <h6 className='gold spons-title'>Coffee</h6>
+                    <h6 className='text-highlight spons-title'>Coffee</h6>
                     <a href="https://www.ubt.com/"
                       target="_blank"
                       rel='noopener noreferrer'>
                       <img src={ubtlogo}
-                        className='spons-img fdbev-spons'
+                        className='spons-img fdbev-spons spons-white-img'
                         alt="Union Bank & Trust"/>
                     </a>
                   </div>
 
                   <div className='single-foodbev-spons'>
-                    <h6 className='gold spons-title'>Popcorn</h6>
+                    <h6 className='text-highlight spons-title'>Popcorn</h6>
                     <a href="https://www.ubt.com/"
                       target="_blank"
                       rel='noopener noreferrer'>
                       <img src={ubtlogo}
-                        className='spons-img fdbev-spons'
+                        className='spons-img fdbev-spons spons-white-img'
                         alt="Union Bank & Trust"/>
                     </a>
                   </div>
