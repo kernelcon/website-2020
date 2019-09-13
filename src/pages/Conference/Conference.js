@@ -9,13 +9,16 @@ export default class Conference extends Component {
       <div className='con-page'>
         <div className='text-area'>
           <h3 className='title'>Conference</h3>
+          <p className='tab-paragraph'>If you're ready to pull the trigger, below is the registration page for Kernelcon 2020!</p>
+
           <a className='reg-button'
             href="https://reg.kernelcon.org"
             rel='noopener noreferrer'
             target='_blank'>
             Register Now
           </a>
-          <p className='tab-paragraph'>Check out our open calls if you'd like to contribute! Our hotel rate is available on our Venue page!</p>
+          <p className='tab-paragraph'>Also, check out our open calls if you'd like to contribute! Our hotel rate is available on our Venue page!</p>
+          <p className='tab-paragraph'>Please check back again soon!  As the conference gets more and more ready, this page will be updated with all the great stuff we plan to offer. Hope to see you in Omaha in 2020!</p>
         </div>        
         <div className='text-area'>
           <h3 className='title'>Volunteers</h3>

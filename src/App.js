@@ -16,7 +16,7 @@ import OpenCalls from './pages/OpenCalls/OpenCalls';
 import Home from './pages/Home/Home';
 import Sponsors from './pages/Sponsors/Sponsors';
 import Venue from './pages/Venue/Venue';
-
+import Register from './pages/Register/Register';
 
 
 function App() {
@@ -34,6 +34,7 @@ function App() {
           <Route exact path="/open-calls" component={OpenCalls} />
           <Route exact path="/sponsors" component={Sponsors} />
           <Route exact path="/venue" component={Venue} />
+          <Route exact path="/register" component={Register} />
         </div>
       </div>
       <Footer />

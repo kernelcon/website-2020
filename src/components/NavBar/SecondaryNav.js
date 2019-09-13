@@ -22,8 +22,9 @@ export default class SecondaryNav extends Component {
                 <a href="/venue">Venue</a>
                 <a href="/dates">Dates</a>
                 <a href="/open-calls">Open Calls</a>
-                <a href="/sponsors">Sponsors</a>
                 <a href="/conference">Con</a>
+                <a href="/register">Register</a>
+                <a href="/sponsors">Sponsors</a>
                 <a href="/about">About</a>
               </div>
             }
