@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ubtlogo from '../../static/images/sponsors/ubt.png';
 import './Sponsors.scss';
 
 export default class Sponsors extends Component {
@@ -24,6 +25,159 @@ export default class Sponsors extends Component {
             <div className='tab-title'>Would you like to hear more?  Please contact <a href="mailto:sponsor@kernelcon.org?Subject=Sponorship" style={{textDecoration:'underline'}} target="_top">sponsor@kernelcon.org</a>.</div>  
           </div>
         </div>
+          <div className='spons-page'>
+            <h1 className='title'>2020 Sponsors</h1>
+            <div className='text-block'>
+              <p>We would like to thank all of our sponsors who make Kernelcon the best it can be.  Without our sponsors, our conference wouldn't happen.</p>
+            </div>
+
+            <div className='text-block spons-groups'>
+
+{/*              <div className='spons-block'>
+                <h2 className='gold spons-title'>Platinum</h2>
+                <a href="https://www.netscout.com/"
+                  target="_blank"
+                  rel='noopener noreferrer'>
+                  <img src={netscout}
+                    className='spons-img plat-spons'
+                    alt="NETSCOUT"/>
+                </a>
+                <a href="https://www.endgame.com/"
+                  target="_blank"
+                  rel='noopener noreferrer'>
+                  <img src={endgamelogo}
+                    className='spons-img plat-spons'
+                    alt="ENDGAME"/>
+                </a>
+              </div>
+
+              <div className='spons-block'>
+                <h3 className='gold spons-title'>Gold</h3>
+                <a href="https://www.secureworks.com/"
+                  target="_blank"
+                  rel='noopener noreferrer'>
+                  <img src={swlogo}
+                    className='spons-img gold-spons'
+                    alt="Secure Works"/>
+                </a>
+                <div className='two-line'>
+                  <a href="https://fnbo.com/"
+                    target="_blank"
+                    rel='noopener noreferrer'>
+                    <img src={fnbo}
+                      className='spons-img half-gold-spons'
+                      alt="First National Bank"/>
+                  </a>
+                  <a href="https://www.fnts.com/"
+                    target="_blank"
+                    rel='noopener noreferrer'>
+                    <img src={fnts}
+                      className='spons-img half-gold-spons'
+                      alt="First National Technology Solutions"/>
+                  </a>
+                </div>
+              </div>
+              
+               <h3 className='gold'>Silver</h3> 
+
+              <div className='spons-block'>
+                <h3 className='gold spons-title'>Bronze</h3>
+                <a href="https://www.conagrabrands.com/"
+                  target="_blank"
+                  rel='noopener noreferrer'>
+                  <img src={caglogo}
+                    className='spons-img other-spons'
+                    alt="ConAgra"/>
+                </a>
+                <a href="https://www.checkmarx.com/"
+                  target="_blank"
+                  rel='noopener noreferrer'>
+                  <img src={cxlogo}
+                    className='spons-img other-spons'
+                    alt="Checkmarx"/>
+                </a>
+                <a href="https://www.netskope.com/"
+                  target="_blank"
+                  rel='noopener noreferrer'>
+                  <img src={netskopelogo}
+                    className='spons-img other-spons'
+                    alt="Netskope"/>
+                </a>
+              </div>
+
+              <div className='spons-block'>
+                <h4 className='gold spons-title'>Party Sponsor</h4>
+                <a href="https://www.nttsecurity.com/en-us"
+                  target="_blank"
+                  rel='noopener noreferrer'>
+                  <img src={nttlogo}
+                    className='spons-img other-spons'
+                    alt="NTT Security"/>
+                </a>
+              </div>
+
+              <div className='spons-block'>
+                <h4 className='gold spons-title'>CTF Sponsor</h4>
+                <a href="https://www.securesky.com/"
+                  target="_blank"
+                  rel='noopener noreferrer'>
+                  <img src={secureskylogo}
+                    className='spons-img other-spons'
+                    alt="Secure Sky"/>
+                </a>
+              </div>
+
+              <div className='spons-block'>
+                <h4 className='gold spons-title'>Other Sponsors</h4>
+                <a href="https://toool.us/"
+                  target="_blank"
+                  rel='noopener noreferrer'>
+                  <img src={toool}
+                    className='spons-img other-spons'
+                    alt="TOOOL"/>
+                </a>
+                <a href="https://nostarch.com/"
+                  target="_blank"
+                  rel='noopener noreferrer'>
+                  <img src={nostarch}
+                    className='spons-img other-spons'
+                    alt="NoStarchPress"/>
+                </a>
+                <br />
+              </div>
+
+              */}
+
+              <div className='spons-block'>
+                <div className='foodbev-spons'>
+                
+                  <div className='single-foodbev-spons'>
+                    <h6 className='gold spons-title'>Coffee</h6>
+                    <a href="https://www.ubt.com/"
+                      target="_blank"
+                      rel='noopener noreferrer'>
+                      <img src={ubtlogo}
+                        className='spons-img fdbev-spons'
+                        alt="Union Bank & Trust"/>
+                    </a>
+                  </div>
+
+                  <div className='single-foodbev-spons'>
+                    <h6 className='gold spons-title'>Popcorn</h6>
+                    <a href="https://www.ubt.com/"
+                      target="_blank"
+                      rel='noopener noreferrer'>
+                      <img src={ubtlogo}
+                        className='spons-img fdbev-spons'
+                        alt="Union Bank & Trust"/>
+                    </a>
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+          </div>
       </div>
   );
   }

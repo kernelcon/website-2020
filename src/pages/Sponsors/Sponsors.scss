@@ -1,5 +1,109 @@
+@import '../../static/styles/base/variables';
+
 .sponsors {
   div {
     margin-bottom: 30px;
+  }
+}
+
+.spons-page {
+  margin-top: 30px;
+
+  .spons-groups {
+    text-align: center;
+    padding-bottom: 50px !important;
+
+    .spons-block {
+      padding-top: 30px;
+      display: flex;
+      flex-direction: column;
+
+      .spons-title {
+        font-family: 'Montserrat', sans-serif;
+        margin-bottom: 30px;
+        font-weight: 900;
+        text-transform: uppercase;
+      }
+
+      h2 {
+        font-size: calc(4vh + 4vw);
+      }
+
+      h3 {
+        font-size: calc(3.5vh + 3.5vw);
+      }
+
+      h4 {
+        font-size: calc(2.5vh + 2.5vw);
+      }
+
+      h5 {
+        font-size: calc(2vh + 2vw);
+      }
+
+      h6 {
+        font-size: calc(1.75vh + 1.75vw);
+      }
+
+      .two-line {   
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 0vw 5vw;
+      }
+      .spons-img {
+        max-width:100%;
+        max-height:100%;
+        margin-bottom: 50px;
+      }
+
+      .plat-spons {
+        max-width: calc(28vh + 28vw);
+      }
+      .gold-spons {
+        max-width: calc(25vh + 25vw);
+      }
+      .half-gold-spons {
+        max-width: calc(10vh + 10vw);
+      }
+      .silver-spons {
+        max-width: calc(22vh + 22vw);
+      }
+
+      .other-spons {
+        max-width: calc(18vh + 18vw);
+        max-height: calc(15vh + 5vw);
+      }
+
+      .spons-text-block {
+        font-size: calc(1vh + 1vw);
+
+        .party-text {
+          font-family: 'Jura', 'Montserrat', sans-serif;
+          font-size: calc(1.2vh + 1.2vw);
+          color: $text-highlight;
+          font-weight: 500;
+        }
+      }
+
+      .foodbev-spons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+        .single-foodbev-spons {
+          display: flex;
+          flex-direction: column;
+          width: 50%;
+
+          .fdbev-spons {
+            max-width: calc(15vh + 15vw);
+            margin-bottom: 20px;
+          }
+        }
+      }
+    }
   }
 }
