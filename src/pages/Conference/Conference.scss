@@ -1,0 +1,33 @@
+.con-page {
+    .reg-button {
+        display: block;
+        font-size: 16px;
+        font-weight: medium;
+        text-transform: uppercase;
+        font-family: Montserrat, sans-serif;
+        padding: 8px;
+        margin-bottom: 20px;
+        width: 90%;
+        max-width: 300px;
+        height: 40px;
+        border-radius: 5px;
+        box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25), 0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+        transition: all .5s;
+        border: solid 0px;
+        color: #fff;
+        background: linear-gradient(to left, skyblue 25%, aliceblue 75%);
+        background-size: 400% 100%;
+        background-position: right bottom;
+        font-weight: bold;
+        z-index: 3;
+        text-align: center;
+    }
+    .reg-button:hover {
+        color: rgb(64, 154, 191);
+        background-position: left bottom;
+    }
+    .reg-button:active {
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+}

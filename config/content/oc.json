@@ -1,0 +1,86 @@
+[
+    {
+        "heading": "Organizing Committee",
+        "people": [
+            {
+                "id": 1,
+                "name": "Wacey Lanier",
+                "title": "Volunteer Coordination Chair",
+                "image": "wacey.gif",
+                "twitter": "_wacey"
+            }, {
+                "id": 2,
+                "name": "Tyler Rosonke",
+                "title": "Badge Chair",
+                "image": "tyler.png",
+                "twitter": "zonksec"
+            }, {
+                "id": 3,
+                "name": "Dan Browder",
+                "title": "Marketing Chair & God of Popcorn",
+                "image": "dan.png",
+                "twitter": "nevon"
+            }, {
+                "id": 4,
+                "name": "Justin Williams",
+                "title": "Registration Chair",
+                "image": "justin.png",
+                "twitter": "fpieces"
+            }, {
+                "id": 5,
+                "name": "Jeremiah Hoferer",
+                "title": "Training Chair",
+                "image": "jerry.png",
+                "twitter": "DiggerOfLogs"
+            }, {
+                "id": 6,
+                "name": "Adam Schaal",
+                "title": "Competition Chair & CTF Lead",
+                "image": "adam.png",
+                "twitter": "clevernyyyy"
+            }, {
+                "id": 7,
+                "name": "Jason Lehr",
+                "title": "General Chair",
+                "image": "jason.png",
+                "twitter": "__JCL__"
+            }, {
+                "id": 8,
+                "name": "Tim Vidas",
+                "title": "Program Chair",
+                "image": "tim.png",
+                "twitter": "tvidas"
+            }, {
+                "id": 9,
+                "name": "Aaron Gunning",
+                "title": "Village Idiot",
+                "image": "aaron.png",
+                "twitter": "scotchsec"
+            }, {
+                "id": 10,
+                "name": "Trent Williams",
+                "title": "Sponsorship Chair",
+                "image": "trent.png",
+                "twitter": "trentgw"
+            }
+        ]
+    }, {
+        "heading": "Capture the Flag Ops",
+        "people": [
+            {
+                "id": 11,
+                "name": "Nate Wood",
+                "title": "CTF Operations",
+                "image": "nate.png",
+                "twitter": "woodnsec"
+            }, {
+                "id": 12,
+                "name": "Jeris Rue",
+                "title": "CTF Operations",
+                "image": "jeris.png",
+                "twitter": ""
+            }
+        ]
+    }
+]
+

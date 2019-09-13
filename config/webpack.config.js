@@ -624,6 +624,7 @@ module.exports = function(webpackEnv) {
     externals: {
       dateConfig: JSON.stringify(require('./content/dates.json')), //eslint-disable-line
       faqConfig: JSON.stringify(require('./content/faq.json')), //eslint-disable-line
+      ocConfig: JSON.stringify(require('./content/oc.json')), //eslint-disable-line
     },
     // Turn off performance processing because we utilize
     // our own hints via the FileSizeReporter

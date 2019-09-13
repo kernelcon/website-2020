@@ -35,24 +35,35 @@ export default class Home extends Component {
         <div className='col left'>
           <img src={Vision}
             alt='Vision 2020'/>
-          <a class='reg-button' onClick={this.toggleModal} href="#">sign up for updates</a>
+          <a className='reg-button'
+            href="https://reg.kernelcon.org"
+            rel='noopener noreferrer'
+            target='_blank'>
+            Register Now
+          </a>
+          <a className='reg-button'
+            onClick={this.toggleModal}
+            href="#"
+            rel='noopener noreferrer'>
+            Sign up for updates
+          </a>
 
-<Modal show={this.state.isOpen}
-      onClose={this.toggleModal}
-      title='Subscribe for Updates'
-      modalContentStyle={modalContentStyle}
-      height='620'
-      width='600'>
-        <iframe src="https://mailchi.mp/4305c17b886e/kernelcon"
-          title="sign-up-form"
-          frameBorder="0"
-          marginHeight="0"
-          marginWidth="0"
-          className='mail-form'
-          style={{'marginLeft': '0px', 'width': '580px', 'height': '720px'}}>
-          Loading...
-        </iframe>
-    </Modal>
+          <Modal show={this.state.isOpen}
+            onClose={this.toggleModal}
+            title='Subscribe for Updates'
+            modalContentStyle={modalContentStyle}
+            height='620'
+            width='600'>
+              <iframe src="https://mailchi.mp/4305c17b886e/kernelcon"
+                title="sign-up-form"
+                frameBorder="0"
+                marginHeight="0"
+                marginWidth="0"
+                className='mail-form'
+                style={{'marginLeft': '0px', 'width': '580px', 'height': '720px'}}>
+                Loading...
+              </iframe>
+          </Modal>
 
     <div className='twitter-zone twitter-dark'>
         <a className="twitter-timeline"

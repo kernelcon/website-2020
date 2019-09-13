@@ -36,31 +36,35 @@ export default class Venue extends Component {
           <Tab tabFor="parking">Parking</Tab>
         </TabList>
         <TabPanel tabId="hotel">
-          <div className='tab-title'>Book Now</div>       
-          <div className='venue-hotel'>
-                  <div className='venue-text'>Book directly with the hotel <a className='text-highlight' href="https://secure3.hilton.com/en_US/es/reservation/book.htm?inputModule=HOTEL&ctyhocn=OMADTES&spec_plan=CESNKC&arrival=20200324&departure=20200329&cid=OM,WW,HILTONLINK,EN,DirectLink&fromId=HILTONLINKDIRECT" rel="noopener noreferrer" target="_blank">HERE</a> </div>
+          <div className='text-area'>
+            <div className='tab-title'>Book Now</div>       
+            <div className='venue-hotel'>
+              <div className='venue-text'>Book directly with the hotel <a className='text-highlight' href="https://secure3.hilton.com/en_US/es/reservation/book.htm?inputModule=HOTEL&ctyhocn=OMADTES&spec_plan=CESNKC&arrival=20200324&departure=20200329&cid=OM,WW,HILTONLINK,EN,DirectLink&fromId=HILTONLINKDIRECT" rel="noopener noreferrer" target="_blank">HERE</a> </div>
+            </div>
           </div>
-          <div className='tab-title'>Hotel & Location Information</div>       
-          <div className='venue-hotel'>
-            <div className='venue-location'>
-              <div className='venue-hotel-book'>
-                <div className='venue-hotel-info'>
-                  <div className='venue-text'>Embassy Suites by Hilton Omaha Downtown Old Market</div>
-                  <div className='hotel-sub-text'>555 South 10th Street, Omaha, Nebraska, 68102, USA</div>
-                  <div className='hotel-sub-text'>TEL: +1-402-346-9000</div>
+          <div className='text-area'>
+            <div className='tab-title'>Hotel & Location Information</div>       
+            <div className='venue-hotel'>
+              <div className='venue-location'>
+                <div className='venue-hotel-book'>
+                  <div className='venue-hotel-info'>
+                    <div className='venue-text'>Embassy Suites by Hilton Omaha Downtown Old Market</div>
+                    <div className='hotel-sub-text'>555 South 10th Street, Omaha, Nebraska, 68102, USA</div>
+                    <div className='hotel-sub-text'>TEL: +1-402-346-9000</div>
+                  </div>
                 </div>
-              </div>
-              <div className="map-container">
-                <iframe title="hotel-map"
-                  id="hotelMap"
-                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11997.840403876991!2d-95.928505!3d41.255317!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87938fa5b998d90d%3A0x5a8be450ef2d97cd!2s555+S+10th+St%2C+Omaha%2C+NE+68102!5e0!3m2!1sen!2sus!4v1530595511583"
-                  width="446"
-                  height="640"
-                  frameBorder="0"
-                  allowFullScreen
-                  style={{'marginTop':'-150px'}}>
-                  Loading...
-                </iframe>
+                <div className="map-container">
+                  <iframe title="hotel-map"
+                    id="hotelMap"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11997.840403876991!2d-95.928505!3d41.255317!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87938fa5b998d90d%3A0x5a8be450ef2d97cd!2s555+S+10th+St%2C+Omaha%2C+NE+68102!5e0!3m2!1sen!2sus!4v1530595511583"
+                    width="446"
+                    height="640"
+                    frameBorder="0"
+                    allowFullScreen
+                    style={{'marginTop':'-150px'}}>
+                    Loading...
+                  </iframe>
+                </div>
               </div>
             </div>
           </div>

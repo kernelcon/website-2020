@@ -73,6 +73,10 @@ body.dark-mode {
         /* Temporary until CSS is broken down */
         filter: invert(100%);
     }
+    p.tab-heading, a.oc-twitter {
+      color: #fff;
+    }
+
 }
 
 .content {
