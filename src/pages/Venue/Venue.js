@@ -39,7 +39,7 @@ export default class Venue extends Component {
           <div className='text-area'>
             <div className='tab-title'>Book Now</div>       
             <div className='venue-hotel'>
-              <div className='venue-text'>Book directly with the hotel <a className='text-highlight' href="https://secure3.hilton.com/en_US/es/reservation/book.htm?inputModule=HOTEL&ctyhocn=OMADTES&spec_plan=CESNKC&arrival=20200324&departure=20200329&cid=OM,WW,HILTONLINK,EN,DirectLink&fromId=HILTONLINKDIRECT" rel="noopener noreferrer" target="_blank">HERE</a> </div>
+              <div className='venue-text'>We have a room block reserved at the conference hotel from Mar 24 to Mar 29 at a rate of $149/night.  Book directly with the hotel <a className='text-highlight' href="https://secure3.hilton.com/en_US/es/reservation/book.htm?inputModule=HOTEL&ctyhocn=OMADTES&spec_plan=CESNKC&arrival=20200324&departure=20200329&cid=OM,WW,HILTONLINK,EN,DirectLink&fromId=HILTONLINKDIRECT" rel="noopener noreferrer" target="_blank">HERE</a>. </div>
             </div>
           </div>
           <div className='text-area'>
@@ -80,7 +80,9 @@ export default class Venue extends Component {
         </TabPanel>
         <TabPanel tabId="parking">
           <div className='tab-title'>Where to Park</div>
-          <p className='about-sub-text'>For the locals:</p>
+          <p className='about-sub-text'>For hotel guests:</p>
+          <p className='about-sub-text'>Parking is included with your hotel room!</p>
+          <p className='about-sub-text'>For commuters:</p>
           <p className='about-sub-text'>We're happy to say that the conference parking is readily available. We've purchased 150 spots down the street from the con, first-come, first-serve. In addition, parking is available at the hotel at $14/day or there is metered parking all along 10th street.</p>
           <p className='about-sub-text'><b>More information coming soon!</b></p>  
         </TabPanel>
