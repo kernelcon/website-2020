@@ -7,10 +7,10 @@ import './About.scss';
 
 import Kernelcon from '../../static/images/logos/kernelcon_black.png';
 import GrrCon from '../../static/images/other-cons/grrcon.png';
-import ThotCon from '../../static/images/other-cons/thotcon.jpg';
+import ThotCon from '../../static/images/other-cons/thotcon.png';
 import DerbyCon from '../../static/images/other-cons/derby.png';
 import Cyphercon from '../../static/images/other-cons/cyphercon.png';
-import wwhackinfest from '../../static/images/other-cons/wwhackingfest.jpg';
+import wwhackinfest from '../../static/images/other-cons/wwhackingfest.png';
 import texas_cyber from '../../static/images/other-cons/texas_cyber.png';
 
 
