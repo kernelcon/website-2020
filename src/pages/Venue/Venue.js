@@ -36,10 +36,14 @@ export default class Venue extends Component {
           <Tab tabFor="parking">Parking</Tab>
         </TabList>
         <TabPanel tabId="hotel">
+          <div className='tab-title'>Book Now</div>       
+          <div className='venue-hotel'>
+                  <div className='venue-text'>Book directly with the hotel <a className='text-highlight' href="https://secure3.hilton.com/en_US/es/reservation/book.htm?inputModule=HOTEL&ctyhocn=OMADTES&spec_plan=CESNKC&arrival=20200324&departure=20200329&cid=OM,WW,HILTONLINK,EN,DirectLink&fromId=HILTONLINKDIRECT" rel="noopener noreferrer" target="_blank">HERE</a> </div>
+          </div>
           <div className='tab-title'>Hotel & Location Information</div>       
           <div className='venue-hotel'>
             <div className='venue-location'>
-              <div className='venue-hotel-title'>
+              <div className='venue-hotel-book'>
                 <div className='venue-hotel-info'>
                   <div className='venue-text'>Embassy Suites by Hilton Omaha Downtown Old Market</div>
                   <div className='hotel-sub-text'>555 South 10th Street, Omaha, Nebraska, 68102, USA</div>
