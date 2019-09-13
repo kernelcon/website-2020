@@ -26,7 +26,7 @@
     "hidden": "false"
   }, {
     "title": "CFP Notifications Sent Out",
-    "description": "",
+    "description": "We love our speakers!",
     "date": "FEB 14, 2020",
     "hidden": "false"
   }, {
@@ -45,9 +45,14 @@
     "date": "March 27, 2020",
     "hidden": "false"
   }, {
+    "title": "Who's Slide Sign up",
+    "description": "On-site sign-up for annual Who's Slide Is It Anyways",
+    "date": "March 27, 2020",
+    "hidden": "false"
+  }, {
     "title": "Conference Days",
     "description": "Kernelcon 2020",
-    "date": "March 28, 2020",
+    "date": "March 27-28, 2020",
     "hidden": "false"
   }
 ]
