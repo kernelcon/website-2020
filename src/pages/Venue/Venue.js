@@ -80,7 +80,9 @@ export default class Venue extends Component {
         </TabPanel>
         <TabPanel tabId="parking">
           <div className='tab-title'>Where to Park</div>
-          <p className='about-sub-text'>For the locals:</p>
+          <p className='about-sub-text'>For hotel guests:</p>
+          <p className='about-sub-text'>Parking is included with your hotel room!</p>
+          <p className='about-sub-text'>For commuters:</p>
           <p className='about-sub-text'>We're happy to say that the conference parking is readily available. We've purchased 150 spots down the street from the con, first-come, first-serve. In addition, parking is available at the hotel at $14/day or there is metered parking all along 10th street.</p>
           <p className='about-sub-text'><b>More information coming soon!</b></p>  
         </TabPanel>
