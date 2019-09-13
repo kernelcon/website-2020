@@ -36,7 +36,7 @@ class Organizers extends Component {
             key={el.name}>
             <div className='oc-member-box'>
               <div className='oc-member-img'>
-                <img src={imgUrl} height="50" alt={el.name}/>
+                <img src={imgUrl} height="70" alt={el.name}/>
               </div>
               <div className='oc-text-section'>
                 <div className='oc-name'>{el.name}</div>

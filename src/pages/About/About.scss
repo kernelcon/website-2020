@@ -210,7 +210,7 @@ i.arrow {
 .oc-list {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  /*justify-content: space-between;*/
   flex-wrap: wrap;
 }
 .oc-member {
@@ -220,7 +220,7 @@ i.arrow {
 }
 
 .oc-member {
-  width: 250px;
+  width: 268px;
   margin-right: 30px;
 
   .oc-name {
@@ -250,7 +250,7 @@ i.arrow {
 
   .oc-member-img {
     margin-right: 10px;
-    min-width: 74px;
+    min-width: 95px;
     display: flex;
     justify-content: center;
   }
