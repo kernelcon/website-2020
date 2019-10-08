@@ -69,7 +69,7 @@
   },
   "scripts": {
     "start": "node scripts/start.js",
-    "build": "rm -rf docs && node scripts/build.js && mv build docs && echo 'kernelcon.org' >> ./docs/CNAME",
+    "build": "rm -rf docs && node scripts/build.js && mv build docs && echo 'kernelcon.org' >> ./docs/CNAME && cp -R ./src/cfp ./docs/",
     "test": "node scripts/test.js"
   },
   "eslintConfig": {

@@ -10,6 +10,7 @@ import SecondaryNav from './components/NavBar/SecondaryNav';
 // Import Pages
 import About from './pages/About/About';
 import Admin from './pages/Admin/Admin';
+import Agenda from './pages/Agenda/Agenda';
 import Conference from './pages/Conference/Conference';
 import Dates from './pages/Dates/Dates';
 import OpenCalls from './pages/OpenCalls/OpenCalls';
@@ -29,6 +30,7 @@ function App() {
           <Route exact path='/' component={Home} />
           <Route exact path="/about" component={About} />
           <Route exact path="/admin" component={Admin} />
+          <Route exact path="/agenda" component={Agenda} />
           <Route exact path="/conference" component={Conference} />
           <Route exact path="/dates" component={Dates} />
           <Route exact path="/open-calls" component={OpenCalls} />

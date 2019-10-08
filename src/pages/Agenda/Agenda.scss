@@ -1,0 +1,57 @@
+@import '../../static/styles/base/variables';
+
+.keynote-section {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-top: 30px;
+
+	.keynote-left, .keynote-right {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.keynote-left {
+		
+		.keynote-name {
+			font-family: 'Jura', 'Roboto', sans-serif;
+			margin: 0;
+			padding-bottom: 10px;
+			font-size: 30px;
+		}
+
+		.keynote-subtitle {
+			display: flex;
+			flex-direction: row;
+	    font-weight: 100;
+	    letter-spacing: 2px;
+
+			.keynote-company, .keynote-handle, .keynote-div {
+				display: flex;
+				color: $boston-blue;
+			}
+
+			.keynote-div {
+				padding: 0px 20px;
+			}
+		}
+
+		.keynote-talk {
+
+			.keynote-topic {
+				padding: 10px 0px;
+				color: $boston-blue;
+				font-family: 'Jura', 'Roboto', sans-serif;
+				font-size: 24px;
+			}
+		}
+	}
+
+	.keynote-right {
+		padding: 40px 10px 40px 40px;
+
+		.keynote-image {
+			width: 300px;
+		}
+	}
+}

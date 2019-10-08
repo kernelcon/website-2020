@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "52c34d6acf30d74c3dfcd32c16c61efa",
+    "revision": "e64734bce8596c659ef113041e0c5f14",
     "url": "/index.html"
   },
   {
-    "revision": "643445b17f6b8075e39c",
+    "revision": "f0ac309e450f5e7fd9e1",
     "url": "/static/css/2.194e2ed7.chunk.css"
   },
   {
-    "revision": "c7e2427d90aadf5aecca",
-    "url": "/static/css/main.4c76cc2b.chunk.css"
+    "revision": "1a9683693cf34b573a84",
+    "url": "/static/css/main.cfc90ee7.chunk.css"
   },
   {
-    "revision": "643445b17f6b8075e39c",
-    "url": "/static/js/2.d12b60e3.chunk.js"
+    "revision": "f0ac309e450f5e7fd9e1",
+    "url": "/static/js/2.a600ada0.chunk.js"
   },
   {
-    "revision": "c7e2427d90aadf5aecca",
-    "url": "/static/js/main.9d2f7e14.chunk.js"
+    "revision": "1a9683693cf34b573a84",
+    "url": "/static/js/main.d3b23aba.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -86,6 +86,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a25ec298c5a65773c6ccd2ba99ba47bf",
     "url": "/static/media/sticker-sheet-proof.a25ec298.png"
+  },
+  {
+    "revision": "28be082cbdd19b9494212eee683910c5",
+    "url": "/static/media/strand.28be082c.jpg"
   },
   {
     "revision": "b61797c948abd1552c6159a985a465ca",
