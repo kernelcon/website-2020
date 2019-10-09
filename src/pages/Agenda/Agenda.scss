@@ -2,7 +2,6 @@
 
 .keynote-section {
 	display: flex;
-	flex-direction: row;
 	justify-content: space-between;
 	padding-top: 30px;
 
@@ -31,9 +30,6 @@
 				color: $boston-blue;
 			}
 
-			.keynote-div {
-				padding: 0px 20px;
-			}
 		}
 
 		.keynote-talk {
@@ -44,14 +40,6 @@
 				font-family: 'Jura', 'Roboto', sans-serif;
 				font-size: 24px;
 			}
-		}
-	}
-
-	.keynote-right {
-		padding: 40px 10px 40px 40px;
-
-		.keynote-image {
-			width: 300px;
 		}
 	}
 }

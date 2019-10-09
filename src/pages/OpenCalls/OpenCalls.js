@@ -44,8 +44,137 @@ export default class OpenCalls extends Component {
             <p className='tab-paragraph'>The Kernelcon Crew will be soliciting presentations for Kernelcon 2020 held at the Downtown Embassy Suites in Omaha, NE on March 27-28, 2020.</p>
             <p className='tab-paragraph'>Conclude novel research? Create something fun in your home lab? Develop a new technique? Wish you could spare someone else the horrors you faced? Impart your wisdom, start the conversations that need to be started, submit your work to our CFP!</p>
             <p className='tab-paragraph'>As you plan your submission, feel free to peruse last year’s <a href='http://2019.kernelcon.org/agenda' className='text-highlight' rel='noopener noreferrer' target='_blank'>program</a> and <a href='http://2019.kernelcon.org/call-for-papers' className='text-highlight' rel='noopener noreferrer' target='_blank'>call for papers.</a></p>
+
             <div className='tab-title'>Important Dates</div>
-            <p className='tab-paragraph'>Important dates regarding CFP can be found on our <a href='/dates' className='text-highlight' rel='noopener noreferrer' target='_blank'>important dates page</a>, which will always have the most current information.</p>
+            <p className='tab-paragraph'>Important dates regarding CFP can be found on our <a href='/dates' className='text-highlight'>important dates page</a>, which will always have the most current information.</p>
+          
+            <div className='tab-title'>About Kernelcon</div>
+            <p className='tab-paragraph'>In 2017, local collectives of information security professionals gathered together to start sharing knowledge and experiences here in Omaha. Many beers were had and slides discussed before culminating in a mission to gather knowledge seekers from across the Midwest to propagate their techniques and mastery.</p>
+            <p className='tab-paragraph'><b>Enter Kernelcon.</b></p>
+            <p className='tab-paragraph'>In 2019, we exceeded our targets and look to carry that momentum into 2020. For 2020, we are starting the festivities with <a href="https://kernelcon.org/open-calls#training" className='text-highlight' rel='noopener noreferrer' target='_blank'>two full days of training</a>.  In the days immediately following training, we welcome both seasoned professionals and novice beginners to network, share their wisdom, and learn from one another during two days of affordable Cornhusker camaraderie. Laughs will be had and popcorn eaten at this intimate and enriching event. Our organizers are driven to provide both a new generation with the experiences that inspired us to love Infosec and bolster our community with a strong network of professionals. We are made stronger together.</p>
+          
+            <div className='tab-title'>Suggested Topic Areas</div>
+            <p className='tab-paragraph'>The theme for Kernelcon 2020, is Vision.  Accordingly, those that wish to tailor a talk to the theme or require a broad topic to start the creative engine toward a new talk, Vision is your starting point.  There are obvious directions that lend to talks in security and hacking topics, hindsight, for instance (or foresight), but do not let these directions limit your interpretation!</p>
+            <p className='tab-paragraph'>Kernelcon submissions should focus on topics that are of interest to the security and hacking communities. The list below is meant as a guideline, not an exhaustive list.</p>
+
+            <ul className='tab-bullets'>
+              <li>Hacking of Software/Hardware</li>
+              <li>Incident Response</li>
+              <li>Operational Security</li>
+              <li>Computing Hardware Security, Repurposing, Designing/Building</li>
+              <li>Technology Policy and Politics (yep, we're willing to go there)</li>
+              <li>Security Education</li>
+              <li>Security and Hacking Capture-the-Flag Topics</li>
+              <li>Security Automation</li>
+              <li>Digital Forensics</li>
+              <li>Bug Bounties</li>
+              <li>Secure Development Practices / DevSecOps / SecDevOps</li>
+              <li>Security Aspects of Cloud Computing</li>
+              <li>Practical Security</li>
+              <li>Machine Learning (securing, and using for security)</li>
+              <li>War Stories, Histories, Scientific Advancement, Trade, etc. of Kernels</li>
+              <li>Security Metrics (Inform Risk Analysis, Identify Priorities, Measure Progress, etc)</li>
+              <li>Risk Management</li>
+              <li>BeyondCorp / Zerotrust models in practice</li>
+              <li>Privacy and Anonymity</li>
+              <li>Identity & Access Management</li>
+              <li>Focused Security Research (Visualization, IoT, Vehicles, Toys, Web apps, etc)</li>
+            </ul>
+
+            <p className='tab-paragraph'>Bonus points for incorporated 3D anaglyph (red/cyan) material in your presentation!  Contact us for more information.</p>
+            <p className='tab-paragraph'>If your talk doesn't fit precisely into one of these areas, the theme, and/or you don’t have 3D material, but you still think is a good fit, please submit it for consideration! The suggested topics are meant only to provide some direction, not as a strict pedantic gate through which all submissions must pass.</p>
+
+            <div className='tab-title'>Conference Format</div>
+            <p className='tab-paragraph'>Kernelcon 2020 will have two, concurrent main tracks, and talks should fit into a 60 (FULL) or 20 (SHORT) minute timeslot (meaning a 15 or 50 minute presentation is expected). As one might expect, presenters will be positioned at the front of a hotel conference area, and will present using typical conference equipment.</p>
+
+            <div className='tab-title'>Speaker Benefits</div>
+            <p className='tab-paragraph'>Speakers receive complimentary admission to Kernelcon and will be recognized as a speaker via a special “SPEAKER” badge. Speakers also have the option of attending an exclusive speaker party preceding the conference. Details will be sent to accepted speakers following acceptance notification.</p>
+            <p className='tab-paragraph'>For each FULL talk, the speakers may additionally select one of: </p>
+            <ul className='tab-bullets'>
+              <li>2 additional “HACKER” registrations</li>
+              <li>$200 donation to the EFF or Hackers for Charity</li>
+              <li>$200 honorarium</li>
+              <li>Please reinvest into making Kernelcon even better next year</li>
+            </ul>
+            <p className='tab-paragraph'>We may also tentatively accept backup/alternate talks which will not be guaranteed a speaking slot, but will receive admission in order to be ready to present in the event they are needed.</p>
+
+            <div className='tab-title'>Review Process</div>
+            <p className='tab-paragraph'>Our review process is not as formal as some academic conferences. However, submissions are considered confidential and are not shared outside of the Technical Program Committee. Every submission is reviewed by multiple committee members and weighed for inclusion in the program. TPC Committee members are selected for the ability to provide valuable reviews, handle sensitive information, and remain fair, impartial, and consistent in the review process. Ultimately the the committee informs the TPC Chair(s) who set the technical portion of the program that is married with the rest of Kernelcon agenda.</p>
+          
+            <div className='tab-title'>How To Submit</div>
+            <p className='tab-paragraph'>Speakers should submit directly (e.g. no PR representatives are permitted).</p>
+            <p className='tab-paragraph'>Your submission email should include:</p>
+
+            <ul className='tab-bullets'>
+              <li>Speaker name(s)</li>
+              <li>Contact information (email, twitter, phone, etc - if we need to reach you and we can't, that's on you)*</li>
+              <li>Speaker promotion information (twitter, facebook, etc) - if we want to promote your talk specifically, and you want us to tag you</li>
+              <li>Presentation Title*</li>
+              <li>Abstract*</li>
+              <li>A note if you'd like your submission to be presented to the program committee anonymously for review</li>
+              <li>The speaker "Grant of Copyright Use" and "Speaker Terms" copied and completed from below</li>
+              <li>Optional supplementary files</li>
+              <li>Optional scheduling preferences</li>
+              <li>Headshot if you have one you'd like to share (to be honest, we aren't sure if we'll use these, but if we need one, and you don't provide it, you will be depicted as a kernel of grain, nut, fruit, or corn)</li>
+              <li>At least one attached file in TEXT or PDF format which contains the following information in this order:</li>
+                <ul className='tab-bullets'>
+                  <li>Title of Presentation **</li>
+                  <li>Speaker Name(s), Pseudonym(s), or handle(s) **</li>
+                  <li>Timeslot (20 or 60 minutes)</li>
+                  <li>Abstract of your presentation (200 words or less) **</li>
+                  <li>{`Bio limited to 100 words or less (<=100 words encompassing all speakers) **`}</li>
+                  <li>Technical Level of talk: on a 1-none to 5-all the way down the rabbit hole **</li>
+                  <li>Detailed Description: the most important part of your submission. You need to provide detailed information that demonstrates your knowledge of your topic and how you will present it to the audience. Do not rely on your abstract to be enough for the reviewers. It isn’t. If your talk will include demos, new exploits, tool releases or audience interactions, please include details.</li>
+                  <li>Why do you feel this submission is a good fit for Kernelcon?</li>
+                  <li>List of other venues or where this work has been presented, published or derived from</li>
+                  <li>Are you a potential first time conference speaker?</li>
+                  <li>List of facilities requested beyond what is already provided (power, projector, podium, sound projection, and internet connectivity).</li>
+                  <li>Press can contact you: yes or no</li>
+                  <li>Video recording preference***: (1 to 4; 1-PLEASE record me!, 4-I do not wish for this talk to be recorded under any circumstances)</li>
+                  <li>For FULL talks, honorarium choice: Donate (EFF or HFC), Registrations (2), Cash, Reinvest</li>
+                </ul>
+            </ul>
+            <p className='tab-paragraph'>*These should be copied directly from your attached file.</p>
+            <p className='tab-paragraph'>**As intended for the conference program and website.</p>
+            <p className='tab-paragraph'>***We are collecting this information to gauge interest in recordings from a speaker perspective - those that don’t want to be recorded will never be recorded by Kernelcon.</p>
+
+
+            <p className='tab-paragraph'>Incomplete or misformatted submissions greatly reduce the likelihood of your talk being accepted.</p>
+            <p className='tab-paragraph'>Novel, new, on-topic talks receive the most preference. Submissions by first-time presenters are not discounted in any way. Conversely, first-timers are whole-heartedly encouraged to submit. Blatant vendor pitches, recycled talks, presentations on well-known topics that are *not* depicted as 101 or intro, are unlikely to be accepted. We expect presentations that are considerate, planned, thought-out, and delivered well. All talks are considered on their merits. Everyone, including sponsors, internet legends, cultural icons, and Dave Kennedy must submit just like all other speakers.</p>
+            <p className='tab-paragraph'>A printable checklist for the submission can be found at <a href='https://kernelcon.org/cfp/CFP-2020.pdf' className='text-highlight' rel='noopener noreferrer' target='_blank'>https://kernelcon.org/cfp/CFP-2020.pdf</a></p>
+            <p className='tab-paragraph'>Templates are available in <a href='https://kernelcon.org/cfp/CFP-template.txt' className='text-highlight' rel='noopener noreferrer' target='_blank'>plaintext</a>, <a className='text-highlight' rel='noopener noreferrer' target='_blank' href='http://kernelcon.org/cfp/CFP-template.md'>markdown</a>, <a className='text-highlight' rel='noopener noreferrer' target='_blank' href='http://kernelcon.org/cfp/CFP-template.docx'>docx</a>, <a className='text-highlight' rel='noopener noreferrer' target='_blank' href='http://kernelcon.org/cfp/CFP-template.odt'>odt</a>, and <a className='text-highlight' rel='noopener noreferrer' target='_blank' href='http://kernelcon.org/cfp/CFP-template.tex'>LaTeX</a>.</p>
+            <p className='tab-paragraph'>A sample submission can be found at <a href='https://kernelcon.org/cfp/CFP-example.txt' className='text-highlight' rel='noopener noreferrer' target='_blank'>https://kernelcon.org/cfp/CFP-example.txt</a></p>
+            <p className='tab-paragraph'>Submissions should be sent to <a className='text-highlight' href='mailto:cfp@kernelcon.org'>cfp@kernelcon.org</a>. You should receive an automated confirmation email immediately denoting that the system has received your submission, and a manual confirmation email within 36 hours. If you don't, you should inquire at <a className='text-highlight' href='mailto:cfp@kernelcon.org'>cfp@kernelcon.org</a>.</p>
+            <p className='tab-paragraph'>Again, your core submission should be in plain text or PDF. The PDF should contain the required information as text - the content will be extracted from the PDF. Supplementary files such as draft slides, extended outlines, and whitepapers may help your submission and may also be attached to the email.</p>
+
+
+
+          
+
+            <div className='tab-title'>Grant of Copyright Use</div>
+            <p className='tab-paragraph'>I warrant that the above work has not been previously published elsewhere, or if it has, that I have obtained permission for its publication by Kernelcon and that I will promptly supply Kernelcon with wording for crediting the original publication and copyright owner. If I am selected for presentation, I hereby give Kernelcon permission to duplicate, record, and redistribute this presentation, which includes, but is not limited to, any conference proceedings, conference CD, video, audio, and handouts to the conference attendees for educational, on-line, and all other purposes.</p>
+          
+
+            <div className='tab-title'>Terms of Speaking Requirements</div>
+            <ol className='tab-bullets'>
+              <li>I will submit a completed presentation, a copy of the tool(s) and/or code(s), and a reference to all of the tool(s), law(s), web sites and/or publications referenced at the end of my talk and as described in this CFP submission for publication by Kernelcon.</li>
+              <li>I will submit any revisions to the originally submitted Title, Abstract and Biography for the Kernelcon website and printed conference materials by March 4, 2020.</li>
+              <li>I will complete my presentation within the time allocated to me - not running over, or excessively under, the time allocation.</li>
+              <li>I understand that the Kernelcon venue will provide 1 projector feed, microphone, wired and/or wireless Internet. I understand that I am responsible for providing all other necessary equipment, including laptops and machines, to complete my presentation.</li>
+              <li>I understand that I will be responsible for my own hotel and travel expenses.</li>
+            </ol>
+            <p className='tab-paragraph'>As detailed above, I, <em>(insert primary speaker name)</em>, have read and agree to the Grant of Copyright Use.</p>
+            <p className='tab-paragraph'>I, <em>(insert primary speaker name)</em>, have read and agree to the Terms of Speaking Requirements.</p>
+          
+
+            <div className='tab-title'></div>
+            <p className='tab-paragraph'></p>
+          
+
+
+
+
+
           </TabPanel>
           <TabPanel tabId="villages">
             <div className='tab-title'>Call for Villages</div>

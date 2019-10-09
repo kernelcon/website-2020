@@ -35,13 +35,14 @@ export default class Agenda extends Component {
 		          <div className='keynote-talk'>
 		          	<div className='keynote-topic'>Now, For Something Completely Different</div>
 		          	<div className='keynote-abstract'>
-		          		<p>Over the past two years we have see a perceptible shift in security issues.  Traditional architectures like AD and DMZs are falling away and are being replaced with Cloud and IoT.  So, how do we approach this new world?</p>
-		          	  <p>In this talk, John will cover some core tools and techniques we use at BHIS every day to attack organizations.  We will also use these tools and techniques to help frame attendees in their approach and mindset to testing these technologies.</p>
+		          		<p className='tab-paragraph'>Over the past two years we have see a perceptible shift in security issues.  Traditional architectures like AD and DMZs are falling away and are being replaced with Cloud and IoT.  So, how do we approach this new world?</p>
+		          	  <p className='tab-paragraph'>In this talk, John will cover some core tools and techniques we use at BHIS every day to attack organizations.  We will also use these tools and techniques to help frame attendees in their approach and mindset to testing these technologies.</p>
 		          	</div>
 		          </div>
 		         </div>
 		         <div className='keynote-right'>
 		         	<img src={strand}
+		         		alt='John Strand'
 		         		className='keynote-image'/>
 		         </div>
 	         </div>

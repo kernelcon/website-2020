@@ -36,7 +36,7 @@ class Modal extends Component {
               {this.props.title}
             </div>
             <div className='modal-close'>
-              <a onClick={this.props.onClose}>&times;</a>
+              <div onClick={this.props.onClose}>&times;</div>
             </div>
           </div>
           <div className='modal-content' style={this.props.modalContentStyle}>

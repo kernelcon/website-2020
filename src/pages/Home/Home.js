@@ -36,17 +36,15 @@ export default class Home extends Component {
           <img src={Vision}
             alt='Vision 2020'/>
           <a className='reg-button'
-            href="https://reg.kernelcon.org"
+            href='https://reg.kernelcon.org'
             rel='noopener noreferrer'
             target='_blank'>
             Register Now
           </a>
-          <a className='reg-button'
-            onClick={this.toggleModal}
-            href="#"
-            rel='noopener noreferrer'>
+          <button className='reg-button'
+            onClick={this.toggleModal}>
             Sign up for updates
-          </a>
+          </button>
 
           <Modal show={this.state.isOpen}
             onClose={this.toggleModal}
@@ -90,7 +88,6 @@ export default class Home extends Component {
             <div className='vision-highlight'>
               Our 2020 theme is <span className='text-highlight'><b>Vision</b></span>. Our <span className='focus'>focus</span> will revolve around both learning from hindsight and looking towards the future!
             </div>
-            <a class='reg-button' href="#">register for kernelcon</a>
 
             <div className='highlight-boxes'>
               <div className='highlight-text-box'>
