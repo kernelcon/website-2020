@@ -35,6 +35,11 @@
     "date": "JAN 30, 2020",
     "hidden": "false"
   }, {
+    "title": "Call for Competitions Close",
+    "description": "",
+    "date": "FEB 1, 2020",
+    "hidden": "false"
+  }, {
     "title": "CFP Notifications Sent Out",
     "description": "We love our speakers!",
     "date": "FEB 14, 2020",
@@ -49,6 +54,11 @@
     "description": "On-site training days (additional cost)",
     "date": "March 25-26, 2020",
     "hidden": "false"  
+  }, {
+    "title": "CTF Kickoff",
+    "description": "On-site Capture the Flag competition begins",
+    "date": "March 27, 2020",
+    "hidden": "false"
   }, {
     "title": "Tech Olympics Sign up",
     "description": "On-site sign-up for annual Tech Olympics",
