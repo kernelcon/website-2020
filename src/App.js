@@ -19,7 +19,6 @@ import Sponsors from './pages/Sponsors/Sponsors';
 import Venue from './pages/Venue/Venue';
 import Register from './pages/Register/Register';
 
-
 function App() {
   return (
     <Router>
