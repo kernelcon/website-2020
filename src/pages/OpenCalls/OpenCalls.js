@@ -35,6 +35,7 @@ export default class OpenCalls extends Component {
           <Tab tabFor="papers">Papers</Tab>
           <Tab tabFor="villages">Villages</Tab>
           <Tab tabFor="training">Training</Tab>
+          <Tab tabFor="workshops">Workshops</Tab>
           <Tab tabFor="competitions">Competitions</Tab>
           <Tab tabFor="stickers">Stickers</Tab>
         </TabList>
@@ -169,12 +170,6 @@ export default class OpenCalls extends Component {
 
             <div className='tab-title'></div>
             <p className='tab-paragraph'></p>
-          
-
-
-
-
-
           </TabPanel>
           <TabPanel tabId="villages">
             <div className='tab-title'>Call for Villages</div>
@@ -254,6 +249,72 @@ export default class OpenCalls extends Component {
                 <li>Results from attendee feedback surveys.</li>
                 <li>Snacks for instructors (and attendees).</li>
                 <li>Payment to the instructor on NET60 terms.</li>
+              </ol>
+            </p>
+          
+            <p className='tab-heading'>Kernelcon will not provide...</p>
+            <p className='tab-paragraph'>
+              <ol className='tab-ordered-list'>
+                <li>Any travel, lodging, or logistics costs. This includes the hotel, any airfare, all transportation, meals, and parking.</li>
+                <li>Material reproduction.</li>
+                <li>Any guarantee that a class will not be cancelled. (While we sincerely hope to not cancel any class that has been selected, unforeseen circumstances may require cancellation).</li>
+              </ol>
+            </p>
+          
+            <p className='tab-heading'>In Closing</p>
+            <p className='tab-paragraph'>We will communication with you throughout this process. If we think more information or clarification is needed, we will reach out to you. When a decision is made, we will promptly let you know if you are accepted or denied.</p>
+            <p className='tab-paragraph'>Good luck and we cannot wait to see what you have in store for us!</p> 
+          </TabPanel>
+          <TabPanel tabId="workshops">
+            <div className='tab-title'>Call for Hands-on Workshops</div>
+            <p className='tab-paragraph'>Kernelcon is once again bringing back our popular hands-on workshops for 2020!  The Kernelcon Workshops are short, focused, small-group classes where students can learn, hack, and play.  These hands-on workshops are intended to give the attendee's a brief view into specific technical topics.</p>
+            
+            <p className='tab-heading'>Length</p>
+            <p className='tab-paragraph'>These workshops will be run during the conference, so there are only 1 and 2 hour slots available.  Instructors will be expected to keep on time for the next workshop to setup.  We will allow for workshops to be taught more than once during the con if instructor is willing and as schedule allows.</p>
+          
+            <p className='tab-heading'>Cost</p>
+            <p className='tab-paragraph'>Materials for the workshops will be backed into the price of the tickets.  We aim to offer these workshops "at-cost", which is to say the materials and cost of the instructor's conference entry.</p>
+          
+            <p className='tab-heading'>Proposal Due Date</p>
+            <p className='tab-paragraph'>Workshop proposals are due no later than December 15th, 2019.  Instructors will be notified of Acceptance/Rejections by the end of the day, December 31st, 2019.  See important dates at <a href='/dates' className='text-highlight' rel='noopener noreferrer' target='_blank'>kernelcon.org/dates</a> for official and updated dates.</p>
+
+            <p className='tab-heading'>What are we looking for?</p>
+            <p className='tab-paragraph'>These workshops are intended to be training in any technical area that gives the attendees hands-on experience.  For instance, if you'd like to demonstrate the capabilities of an Arduino mod, we would acquire the materials for the students to follow along with the instructor.  Due to the short timeframe of each course, we expect the scope of the content to be quite focused.  Classes can vary in skill-level, but please list knowledge and skills prerequisites in your submission for any advanced topics.  Please do not hesitate to submit an idea, even if it's not fully fleshed out, and we will try to work with you.</p>
+          
+            <p className='tab-heading'>What are some preferred hands-on workshop topics?</p>
+            <p className='tab-paragraph'>Kernelcon is a hacker conference.  Therefore we are interested in any topic that appeals to hackers.  Whether it is attacking web applications, reversing executables, building home automation devices, reflashing routers, all would apply.  We do not mind pricing in the materials for these workshops if your submission allows for students to take something home with them.</p>
+            <p className='tab-paragraph'>The time restriction is important at 1 or 2 hour classes, so we the submissions to be feasible within that timeframe.</p>
+          
+            <p className='tab-heading'>What is the workshop submission structure?</p>
+            <p className='tab-paragraph'>Submissions should contain the following information. Instructors should gather all of the required information and submit it at once.</p>
+            <p className='tab-paragraph'>
+              <ol className='tab-ordered-list'>
+                <li>Title for the workshop.</li>
+                <li><em>For Kernelcon internal use only:</em> Instructor(s) name, email address, phone number (for emergency use only).</li>
+                <li><em>For Kernelcon website:</em> Instructor(s) name, twitter handle (if desired), photograph, and biography.</li>
+                <li>Indication of the desired workshop length: 1 or 2 hours.</li>
+                <li>An indication of whether or not the workshop can run multiple times during the conference. (We prefer to give attendees flexibility if possible).</li>
+                <li>Minimum, maximum and desired number of students. (Our space maximum is 30 students).</li>
+                <li>A description of what the workshop will cover and what you would like to leave the students with (no more than 4 paragraphs - i.e. an "abstract").</li>
+                <li>A short description of the workshop designed to attract attendees. This will be placed on our Kernelcon website.</li>
+                <li>Clearly articulate any prerequisites for the workshop along with the required reading material. If any standards or guidelines constitute the basis for the workshop, identify them as such. If content for the workshop is not original, include an assertion that the instructor has rights or license to use the material.</li>
+                <li>Identify any technical or equipment necessary for the training and indicate if students need to bring such equipment to the class or if it is included with the workshop.</li>
+              </ol>
+            </p>
+
+            <p className='tab-heading'>How do I submit?</p>
+            <p className='tab-paragraph'>Email a single PDF document containing ALL the required items detailed above to <a href='mailto:training@kernelcon.org' className='text-highlight' rel='noopener noreferrer'>training@kernelcon.org</a>. You can expect a confirmation that the submission was RECEIVED (not that it was accepted) in 48 hours. If you do not receive confirmation, please reach out to <a href='mailto:info@kernelcon.org' className='text-highlight' rel='noopener noreferrer'>info@kernelcon.org</a>, <a href='https://twitter.com/_kernelcon_' className='text-highlight' rel='noopener noreferrer' target='_blank'>@_kernelcon_</a>, or any organizing committee member you can find.</p>
+          
+            <p className='tab-heading'>Kernelcon will provide...</p>
+            <p className='tab-paragraph'>
+              <ol className='tab-ordered-list'>
+                <li>Class advertisement and promotion via website, social media, and other means.</li>
+                <li>The venue, including a classroom-style room configuration, projector and screen, and internet access.</li>
+                <li>Complimentary admission to Kernelcon for the instructor.</li>
+                <li>Kernelcon will host digital media training material in a fashion readily accessible by students if said material is in Kernelcon's possession by March 1st, 2020.</li>
+                <li>Attendee registration services.</li>
+                <li>Results from attendee feedback surveys.</li>
+                <li>Snacks for instructors (and attendees).</li>
               </ol>
             </p>
           
