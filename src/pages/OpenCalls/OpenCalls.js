@@ -273,7 +273,7 @@ export default class OpenCalls extends Component {
             <p className='tab-paragraph'>These workshops will be run during the conference, so there are only 1 and 2 hour slots available.  Instructors will be expected to keep on time for the next workshop to setup.  We will allow for workshops to be taught more than once during the con if instructor is willing and as schedule allows.</p>
           
             <p className='tab-heading'>Cost</p>
-            <p className='tab-paragraph'>Materials for the workshops will be backed into the price of the tickets.  We aim to offer these workshops "at-cost", which is to say the materials and cost of the instructor's conference entry.</p>
+            <p className='tab-paragraph'>Materials for the workshops will be baked into the price of the tickets.  We aim to offer these workshops "at-cost", which is to say the materials and cost of the instructor's conference entry.</p>
           
             <p className='tab-heading'>Proposal Due Date</p>
             <p className='tab-paragraph'>Workshop proposals are due no later than December 15th, 2019.  Instructors will be notified of Acceptance/Rejections by the end of the day, December 31st, 2019.  See important dates at <a href='/dates' className='text-highlight' rel='noopener noreferrer' target='_blank'>kernelcon.org/dates</a> for official and updated dates.</p>
