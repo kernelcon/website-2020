@@ -232,7 +232,7 @@ export default class OpenCalls extends Component {
                 <li>Sign and distribute certificates of completion (a.k.a. "Kernels of Completion"). Physical certificates will be provided to you by the Kernelcon crew and must be signed by the instructor.</li>
                 <li>Feedback and/or suggestions regarding course outcome, venue, and hosts.</li>
                 <li>Distribute to and collect Kernelcon Feedback surveys from students - these will be provided by and should be returned to the Kernelcon crew.</li>
-                <li>Upload the Kernelcon Code of Conduct during training and at all times during Kernelcon.</li>
+                <li>Uphold the Kernelcon Code of Conduct during training and at all times during Kernelcon.</li>
                 <li>Instructor warrants that they own, are licensed to use or have obtained third-party permission for ALL course material, and grants Kernelcon permission to make available to students any material that the instructor requests. The instructor retains any ownership or copyright.</li>
                 <li>Instructor warrants that no course material contains unlawful material or anything that violates the rights of any person or entity.</li>
               </ol>
