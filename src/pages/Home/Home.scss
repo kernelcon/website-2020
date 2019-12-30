@@ -99,7 +99,7 @@ body.dark-mode {
     }
     @media only screen and (max-width:779px) {
         .col {
-            display: inline-block;
+            display: contents;
             .reg-button {
                 width: 100%;
                 background: none !important;

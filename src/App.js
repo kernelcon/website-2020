@@ -11,6 +11,7 @@ import SecondaryNav from './components/NavBar/SecondaryNav';
 import About from './pages/About/About';
 import Admin from './pages/Admin/Admin';
 import Agenda from './pages/Agenda/Agenda';
+import Bio from './pages/Agenda/Bio';
 import Conference from './pages/Conference/Conference';
 import Dates from './pages/Dates/Dates';
 import OpenCalls from './pages/OpenCalls/OpenCalls';
@@ -36,6 +37,7 @@ function App() {
           <Route exact path="/sponsors" component={Sponsors} />
           <Route exact path="/venue" component={Venue} />
           <Route exact path="/register" component={Register} />
+          <Route exact path="/bio" component={Bio} />
         </div>
       </div>
       <Footer />

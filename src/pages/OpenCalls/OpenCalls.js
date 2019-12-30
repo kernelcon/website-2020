@@ -177,6 +177,7 @@ export default class OpenCalls extends Component {
           </TabPanel>
           <TabPanel tabId="training">
             <div className='tab-title'>Call for Training Courses</div>
+            <p className='tab-heading closed-wording'>The Call for Training is now CLOSED. Thank you to all who submitted to help make Kernelcon great.</p>
             <p className='tab-paragraph'>The Kernelcon Trainings offer attendees technical courses on topics from the information security field. These will be hands-on courses that help expand attendees' skill sets and knowledge.</p>
             
             <p className='tab-heading'>Length and Cost</p>
@@ -267,6 +268,7 @@ export default class OpenCalls extends Component {
           </TabPanel>
           <TabPanel tabId="workshops">
             <div className='tab-title'>Call for Hands-on Workshops</div>
+            <p className='tab-heading closed-wording'>The Call for Workshops is now CLOSED. Thank you to all who submitted to help make Kernelcon great.</p>
             <p className='tab-paragraph'>Kernelcon is once again bringing back our popular hands-on workshops for 2020!  The Kernelcon Workshops are short, focused, small-group classes where students can learn, hack, and play.  These hands-on workshops are intended to give the attendee's a brief view into specific technical topics.</p>
             
             <p className='tab-heading'>Length</p>

@@ -43,3 +43,57 @@
 		}
 	}
 }
+
+.training {
+
+	.title {
+		margin-bottom: 20px;
+	}
+
+	.training-section {	
+
+		.training-submission {
+			margin-bottom: 20px;
+
+			.training-title {
+				background-color: skyblue;
+				color: white;
+				font-size: 20px;
+				padding: 5px 10px;
+				text-transform: uppercase;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+
+				span {
+					width: inherit !important;
+				}
+			}
+
+			.training-presenter, .training-format {
+				display: flex;
+
+				.training-heading {
+					width: 120px;
+				}
+
+			}
+
+			.training-prereqs, .training-equipment {
+				ul {
+					list-style-position: outside;
+					padding-left: 20px;
+				}
+				margin-bottom: 10px;
+			}
+
+			.training-desc {
+				margin: 10px 0px;
+			}
+
+			.training-heading {
+				font-weight: 700;
+			}
+		}
+	}
+}

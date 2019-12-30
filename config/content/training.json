@@ -1,0 +1,145 @@
+[
+	{
+		"title": "Introduction to Ghidra",
+		"hidden": true,
+		"instructor": [{
+			"name": "Chris Eagle",
+			"twitter": "@sk3wl",
+			"bio": "Chris Eagle is a security researcher whose interests include computer network operations, computer forensics and reverse/anti-reverse engineering. He was the chief architect of the competition infrastructure for DARPA's Cyber Grand Challenge. He has been a speaker at conferences such as Black Hat, Shmoocon, and Defcon and is the author of \"The IDA Pro Book\". In his spare time he is an inveterate CTF player and has twice won the prestigious capture the flag competition at Defcon."
+		}],
+		"courseLength": 2,
+		"minStudents": 10,
+		"maxStudents": 30,
+		"trainingDescription": "This course is designed to introduce students to the essential features of the Ghidra disassembler/decompiler. The course begins with Ghidra installation and project creation, then moves on to cover all of the default Ghidra displays to understand how they can help you in your reverse engineering efforts. Fundamental concepts such as parameter passing and stack frame are covered using binaries from a variety of architectures in order to understand various Ghidra displays and analysis capabilities. Ghidra’s handling of complex data types is covered from both the disassemblers and the decompilers point of view. The course conclude with a discussion of configuring and using the Ghidra collaboration server, and an introduction to Ghidra scripting. No previous Ghidra or reverse engineering experience is assumed.",
+		"prereqs": [{
+			"req": "Some knowledge of assembly languages (32 and 64-bit x86, ARM and MIPS examples will be utilized)."
+		}, {
+			"req": "The ability to read C is useful for understanding the decompiler’s output"
+		}, {
+			"req": "The ability program in Java and/or Python are essential to understanding the scripting portions of the course."
+		}],
+		"equipment": [{
+			"req": "Students are required to supply their own Windows, Linux, or Mac laptop and must have pre-installed or have the ability to install JRE/JDK 11.0 or greater."
+		}]
+	}, 
+	{
+		"title": "Hands on Web Application Hacking - Intro",
+		"hidden": true,
+		"instructor": [{
+			"name": "Alex Lauerman",
+			"twitter": "@alexlauerman",
+			"bio": "Alex has had a lifelong interest in computer security and is thrilled to have a career in it. He has spent the last decade breaking into applications, networks, and devices. He enjoys application security, cryptography, software defined radio, reverse engineering, exploitation, and developing tools that can help solve security problems at scale. Alex founded SecKC, which is a non-profit organization which is designed to foster information security in Kansas City."
+		}, {
+			"name": "Tyler Rosonke",
+			"twitter": "@zonksec",
+			"bio": "Tyler is a security professional based in Omaha, Nebraska. His main area of focus is in penetration testing. He loves learning and scripting his way out of a tight spot, which makes this area of security right up his alley. Tyler graduated from the University of Nebraska at Omaha with a B.S. in Information Assurance in 2014 and has been working in the offensive security roles ever since. Tyler is highly involved with the security community. He has contributed to open source projects, he has spoken at security conferences (DefCon), and he writes/operates the ZonkSec security blog. If Tyler is not banging his head against his monitor, you’ll likely find him in a garage banging his head against a vintage 2-stroke moped or wandering around in the great outdoors."
+
+		}, {
+			"name": "Matt South",
+			"twitter": "@themattymcfatty",
+			"bio": "Matt has been an amateur security enthusiast since childhood and was a regular 2600 attendee in high school. After graduating The University of Kansas with a B.S. in Computer Science, Matt spent 6 years as an IT Consultant to local businesses in Kansas City. In 2013, he combined his knowledge of business systems and love for security to become a penetration tester for TrustFoundry. Since then, he has hacked on hundreds of systems. He’s given talks at security events such as SecKC and TriKC. He also had the privilege to present a tool of his own design at BlackHat USA 2015 and 2017. When he’s not hacking, you can find Matt fishing with family, traveling with his wife, or killing plants in his garden."
+		}],
+		"courseLength": 1,
+		"minStudents": 5,
+		"maxStudents": 30,
+		"trainingDescription": "Learn the tools and techniques for conducting a web application penetration test. Get your hands dirty with HTTP and Burp Suite. This workshop will provide a solid introduction to web application penetration testing. This class is designed for those with little to no web application penetration testing experience, although it will move quickly. This class will include hands on challenges where attendees use skills acquired during the class to exploit web applications. Attendees will walk away with a basic understanding of the tools and processes for conducting a web application penetration test.",
+		"prereqs": [{
+			"req": "Basic knowledge of HTTP requests and responses."
+		}, {
+			"req": "Any web application programming experience will be helpful, but is not required."
+		}],
+		"equipment": [{
+			"req": "A laptop with Firefox and Java installed. Optionally, bring a Linux instance, such as Kali. Burp licenses will be provided."
+		}]
+	}, 
+	{
+		"title": "Control System Analysis and Defense",
+		"hidden": true,
+		"instructor": [{
+			"name": "Brad Miller",
+			"twitter": "",
+			"bio": "Brad Miller is a Cyber Training Specialist and Testbed Technician at Nebraska Applied Research Institute (NARI). At NARI, Brad focuses on training cybersecurity padawans and practitioners. He designs and develops cyber curriculum and hands-on exercises for critical infrastructure. Brad specializes in industrial control system (ICS), cyber incident response, physical testbeds, and cyber resiliency. Prior to joining NARI, Brad was active duty in the US Marine Corps where he maintained F-18 Hornets and achieved his Master Training Specialist certification. Brad continues to hone his cyber engineer skills and is currently pursuing CompTIA’s Certified Technical Training (CTT+) certification."
+		}, {
+			"name": "Josh Bunstock",
+			"twitter": "",
+			"bio": "Josh Bunstock is a Cyber Training Specialist and Instructional Design Lead at Nebraska Applied Research Institute (NARI). At NARI, Josh leads the design and delivery of the technical training programs. He develops, maintains, and administers advanced cyber curriculum for critical infrastructure. Josh champions the growth and development of cybersecurity awareness and resiliency. Prior to joining NARI, Josh served as an instructor, electronics technician, security program manager, and undersea research and design technician in the Navy’s Submarine Force. Over his 20 years of service he achieved his Master Training Specialist Mentor certification. Josh received his B.S. in Applied Science and Technology with an emphasis in electronics and is pursuing a master’s degree in Instructional Technology."
+		}],
+		"courseLength": 1,
+		"minStudents": 4,
+		"maxStudents": 20,
+		"trainingDescription": "Ready to get your hands dirty? NARI’s Control System Analysis and Defense workshop is an interactive introduction to the basics of cybersecurity of Industrial Control Systems (ICS) and components. Examine ICS protocols, firewalls, segmentation, device monitoring, and more. You will have the opportunity to interact with live ICS testbeds via multiple hands-on exercises. Leave with a greater understanding of OT equipment and system protocols. Ultimately, you will be equipped with knowledge to protect and defend against malicious attacks.",
+		"prereqs": [{
+			"req": "Basic network understanding"
+		}, {
+			"req": "Familiarity with Wireshark software"
+		}],
+		"equipment": [{
+			"req": "Laptop with VMWare or other virtualization software capable of running an .OVA file."
+		}]
+	}, 
+	{
+		"title": "Network Analysis Workshop",
+		"hidden": true,
+		"instructor": [{
+			"name": "Brad Miller",
+			"twitter": "",
+			"bio": "Brad Miller is a Cyber Training Specialist and Testbed Technician at Nebraska Applied Research Institute (NARI). At NARI, Brad focuses on training cybersecurity padawans and practitioners. He designs and develops cyber curriculum and hands-on exercises for critical infrastructure. Brad specializes in industrial control system (ICS), cyber incident response, physical testbeds, and cyber resiliency. Prior to joining NARI, Brad was active duty in the US Marine Corps where he maintained F-18 Hornets and achieved his Master Training Specialist certification. Brad continues to hone his cyber engineer skills and is currently pursuing CompTIA’s Certified Technical Training (CTT+) certification."
+		}, {
+			"name": "Josh Bunstock",
+			"twitter": "",
+			"bio": "Josh Bunstock is a Cyber Training Specialist and Instructional Design Lead at Nebraska Applied Research Institute (NARI). At NARI, Josh leads the design and delivery of the technical training programs. He develops, maintains, and administers advanced cyber curriculum for critical infrastructure. Josh champions the growth and development of cybersecurity awareness and resiliency. Prior to joining NARI, Josh served as an instructor, electronics technician, security program manager, and undersea research and design technician in the Navy’s Submarine Force. Over his 20 years of service he achieved his Master Training Specialist Mentor certification. Josh received his B.S. in Applied Science and Technology with an emphasis in electronics and is pursuing a master’s degree in Instructional Technology."
+		}],
+		"courseLength": 1,
+		"minStudents": 4,
+		"maxStudents": 30,
+		"trainingDescription": "Have you ever wondered what network traffic looks like? NARI’s Network Analysis Workshop employs a hands-on approach to develop a keen understanding of IP networks. You will delve into network traffic to discover the intersection between Information Technology (IT) and Operational Technology (OT). Open source tools such as GrassMarlin and Wireshark will be utilized to test your skills and knowledge of industrial protocols like BACnet. You will walk away with a broader understanding of network topologies, models, and communication. More importantly, you will be able to truly look beyond the ones and zeroes.",
+		"prereqs": [{
+			"req": "Participants should have basic network understanding and familiarity with Wireshark software."
+		}],
+		"equipment": [{
+			"req": "Laptop with VMWare or other virtualization software capable of running an .OVA file."
+		}]
+	}, 
+	{
+		"title": "Advanced Attack Infrastructure",
+		"hidden": true,
+		"instructor": [{
+			"name": "Jason Lang",
+			"twitter": "@curi0usJack",
+			"bio": "Jason Lang (@curi0usJack) is a caffeine-imbued coding hermit, briefly emerging from the Wisconsin woods to congregate with other infosec & PowerShell lovers. Proficient in { }?s, storytelling, and trollery, Jason spends his days on the prowl for customer data and evenings in off-the-grid pursuits. #Nano4lyfeLOLActuallyVIM"
+		}],
+		"courseLength": 2,
+		"minStudents": 10,
+		"maxStudents": 30,
+		"trainingDescription": "Still sending shells directly to your private C2 server? This course will teach you how to proxy your traffic through the cloud (AWS), ensuring your C2 endpoints are protected at all times. We will cover dealing with incoming sandbox connections, domain categorization, infrastructure automation using ansible, as well as complete infrastructure buildout start to phish. :-) Students will come away with full knowledge of how to build out a red team infrastructure capable of handling the demands of modern red teaming, including supporting multiple team members and clients simultaneously while ensuring your C2 servers are protected from prying defenders. While the class is designed for red teamers, defenders are welcome and will learn how modern attack infrastructure is designed and utilized.",
+		"prereqs": [{
+			"req": "Students will be required to register for free AWS and Azure accounts prior to coming to class. Full prerequisite walkthroughs will be provided."
+		}],
+		"equipment": [{
+			"req": "Students will need a laptop with at least 30GB of free space."
+		}, {
+			"req": "Additionally, students will need to have a means of running virtual machines, such as VMWare Fusion/Workstation. Materials and VMs will be provided upon arrival."
+		}]
+	}, 
+	{
+		"title": "Reverse Engineering with Binary Ninja",
+		"hidden": true,
+		"instructor": [{
+			"name": "Jordan Wiens",
+			"twitter": "@psifertex",
+			"bio": "Jordan Wiens used to play a lot of CTF, now he mostly makes them. He's been a network security engineer, vulnerability researcher, reverse engineer, engineering manager, and now he's mostly trying to figure out how business works and how to be a \"Real Programmer\" as one of the founders of Vector 35, makers of Binary Ninja."
+		}],
+		"courseLength": 2,
+		"minStudents": 10,
+		"maxStudents": 36,
+		"trainingDescription": "While Binary Ninja is often known for its modern look and clean interface, its real power is its API. It's designed to be most powerful not when you're looking at the interface but when you're building onto its powerful API to automate reverse engineering tasks for you. This course assumes some basic knowledge of reverse engineering and shows you how to build on top of the Binary Ninja API to solve a variety of real-world problems. Students will gain fluency with the tool, the API, and be able to easily automate repetitive real world reverse engineering tasks so they can focus on new and interesting problems instead of doing the same tedious work over and over.",
+		"prereqs": [{
+			"req": "Some familiarity with reverse engineering. Advanced knowledge of a particular architecture not required, but most examples will be x86 or x64 shellcode."
+		}],
+		"equipment": [{
+			"req": "Each student will be provided a Binary Ninja non-commercial license for the course."
+		}, {
+			"req": "Each student will be responsible for bringing their own computer that meets the following requirements (http://faq.binary.ninja/en/what-platforms-does-binary-ninja-run-on-66GRPbTBKdZuCqjqc). If running on windows, enabling the Windows Subsystem for Linux is recommended but not required for testing some of the exercises."
+		}]
+	}
+]

@@ -1,0 +1,89 @@
+.schedule {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+	.calendar {
+		display: flex;
+		flex-direction: column;
+		margin-right: 10px;
+
+		&:hover {
+			cursor: pointer;
+		}
+
+		.day-block {
+			border: solid 1px #fff;
+			min-width: 350px;
+			height: auto;
+
+			.day-header {
+				background-color: skyblue;
+				height: 30px;
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				text-transform: uppercase;
+
+				&:hover {
+					background-color: darken(skyblue, 10);
+				}
+
+				.day {
+					color: #fff;
+					font-size: 24px;
+					display: flex;
+					width: 100%;
+					justify-content: center;
+				}
+			}
+
+			.day-div {
+				transition: transform 0.5s ease-in-out;
+				height: auto;
+				transform: scaleY(1);
+				transform-origin: top;
+				overflow: hidden;
+				background-color: #e3e3e3;
+
+				.day-box {
+					width: 100%;
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+
+					.date-month {
+						color: #333;
+						font-size: 16px;
+						text-transform: uppercase;
+						padding: 12px 0px 0px;
+					}
+
+					.date-num {
+						font-weight: 900;
+						font-size: 96px;
+					}
+				}
+			}
+		}
+	}
+
+	.daily-schedule {
+		background-color: #f3f3f3;
+		display: flex;
+		flex-direction: column;
+		min-width: 350px;	
+		padding: 10px;
+
+		.date-wording {
+			font-size: 20px;
+			font-weight: 700;
+			padding: 20px 20px 10px 20px;
+		}
+
+		.date-desc {
+			padding: 0px 20px;
+			max-width: 350px;
+		}
+	}
+}

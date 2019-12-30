@@ -139,6 +139,12 @@ body.dark-mode {
         /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
         border-color: #ddd;
     }
+    .schedule .daily-schedule,
+    .schedule .calendar .day-block .day-header .day,
+    .schedule .calendar .day-block .day-div .day-box .date-num,
+    .training .training-section .training-submission .training-title {
+        color: #212529;
+    }
 }
 
 .dark-mode-toggle {
@@ -171,4 +177,10 @@ body.dark-mode {
 .page-box {
   background-color: white;
   min-height: calc(100vh - 50px);
+}
+
+@media (max-width: 779px) {    
+    .faq-list .faq-single .faq-question .question {
+        font-size: 11px;
+    }
 }

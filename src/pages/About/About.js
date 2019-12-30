@@ -37,9 +37,6 @@ export default class About extends Component {
   }
 
   getTabs(vert) {
-
-    
-
     return (
       <Tabs defaultTab={this.state.defaultTab}
         onChange={(tabId) => { this.changeTab(tabId) }}
