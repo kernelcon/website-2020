@@ -8,7 +8,9 @@ export default class TrainingSubmission extends Component {
   static displayName = 'TrainingSubmission';
 
   render() {
-  	const sortedTraining = trainingConfig.sort((a, b) => {
+    const filteredTraining = trainingConfig.filter(ele => !ele.hidden);
+
+  	const sortedTraining = filteredTraining.sort((a, b) => {
       return a.title.localeCompare(b.title)
     });
 
@@ -46,10 +48,14 @@ export default class TrainingSubmission extends Component {
   					<div className='training-heading'>{ele.instructor.length > 1 ? 'Instructors' : 'Instructor'}:</div>
   					<div class='text-highlight'>{instructors}</div>
   				</div>
-  				<div className='training-format'>
-  					<div className='training-heading'>Format:</div>
-  					<div>{ele.courseLength} {ele.courseLength > 1 ? 'days training' : 'day training'}</div>
-  				</div>
+          <div className='training-format'>
+            <div className='training-heading'>Format:</div>
+            <div>{ele.courseLength} {ele.courseLength > 1 ? 'days training' : 'day training'}</div>
+          </div>
+          <div className='training-format'>
+            <div className='training-heading'>{ele.courseLength > 1 ? 'Dates:' : 'Date:'}</div>
+            <div>{ele.courseLength > 1 ? 'Wednesday, March 25 and Thursday, March 26, 2020' : ele.day > 1 ? 'Thursday, March 26, 2020': 'Wednesday, March 25, 2020'}</div>
+          </div>
   				<div className='training-desc'>{ele.trainingDescription}</div>
   				<div className='training-prereqs'>
   					<div className='training-heading'>Prerequisites:</div>

@@ -49,6 +49,7 @@ export default class Agenda extends Component {
         <TabPanel tabId="training" className="training">
           <div className='text-area'>
           	<h3 className='title'>Training</h3>
+            <div className='training-call-out'><b className='note'>Note:</b><em>Conference admission included with every training class!</em></div>
             <TrainingSubmissions />
           </div>
         </TabPanel>

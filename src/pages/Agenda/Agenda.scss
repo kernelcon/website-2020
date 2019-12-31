@@ -48,6 +48,17 @@
 
 	.title {
 		margin-bottom: 20px;
+		display: flex;
+	}
+
+	.training-call-out {
+		display: flex;
+		font-size: 20px;
+		padding-bottom: 20px;
+
+		.note {
+			margin-right: 10px;
+		}
 	}
 
 	.training-section {	

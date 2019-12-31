@@ -92,7 +92,7 @@ export default class Home extends Component {
             <div className='highlight-boxes'>
               <div className='highlight-text-box'>
                 <span className='num-highlight'>2</span>
-                <span className='highlight-spans'>DAYS OF TRAINING</span>
+                <span className='highlight-spans'>DAYS OF <a className='text-highlight' href='/agenda#training'>TRAINING</a></span>
               </div>
               <div className='highlight-text-box'>
                 <span className='num-highlight'>2</span>
@@ -104,7 +104,7 @@ export default class Home extends Component {
               </div>
               <div className='highlight-text-box'>
                 <span className='num-highlight'>2</span>
-                <span className='highlight-spans'>Keynotes</span>
+                <span className='highlight-spans'><a className='text-highlight' href='/agenda#keynotes'>Keynotes</a></span>
               </div>
               <div className='highlight-text-box'>
                 <span className='highlight-spans'>Villages</span>
@@ -113,10 +113,7 @@ export default class Home extends Component {
                 <span className='highlight-spans'>Competitions</span>
               </div>
               <div className='highlight-text-box'>
-                <span className='highlight-spans'>Training Courses</span>
-              </div>
-              <div className='highlight-text-box'>
-                <span className='highlight-spans'>Hands-on Classes</span>
+                <span className='highlight-spans'>Hands-on Workshops</span>
               </div>
             </div>
           </div>
