@@ -150,7 +150,7 @@
 	}, 
 	{
 		"title": "Linux Command Line Dojo",
-		"hidden": false,
+		"hidden": true,
 		"instructor": [{
 			"name": "Hal Pomeranz",
 			"twitter": "",
