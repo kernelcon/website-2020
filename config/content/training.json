@@ -149,8 +149,8 @@
 		}]
 	}, 
 	{
-		"title": "Linux Command Line Dojo",
-		"hidden": true,
+		"title": "Linux Forensics",
+		"hidden": false,
 		"instructor": [{
 			"name": "Hal Pomeranz",
 			"twitter": "",
@@ -160,7 +160,7 @@
 		"day": 1,
 		"minStudents": 10,
 		"maxStudents": 30,
-		"trainingDescription": "The DevOps folks are pushing Linux, your red-team friends are doing serious damage with Linux-based tools, and the Linux users on your Incident Response team are doing mysteriously powerful things. You're ready to see if some of the Linux magic can rub off on you, but you don't know where to start. This two-day course is a quick jumpstart on the Linux command-line. Start from the basics and work all the way up to command-line programming. Short learning modules and lots of practical hands-on activities will put you on the road to Linux command-line mastery. And electronic copies of everything are yours to take home, so you can continue the learning even after the class is over.",
+		"trainingDescription": "Linux is everywhere-- running in the cloud, on cell phones, and in embedded devices that make up the \"Internet of Things\". Often neglected by their owners, vulnerable Linux systems are low-hanging fruit for attackers wishing to create powerful botnets or mine cryptocurrencies. Ransomware type attacks may target Linux-based database systems and other important infrastructure. As attacks against Linux become more and more common, there is an increasing demand for skilled Linux investigators. But even experiences forensics professionals may lack sufficient background to properly conduct Linux investigations. Linux is its own particular religion, and requires dedicated study and practice to become comfortable. This two-day course is a quick-start into the world of Linux forensics. Learn how to use memory forensics to rapidly triage systems and spot attacker malware and rootkits. Learn where the most critical on-disk artifacts live and how they can help further an investigation. Rapidly process Linux logs and build a clearer picture of what happened on the system.",
 		"prereqs": [{
 			"req": "A basic understanding of forensic tools and processes is assumed."
 		}, {
