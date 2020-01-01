@@ -150,7 +150,7 @@
 	}, 
 	{
 		"title": "Linux Command Line Dojo",
-		"hidden": true,
+		"hidden": false,
 		"instructor": [{
 			"name": "Hal Pomeranz",
 			"twitter": "",
@@ -162,10 +162,50 @@
 		"maxStudents": 30,
 		"trainingDescription": "The DevOps folks are pushing Linux, your red-team friends are doing serious damage with Linux-based tools, and the Linux users on your Incident Response team are doing mysteriously powerful things. You're ready to see if some of the Linux magic can rub off on you, but you don't know where to start. This two-day course is a quick jumpstart on the Linux command-line. Start from the basics and work all the way up to command-line programming. Short learning modules and lots of practical hands-on activities will put you on the road to Linux command-line mastery. And electronic copies of everything are yours to take home, so you can continue the learning even after the class is over.",
 		"prereqs": [{
-			"req": ""
+			"req": "A basic understanding of forensic tools and processes is assumed."
+		}, {
+			"req": "Linux command-line experience is helpful, but not required."
 		}],
 		"equipment": [{
-			"req": ""
+			"req": "Students should bring a laptop capable of running a 64-bit Linux VMware virtual machine. Verify your virtualization software is working BEFORE coming to class!"
+		}, {
+			"req": "Laptop should have at least 80GB of free space available"
+		}, {
+			"req": "Courseware and virtual machine lab environment will be provided on USB, so a working USB A port is required."
+		}]
+	}, 
+	{
+		"title": "Kubernetes: Build, Secure, Attack",
+		"hidden": true,
+		"instructor": [{
+			"name": "Zach Giezen",
+			"twitter": "cf_man",
+			"bio": "Zach has many years of appsec and development experience; he currently works as a defender for a large payment processor. In his spare time he likes to be with his wife and four children, riding his Harley, go target shooting, 3d print everything, teach computer science courses for his homeschool cooperative, and rock a drum set if there’s any time left!"
+		}],
+		"courseLength": 1,
+		"day": 1,
+		"minStudents": 10,
+		"maxStudents": 30,
+		"trainingDescription": "Ever wanted to learn Kubernetes but haven set aside the time? Have a cluster but you haven't secured it yet? Don’t know where to start! Want to add container security testing or orchestration security testing to your “bag of tricks”? If you answered yes to one of more of these questions then come join me and others like you for a fun day of hands on exercises and conversation around these exciting topics.",
+		"prereqs": [{
+			"req": "Students need not have any experience with containers or kubernetes, this curriculum will assume some inexperienced container/kubernetes users and proficient users alike and have them securing and attacking the orchestration platform in no time. However, they should be familiar with a terminal (bash,zsh, powershell etc.)"
+		}],
+		"equipment": [{
+			"req": "Students will need to bring a working laptop with wireless connectivity {user must have the ability to download and install the software AND have 20gigs of disk space available for hypervisor if necessary}. (Windows 10, Linux or MacOS) {Live Linux Boot CD’s / USB drives will be available if using older windows}"
+		}, {
+			"req": "In addition to a working laptop with wireless, an ssh client will be needed. (native console or putty is suggested)"
+		}, {
+			"req": "Optional: If we are able to work out (Raspberry PI) use and integration into the class, students will also need to have a USB port available on their laptop!"
 		}]
 	}
 ]
+
+
+
+
+
+
+
+
+
+
