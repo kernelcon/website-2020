@@ -150,7 +150,7 @@
 	}, 
 	{
 		"title": "Linux Forensics",
-		"hidden": false,
+		"hidden": true,
 		"instructor": [{
 			"name": "Hal Pomeranz",
 			"twitter": "",
