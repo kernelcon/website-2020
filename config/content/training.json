@@ -150,7 +150,7 @@
 	}, 
 	{
 		"title": "Linux Forensics",
-		"hidden": true,
+		"hidden": false,
 		"instructor": [{
 			"name": "Hal Pomeranz",
 			"twitter": "",
@@ -179,7 +179,7 @@
 		"hidden": true,
 		"instructor": [{
 			"name": "Zach Giezen",
-			"twitter": "cf_man",
+			"twitter": "@cf_man",
 			"bio": "Zach has many years of appsec and development experience; he currently works as a defender for a large payment processor. In his spare time he likes to be with his wife and four children, riding his Harley, go target shooting, 3d print everything, teach computer science courses for his homeschool cooperative, and rock a drum set if there’s any time left!"
 		}],
 		"courseLength": 1,
