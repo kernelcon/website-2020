@@ -176,7 +176,7 @@
 	}, 
 	{
 		"title": "Kubernetes: Build, Secure, Attack",
-		"hidden": true,
+		"hidden": false,
 		"instructor": [{
 			"name": "Zach Giezen",
 			"twitter": "@cf_man",
