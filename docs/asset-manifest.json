@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.c959b4cc.chunk.css",
+    "main.css": "/static/css/main.806dd747.chunk.css",
     "main.js": "/static/js/main.d268b879.chunk.js",
     "main.js.map": "/static/js/main.d268b879.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
@@ -10,10 +10,10 @@
     "static/js/2.79d0acf3.chunk.js.map": "/static/js/2.79d0acf3.chunk.js.map",
     "cfp/wifi.pdf": "/cfp/wifi.pdf",
     "index.html": "/index.html",
-    "precache-manifest.36a76845fa124408ec7c027fbb46864a.js": "/precache-manifest.36a76845fa124408ec7c027fbb46864a.js",
+    "precache-manifest.add13788373015a5bd97c176d07a88c6.js": "/precache-manifest.add13788373015a5bd97c176d07a88c6.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.194e2ed7.chunk.css.map": "/static/css/2.194e2ed7.chunk.css.map",
-    "static/css/main.c959b4cc.chunk.css.map": "/static/css/main.c959b4cc.chunk.css.map",
+    "static/css/main.806dd747.chunk.css.map": "/static/css/main.806dd747.chunk.css.map",
     "static/media/aaron.png": "/static/media/aaron.cf1f25d0.png",
     "static/media/adam.png": "/static/media/adam.4a58b306.png",
     "static/media/ctf_logo.png": "/static/media/ctf_logo.24fdff12.png",
