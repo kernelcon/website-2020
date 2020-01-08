@@ -137,7 +137,7 @@ export default class Sponsors extends Component {
                   target="_blank"
                   rel='noopener noreferrer'>
                   <img src={toool}
-                    className='spons-img other-spons spons-white-img'
+                    className='spons-img other-spons'
                     alt="TOOOL"/>
                 </a>
 {/*             <a href="https://nari-cyber.com/"
