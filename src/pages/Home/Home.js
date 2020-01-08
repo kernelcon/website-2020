@@ -110,7 +110,7 @@ export default class Home extends Component {
                 <span className='highlight-spans'>Villages</span>
               </div>
               <div className='highlight-text-box'>
-                <span className='highlight-spans'>Competitions</span>
+                <span className='highlight-spans'><a className='text-highlight' href='/agenda#competitions'>Competitions</a></span>
               </div>
               <div className='highlight-text-box'>
                 <span className='highlight-spans'>Hands-on Workshops</span>
