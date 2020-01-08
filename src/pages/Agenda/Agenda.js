@@ -7,6 +7,8 @@ import TrainingSubmissions from './TrainingSubmission';
 
 import './Agenda.scss';
 import strand from '../../static/images/strand.jpg';
+import ctf from '../../static/images/logos/ctf_logo.png';
+import wifi from '../../static/images/logos/wifi.png';
 
 export default class Agenda extends Component {
   static displayName = 'Agenda';
@@ -39,6 +41,7 @@ export default class Agenda extends Component {
           <Tab tabFor="schedule">Schedule</Tab>
           <Tab tabFor="training">Training</Tab>
           <Tab tabFor="keynotes">Keynotes</Tab>
+          <Tab tabFor="competitions">Competitions</Tab>
         </TabList>
         <TabPanel tabId="schedule">
           <div className='text-area'>
@@ -92,6 +95,53 @@ export default class Agenda extends Component {
 					     </div>
 					   </div>
 					 </div>
+        </TabPanel>
+        <TabPanel tabId="competitions">
+          <div className='text-area'>
+            <h3 className='title'>Competitions</h3>
+            
+            <div className='competition-area'>
+              <div className='competition-section'>
+                <div className='competition-name-logo'>
+                  <div className='competition-name'>Annual Kernelcon CTF</div>
+                  <div className='competition-logo'>
+                    <img src={ctf} alt='ctf'/>
+                  </div>
+                  <a className='update-button'
+                    href="https://docs.google.com/forms/d/e/1FAIpQLScQykbvNzuoQXWFBWHEbCUm7ZEK39pF3gHKaYVCJW7CPphd9Q/viewform?usp=sf_link"
+                    rel='noopener noreferrer'
+                    target='_blank'>
+                    Sign Up for Updates
+                  </a>
+                </div>
+                <div className='competition-description'>
+                  Our Annual Kernelcon Capture the Flag event is back and better than ever, with all new challenges, prizes and a new, fun theme!  The competition this year is sure to be fierce with the winning team receiving our coveted <a className='text-highlight' href='/about#reciprocity'>Eternal Kernel badges</a>. CTF challenges to include web hacking, reversing, pwning, cryptography, and a whole lot more.  In fact, maybe we have already hidden some flags around the internet.  Do you have the team to beat this year?  If so, we will see you at Kernelcon CTF!
+                </div>
+              </div>
+
+              <div className='competition-section'>
+                <div className='competition-name-logo'>
+                  <div className='competition-name'>WiFi Fox and Hound Event</div>
+                  <div className='competition-logo'>
+                    <img src={wifi} alt='wifi' />
+                  </div>
+                  <a className='update-button'
+                    href="https://docs.google.com/forms/d/e/1FAIpQLScQykbvNzuoQXWFBWHEbCUm7ZEK39pF3gHKaYVCJW7CPphd9Q/viewform?usp=sf_link"
+                    rel='noopener noreferrer'
+                    target='_blank'>
+                    Sign Up for Updates
+                  </a>
+                </div>
+                <div className='competition-description'>
+                  Have you ever wanted to crack your neighbors WiFi network?  We all have at one point or another.  Come on down to the WiFi Fox and Hound where you can crack WiFi networks in a safe, consensual, and legal competition designed to test your abilities in WEP, WPA, and WPA2 cracking.  We will be hiding access points around the hotel with various levels of security on them.  It will be your job to find them, and break into the networks and recover the key/flag.  Once you have the flag enter it in the scoring site to get those points! Contest will run the duration of the conference. Think you have what it takes? Then come show us your 1337 WiFi skillz and compete in the WiFi Fox and Hound event.  Even if you're new to WiFi hacking, we'll have plenty of resources to help you along your way.  You can even win fabulous prizes!
+                </div>
+              </div>
+
+            </div>
+
+
+
+          </div>
         </TabPanel>
       </Tabs>
     );

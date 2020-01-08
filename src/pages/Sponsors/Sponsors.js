@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import ubtlogo from '../../static/images/sponsors/ubt.png';
+import toool from '../../static/images/sponsors/toool.svg';
+import splunk from '../../static/images/sponsors/splunk-dark.png';
+
 import './Sponsors.scss';
 
 export default class Sponsors extends Component {
@@ -115,26 +118,34 @@ export default class Sponsors extends Component {
                     alt="NTT Security"/>
                 </a>
               </div>
+              */}
 
               <div className='spons-block'>
-                <h4 className='gold spons-title'>CTF Sponsor</h4>
-                <a href="https://www.securesky.com/"
+                <h4 className='text-highlight spons-title'>CTF Sponsor</h4>
+                <a href="https://www.splunk.com/"
                   target="_blank"
                   rel='noopener noreferrer'>
-                  <img src={secureskylogo}
-                    className='spons-img other-spons'
-                    alt="Secure Sky"/>
+                  <img src={splunk}
+                    className='spons-img other-spons spons-white-img'
+                    alt="Splunk"/>
                 </a>
               </div>
 
               <div className='spons-block'>
-                <h4 className='gold spons-title'>Other Sponsors</h4>
+                <h4 className='text-highlight spons-title'>Other Sponsors</h4>
                 <a href="https://toool.us/"
                   target="_blank"
                   rel='noopener noreferrer'>
                   <img src={toool}
-                    className='spons-img other-spons'
+                    className='spons-img other-spons spons-white-img'
                     alt="TOOOL"/>
+                </a>
+{/*             <a href="https://nari-cyber.com/"
+                  target="_blank"
+                  rel='noopener noreferrer'>
+                  <img src={nari}
+                    className='spons-img other-spons spons-white-img'
+                    alt="NARI"/>
                 </a>
                 <a href="https://nostarch.com/"
                   target="_blank"
@@ -143,10 +154,10 @@ export default class Sponsors extends Component {
                     className='spons-img other-spons'
                     alt="NoStarchPress"/>
                 </a>
+              */}
                 <br />
               </div>
 
-              */}
 
               <div className='spons-block'>
                 <div className='foodbev-spons'>

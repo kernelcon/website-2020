@@ -38,7 +38,7 @@ export default class TrainingSubmission extends Component {
   		});
 
   		return(
-  			<div className='training-submission' kye={idx}>
+  			<div className='training-submission' key={idx}>
   				<div className='training-title'>
   					<span>{ele.title}</span>
   					<span>{ele.courseLength > 1 ? '$1,000' : '$500'}</span>
@@ -46,7 +46,7 @@ export default class TrainingSubmission extends Component {
 
   				<div className='training-presenter'>
   					<div className='training-heading'>{ele.instructor.length > 1 ? 'Instructors' : 'Instructor'}:</div>
-  					<div class='text-highlight'>{instructors}</div>
+  					<div className='text-highlight'>{instructors}</div>
   				</div>
           <div className='training-format'>
             <div className='training-heading'>Format:</div>
