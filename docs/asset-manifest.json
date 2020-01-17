@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.806dd747.chunk.css",
-    "main.js": "/static/js/main.d268b879.chunk.js",
-    "main.js.map": "/static/js/main.d268b879.chunk.js.map",
+    "main.css": "/static/css/main.732cfdb4.chunk.css",
+    "main.js": "/static/js/main.528bc5c0.chunk.js",
+    "main.js.map": "/static/js/main.528bc5c0.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
     "static/css/2.194e2ed7.chunk.css": "/static/css/2.194e2ed7.chunk.css",
@@ -10,13 +10,13 @@
     "static/js/2.79d0acf3.chunk.js.map": "/static/js/2.79d0acf3.chunk.js.map",
     "cfp/wifi.pdf": "/cfp/wifi.pdf",
     "index.html": "/index.html",
-    "precache-manifest.add13788373015a5bd97c176d07a88c6.js": "/precache-manifest.add13788373015a5bd97c176d07a88c6.js",
+    "precache-manifest.7e44b35867cfc3ef5ccb8cebfcf9677b.js": "/precache-manifest.7e44b35867cfc3ef5ccb8cebfcf9677b.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.194e2ed7.chunk.css.map": "/static/css/2.194e2ed7.chunk.css.map",
-    "static/css/main.806dd747.chunk.css.map": "/static/css/main.806dd747.chunk.css.map",
+    "static/css/main.732cfdb4.chunk.css.map": "/static/css/main.732cfdb4.chunk.css.map",
     "static/media/aaron.png": "/static/media/aaron.cf1f25d0.png",
     "static/media/adam.png": "/static/media/adam.4a58b306.png",
-    "static/media/ctf_logo.png": "/static/media/ctf_logo.24fdff12.png",
+    "static/media/ctf_logo.png": "/static/media/ctf_logo.09329a80.png",
     "static/media/dan.png": "/static/media/dan.fadea8a0.png",
     "static/media/derby.png": "/static/media/derby.215e472f.png",
     "static/media/grrcon.png": "/static/media/grrcon.75240977.png",
@@ -45,7 +45,7 @@
     "static/media/tyler.png": "/static/media/tyler.f10413a0.png",
     "static/media/ubt.png": "/static/media/ubt.96c9873f.png",
     "static/media/wacey.gif": "/static/media/wacey.6ace6087.gif",
-    "static/media/wifi.png": "/static/media/wifi.089d111c.png",
+    "static/media/wifi.png": "/static/media/wifi.700b6d0b.png",
     "static/media/wwhackingfest.png": "/static/media/wwhackingfest.86cdec94.png"
   }
 }
