@@ -1,0 +1,166 @@
+[
+	{
+		"title": "Radio Hacking 101 with RTL-SDR",
+		"hidden": false,
+		"instructor": [{
+			"name": "Gus Gorman",
+			"twitter": "",
+			"bio": "Gus Gorman, BS in Bioinformatics from UNO. Local greyhat hacker & maker, with a passion for wireless & embedded tech. Speaker at KernelCon 2019 (Radio Hacking 101)"
+		}],
+		"courseLength": 2,
+		"dates": [{
+			"day": "Friday, March 27th",
+			"time": "10:00 AM"
+		}, {
+			"day": "Saturday, March 28th",
+			"time": "12:30 PM"
+		}],
+		"minStudents": 10,
+		"maxStudents": 30,
+		"cost": 50,
+		"trainingDescription": "Every security professional, from locksmiths to blue teams, should have an inexpensive RTL-SDR in their toolkit. Radio signals are everywhere, and many of them rely on obsolete or proprietary formats that are easy to intercept & analyze. Learn to catch & exploit these signals in this workshop; Using Linux & open source tools, you’ll learn to hack the airwaves. Take home a RTL-SDR.",
+		"prereqs": [{
+			"req": "Beginner experience with Linux command line (e.g. changing directories, listing files)."
+		}],
+		"equipment": [{
+			"req": "Students need a laptop that can utilize a Linux OS environment."
+		}, {
+			"req": "If attendees don't have Linux, bootable Kali USB sticks will be available for purchase (~$10; all software will be pre-loaded on stick)."
+		}],
+		"takeHome": [{
+			"req": "RTL-SDR dongle."
+		}]
+	}, 
+	{
+		"title": "Introduction to Hardware Hacking and IoT: Lightstrip Edition",
+		"hidden": false,
+		"instructor": [{
+			"name": "Matt Virus",
+			"twitter": "@themattvirus",
+			"bio": "Matt Virus (yes, real name) is an engineer @ Cisco (10+ years) , an above-average husband and father of 2, a farmer, a fan of loud angry rock music, and a hardware junkie with tons of experience with build/hack projects. Whatever “it” is — it can be disassembled and examined…it can be made more secure, more functional and more use useful. No fear of burned fingers, desks set on fire, or escape of the magic smoke here. BS/MS in MIS and information assurance, former DoD forensic and malware analyst, firm believer of local control and auditability of software/firmware. Lover of all things containerized and API-enabled, blackbelt in google-fu, passionate about facilitation, enablement, and helping people reach beyond their technical comfort zone. Founder of hackspace.io, Fueled by monster energy…"
+		}],
+		"courseLength": 2,
+		"dates": [{
+			"day": "Friday, March 27th",
+			"time": "12:30 PM"
+		}, {
+			"day": "Friday, March 27th",
+			"time": "3:00 PM"
+		}],
+		"minStudents": 10,
+		"maxStudents": 30,
+		"cost": 50,
+		"trainingDescription": "In this hands-on hacking village, users will be walked through creating a custom, fully open-source LED-strip controller. All software functions with 100% local control – no beaconing to external “cloud” services. A fully-functional android/iphone app provides interface/control to the created LED-controller via local wifi without external connectivity. An open API provides a web interface as well as simple integration into many home automation and alarm systems.",
+		"prereqs": [{
+			"req": "A patient desire to be awesome and do cool stuff."
+		}],
+		"equipment": [{
+			"req": "All materials will be provided: soldering iron, supplies, laptop/programming tools all provided."
+		}],
+		"takeHome": [{
+			"req": "A Custom, Fully open-source LED-strip controller."
+		}]
+	}, 
+	{
+		"title": "Introduction to Hardware Hacking and IoT: Smartplug Edition",
+		"hidden": false,
+		"instructor": [{
+			"name": "Matt Virus",
+			"twitter": "@themattvirus",
+			"bio": "Matt Virus (yes, real name) is an engineer @ Cisco (10+ years) , an above-average husband and father of 2, a farmer, a fan of loud angry rock music, and a hardware junkie with tons of experience with build/hack projects. Whatever “it” is — it can be disassembled and examined…it can be made more secure, more functional and more use useful. No fear of burned fingers, desks set on fire, or escape of the magic smoke here. BS/MS in MIS and information assurance, former DoD forensic and malware analyst, firm believer of local control and auditability of software/firmware. Lover of all things containerized and API-enabled, blackbelt in google-fu, passionate about facilitation, enablement, and helping people reach beyond their technical comfort zone. Founder of hackspace.io, Fueled by monster energy…"
+		}],
+		"courseLength": 2,
+		"dates": [{
+			"day": "Saturday, March 28th",
+			"time": "10:00 AM"
+		}, {
+			"day": "Saturday, March 28th",
+			"time": "12:30 PM"
+		}],
+		"minStudents": 10,
+		"maxStudents": 30,
+		"cost": 50,
+		"trainingDescription": "In this hands-on hacking village, users will be walked through modifying a (minimally) functional smart-home outlet plug. In its default state, the smart plug runs feature- limited, insecure firmware and software that depends on cloud connections and, in most cases, beacons to an external address in China. We will replace the software with open- source pieces and configure the plug to run with 100% local-only, non-cloud, control. Users will also be shown how to connect the newly-converted plug into a home- automation platform for software control via MQTT which enables web-based control, voice-based control, and control of state by a physical button.",
+		"prereqs": [{
+			"req": "A patient desire to be awesome and do cool stuff."
+		}],
+		"equipment": [{
+			"req": "All materials will be provided: soldering iron, supplies, laptop/programming tools all provided."
+		}],
+		"takeHome": [{
+			"req": "A Custom, Fully open-source LED-strip controller."
+		}]
+	}, 
+	{
+		"title": "Making Light Work of Data Exfiltration",
+		"hidden": false,
+		"instructor": [{
+			"name": "Riley Hester",
+			"twitter": "",
+			"bio": "Riley Hester is a Cyber Engineer for Nebraska Applied Research Institute (NARI) specializing in reverse engineering and developing embedded device firmware. Riley’s genuine enthusiasm for cybersecurity and firmware analysis has driven his research of biomedical devices for life-critical systems. He earned his B.S. in Computer Engineering at the University of Nebraska at Omaha (UNO) where he studied the design and development of embedded microcontroller systems. Riley is currently focused on engaging in the emerging cybersecurity trends and threats that face embedded systems both new and old."
+		}, {
+			"name": "Eric Wright",
+			"twitter": "",
+			"bio": "Eric Wright is a Senior Software Engineer for the Nebraska Applied Research Institute (NARI) with a focus on developing embedded device firmware and stand-alone applications. Prior to working for NARI, Eric specialized in communications security for the Army which evolved into an automation engineer for online marketplaces and payment processors. He leverages 20+ years of experience as a full stack security researcher and strives to make a positive impact on security."
+		}, {
+			"name": "Ian Trent",
+			"twitter": "",
+			"bio": "Ian Trent is a Cyber Engineer for Nebraska Applied Research Institute (NARI) with a primary focus on critical systems firmware development and reverse engineering. He comes from a self-taught background that focused on game console repurposing and Linux kernel hacking in the swamps of Florida. Ian brings a cloud of enthusiasm for wild ideas related to pen testing and hardening systems. He applies core principals of minimalism and privilege separation favoring mitigations such as canaries, ASLR, no-validation decryption, and poison pages; while primarily leveraging MIM, bytecode injection, and transmission mangling in exploitation."
+		}],
+		"courseLength": 2,
+		"dates": [{
+			"day": "Friday, March 27th",
+			"time": "10:00 AM"
+		}, {
+			"day": "Saturday, March 28th",
+			"time": "10:00 AM"
+		}],
+		"minStudents": 10,
+		"maxStudents": 30,
+		"cost": 50,
+		"trainingDescription": "Attendees will learn how to create a light-based data exfiltration receiver based on the esp32 to circumvent corporate firewalls via vulnerable smart lighting vectors. The esp32 receiver is capable of forwarding data over USB, Bluetooth, or Wifi. Hands on exercises with this sensor will be available to attendees to test their devices interactively with NARI lighting testbeds in the IoT Village.",
+		"prereqs": [{
+			"req": "Materials will be supplied: 1 ESP32 development board, 1 Micro USB, 1 Photo Diode, and 1 Breadboard."
+		}],
+		"equipment": [{
+			"req": "Laptop with USB host port, internet capabilities, the Arduino IDE, and a web browser."
+		}],
+		"takeHome": [{
+			"req": "Light-based data exfiltration receiver."
+		}]
+	}, 
+	{
+		"title": "Sensing Things with Sensors and Things",
+		"hidden": false,
+		"instructor": [{
+			"name": "Nathan Schlehlein",
+			"twitter": "",
+			"bio": "Nathan Schlehlein is a wannabe problem solver who earns his living making dreams come true for people via software. A semi-recent transplant to the semi-bustling city of Des Moines, IA, he resides in the “pretty OK” western burbs with his three awesome kids, long-suffering wife, & hyperactive dog. He is an enthusiast of intriguing, historically significant, & / or dangerous technology & enjoys good scotch, beer with a back story, & a well-executed fake foreign accent."
+		}, {
+			"name": "Clay Dowling",
+			"twitter": "",
+			"bio": "Clay Dowling is a software consultant specializing in agile practices & extremem programming techniques. In his spare time he builds machines driven by microcontrollers & negotiates with his cats for access to the keyboard."
+		}],
+		"courseLength": 2,
+		"dates": [{
+			"day": "Friday, March 27th",
+			"time": "12:30 PM"
+		}, {
+			"day": "Friday, March 27th",
+			"time": "3:00 PM"
+		}],
+		"minStudents": 10,
+		"maxStudents": 30,
+		"cost": 50,
+		"trainingDescription": "Sure, the cloud is great, but here on the ground there is a lot of data worth observing. Just how does information on stuff like temperature, distance, or direction end up as data? As a participant of this hands-on workshop, you will get the opportunity to fire up and program a ESP32 based microcontroller board (that you get to take home!) and use it to interface, make sense of, and report on data from a variety of sensors.",
+		"prereqs": [{
+			"req": "https://gitlab.com/pithy.tech/kernelcon_handouts/blob/master/arduino_setup.md"
+		}],
+		"equipment": [{
+			"req": "All Equipment will be provided by Kernelcon."
+		}],
+		"takeHome": [{
+			"req": "Your own custom microcontroller."
+		}]
+	}
+]

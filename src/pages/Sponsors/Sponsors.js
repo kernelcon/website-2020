@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ubtlogo from '../../static/images/sponsors/ubt.png';
 import toool from '../../static/images/sponsors/toool.svg';
 import splunk from '../../static/images/sponsors/splunk-dark.png';
+import forefront17 from '../../static/images/sponsors/forefront17.png';
 
 import './Sponsors.scss';
 
@@ -181,6 +182,13 @@ export default class Sponsors extends Component {
                       <img src={ubtlogo}
                         className='spons-img fdbev-spons spons-white-img'
                         alt="Union Bank & Trust"/>
+                    </a>
+                    <a href="https://www.linkedin.com/company/forefront-17/about/"
+                      target="_blank"
+                      rel='noopener noreferrer'>
+                      <img src={forefront17}
+                        className='spons-img fdbev-spons spons-white-img'
+                        alt="ForeFront 17"/>
                     </a>
                   </div>
 
