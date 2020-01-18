@@ -86,7 +86,7 @@ export default class Home extends Component {
 
           <div className='highlight-box'>
             <div className='vision-highlight'>
-              Our 2020 theme is <span className='text-highlight'><b>Vision</b></span>. Our <span className='focus'>focus</span> will revolve around both learning from hindsight and looking towards the future!
+              Our 2020 theme is <span className='text-highlight'><b>Vision</b></span>. Our <span className='focus'>focus</span> will revolve around both learning from hindsight and looking toward the future!
             </div>
 
             <div className='highlight-boxes'>
