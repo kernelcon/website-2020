@@ -23,7 +23,37 @@ class Schedule extends Component {
   }
 
   getDailySchedule() {
-  	const sched = this.state.index < 2 ? 'All Day Training' : 'Conference All Day';
+  	const trainingWednesday = (
+  		<div>
+  			<div>All Day Training</div>
+  			<ul className='training-bullets'>
+  				<li>Atomic Purple Teaming</li>
+  				<li>Advanced Attack Infrastructure</li>
+  				<li>Introduction to Ghidra</li>
+  				<li>Linux Forensics</li>
+  				<li>Reverse Engineering with Binary Ninja</li>
+  				<li>Elk Herding - Elasticsearch for Threat Hunting and Other Data Fun</li>
+  				<li>Kubernetes: Build, Secure, Attack</li>
+  				<li>Network Analysis Workshop</li>
+  			</ul>
+  		</div>
+  	);
+  	const trainingThursday = (
+  		<div>
+  			<div>All Day Training</div>
+  			<ul className='training-bullets'>
+  				<li>Atomic Purple Teaming</li>
+  				<li>Advanced Attack Infrastructure</li>
+  				<li>Introduction to Ghidra</li>
+  				<li>Linux Forensics</li>
+  				<li>Reverse Engineering with Binary Ninja</li>
+  				<li>Black Hat Go</li>
+  				<li>Hands On Web Application Hacking</li>
+  				<li>Control System Analysis and Defense</li>
+  			</ul>
+  		</div>
+  	);
+  	const sched = this.state.index === 0 ? trainingWednesday : this.state.index === 1 ? trainingThursday : 'Conference All Day';
   	const desc = this.state.index < 2 ? 'Start your Kernelcon week out right! Training Sessions offered from 8:00am to 5:00pm with a one hour lunch break.' : 'Keynotes start at 9:00am! Be there for some of the best infosec talent to speak in Omaha. Conference sessions run all day in two tracks with multiple workshops, villages, and competitions for attendees to also participate in. Hands-on workshops are also offered throughout the day.';
   	const party = this.state.index === 2 ? 'Join us for cocktails and appetizers at our legendary Kernel Panic party! During the party we will also host Tech Olympics and Who\'s Slide Is It Anyways.' : '';
   	const closing = this.state.index === 3 ? 'Join us for closing ceremonies where we award our Eternal Kernel badges and celebrate the con that was.' : '';
