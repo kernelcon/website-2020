@@ -8,6 +8,7 @@ import Workshops from './Workshops';
 
 import './Agenda.scss';
 import strand from '../../static/images/strand.jpg';
+import sophia from '../../static/images/sophia.jpg';
 import ctf from '../../static/images/logos/ctf_logo.png';
 import toool from '../../static/images/logos/toool.png';
 import wifi from '../../static/images/logos/wifi.png';
@@ -90,8 +91,38 @@ export default class Agenda extends Component {
                   alt='John Strand'
                   className='keynote-image'/>
                </div>
-             </div>
-           </div>
+            </div>
+            <div className='keynote-section'>
+              <div className='keynote-left'>
+                <h4 className='keynote-name'>Sophia d'Antoine</h4>
+                <div className='keynote-subtitle'>
+                  <div className='keynote-company'>
+                    <a href='https://www.sophia.re' target="_blank" rel="noopener noreferrer">
+                      Hacker in Residence at NYU
+                    </a>
+                  </div>
+                  <div className='keynote-div'>|</div>
+                  <div className='keynote-handle'>
+                    <a href='https://twitter.com/Calaquendi44' target="_blank" rel="noopener noreferrer">
+                      @Calaquendi44
+                    </a>
+                  </div>
+                </div>
+
+                <div className='keynote-bio'>
+                  <p className='tab-paragraph'>Sophia is the founder of Margin Research, based in New York City, and the Hacker in Residence at NYU. Previously she has served at the NSA as well as a commercial security company. She is an alumnus of RPI where she taught Modern Binary Exploitation and helped run RPISEC, the university CTF team.</p> 
+                  <p className='tab-paragraph'>Sophia has spoken at over a dozen conferences worldwide on topics ranging from automated exploitation to information operations. Her current work focuses on finding novel solutions to unique security problems, software vulnerabilities, and information operations.</p>
+                  <p className='tab-paragraph'>She has co-authored policy papers on topics in offensive cyber including an <a href='https://www.lawfareblog.com/risks-huawei-risk-mitigation' className='text-highlight' target="_blank" rel="noopener noreferrer">Executive Order and a Lawfare article</a> on the risks associated with Huawei 5G. <a className='text-highlight' href='https://www.sophia.re/#pcs' target="_blank" rel="noopener noreferrer">A mostly complete listing of conference talks and publications.</a></p>
+                </div>
+
+              </div>
+              <div className='keynote-right'>
+                <img src={sophia}
+                  alt="Sophia d'Antoine"
+                  className='keynote-image'/>
+              </div>
+            </div>
+          </div>
         </TabPanel>
         <TabPanel tabId="training" className="training">
           <div className='text-area'>
