@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import ubtlogo from '../../static/images/sponsors/ubt.png';
 import toool from '../../static/images/sponsors/toool.svg';
+import mhh from '../../static/images/sponsors/MHH.png';
 import splunk from '../../static/images/sponsors/splunk-dark.png';
 import forefront17 from '../../static/images/sponsors/forefront17.png';
+import swlight from '../../static/images/sponsors/swlight.png';
 
 import './Sponsors.scss';
 
@@ -83,32 +85,19 @@ export default class Sponsors extends Component {
               </div>
               
                <h3 className='gold'>Silver</h3> 
-
+*/}
               <div className='spons-block'>
-                <h3 className='gold spons-title'>Bronze</h3>
-                <a href="https://www.conagrabrands.com/"
+                <h3 className='text-highlight spons-title'>Bronze</h3>
+                <a href="https://www.secureworks.com/"
                   target="_blank"
                   rel='noopener noreferrer'>
-                  <img src={caglogo}
-                    className='spons-img other-spons'
-                    alt="ConAgra"/>
-                </a>
-                <a href="https://www.checkmarx.com/"
-                  target="_blank"
-                  rel='noopener noreferrer'>
-                  <img src={cxlogo}
-                    className='spons-img other-spons'
-                    alt="Checkmarx"/>
-                </a>
-                <a href="https://www.netskope.com/"
-                  target="_blank"
-                  rel='noopener noreferrer'>
-                  <img src={netskopelogo}
-                    className='spons-img other-spons'
-                    alt="Netskope"/>
+                  <img src={swlight}
+                    className='spons-img other-spons spons-white-img'
+                    alt="Secureworks"/>
                 </a>
               </div>
 
+{/*
               <div className='spons-block'>
                 <h4 className='gold spons-title'>Party Sponsor</h4>
                 <a href="https://www.nttsecurity.com/en-us"
@@ -140,6 +129,13 @@ export default class Sponsors extends Component {
                   <img src={toool}
                     className='spons-img other-spons'
                     alt="TOOOL"/>
+                </a>
+                <a href="https://www.mentalhealthhackers.org/"
+                  target="_blank"
+                  rel='noopener noreferrer'>
+                  <img src={mhh}
+                    className='spons-img other-spons'
+                    alt="MHH"/>
                 </a>
 {/*             <a href="https://nari-cyber.com/"
                   target="_blank"
@@ -189,6 +185,13 @@ export default class Sponsors extends Component {
                       <img src={forefront17}
                         className='spons-img fdbev-spons spons-white-img'
                         alt="ForeFront 17"/>
+                    </a>
+                    <a href="https://www.secureworks.com/"
+                      target="_blank"
+                      rel='noopener noreferrer'>
+                      <img src={swlight}
+                        className='spons-img fdbev-spons spons-white-img'
+                        alt="Secureworks"/>
                     </a>
                   </div>
 

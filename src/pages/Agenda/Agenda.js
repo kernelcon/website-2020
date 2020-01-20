@@ -9,6 +9,7 @@ import Workshops from './Workshops';
 import './Agenda.scss';
 import strand from '../../static/images/strand.jpg';
 import ctf from '../../static/images/logos/ctf_logo.png';
+import toool from '../../static/images/logos/toool.png';
 import wifi from '../../static/images/logos/wifi.png';
 
 export default class Agenda extends Component {
@@ -43,6 +44,7 @@ export default class Agenda extends Component {
           <Tab tabFor="keynotes">Keynotes</Tab>
           <Tab tabFor="training">Training</Tab>
           <Tab tabFor="workshops">Workshops</Tab>
+          <Tab tabFor="villages">Villages</Tab>
           <Tab tabFor="competitions">Competitions</Tab>
         </TabList>
         <TabPanel tabId="schedule">
@@ -105,10 +107,30 @@ export default class Agenda extends Component {
             <Workshops />
           </div>
         </TabPanel>
+
+        <TabPanel tabId="villages">
+          <div className='text-area'>
+            <h3 className='title'>Villages</h3>
+            
+            <div className='competition-area'>
+              <div className='competition-section'>
+                <div className='competition-name-logo'>
+                  <div className='competition-name'>TOOOL Lockpicking Village</div>
+                  <div className='competition-logo'>
+                    <img src={toool} width="150" alt='toool'/>
+                  </div>
+                </div>
+                <div className='competition-description'>
+                  Tired of staring at a monitor trying to hack your way through a computer...come try your hand [literally] at hacking hardware! The Open Organisation Of Lockpickers [TOOOL] is set up and ready to give you a new kind of challenge. Gaining access has a different meaning here. TOOOL uses their knowledge to guide you through different types of locks, their vulnerabilities, and how to exploit them. Scrape pin tumblers instead of data!
+                </div>
+              </div>
+            </div>
+          </div>
+        </TabPanel>
+
         <TabPanel tabId="competitions">
           <div className='text-area'>
-            <h3 className='title'>Competitions</h3>
-            
+            <h3 className='title'>Competitions</h3>            
             <div className='competition-area'>
               <div className='competition-section'>
                 <div className='competition-name-logo'>
@@ -145,11 +167,7 @@ export default class Agenda extends Component {
                   Have you ever wanted to crack your neighbors WiFi network?  We all have at one point or another.  Come on down to the WiFi Fox and Hound where you can crack WiFi networks in a safe, consensual, and legal competition designed to test your abilities in WEP, WPA, and WPA2 cracking.  We will be hiding access points around the hotel with various levels of security on them.  It will be your job to find them, and break into the networks and recover the key/flag.  Once you have the flag enter it in the scoring site to get those points! Contest will run the duration of the conference. Think you have what it takes? Then come show us your 1337 WiFi skillz and compete in the WiFi Fox and Hound event.  Even if you're new to WiFi hacking, we'll have plenty of resources to help you along your way.  You can even win fabulous prizes!
                 </div>
               </div>
-
             </div>
-
-
-
           </div>
         </TabPanel>
       </Tabs>

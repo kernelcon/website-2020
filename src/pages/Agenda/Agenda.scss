@@ -53,7 +53,7 @@
 
 	.training-call-out {
 		display: flex;
-		font-size: 20px;
+		font-size: 16px;
 		padding-bottom: 20px;
 
 		.note {
@@ -124,7 +124,7 @@
 		.competition-name-logo {
 			display: flex;
 			flex-direction: column;
-			max-width: 230px;
+			max-width: 240px;
 			justify-content: flex-start;
     		align-items: center;
     		margin-right: 40px;
@@ -132,13 +132,13 @@
 			.competition-name {
 				font-size: 18px;
 				font-weight: bold;
-
+				margin-bottom: 20px;
 			}
 
 			.competition-logo {
 
 				img {
-					width: 200px;
+					max-width: 200px;
 					margin-bottom: 30px;
 				}
 			}

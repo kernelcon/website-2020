@@ -45,7 +45,7 @@ export default class Workshops extends Component {
 
       const dates = ele.dates.map((el, idx) => {
         return (
-          <div>{`${el.day} - at ${el.time}`}</div>
+          <div key={idx}>{`${el.day} - at ${el.time}`}</div>
         );
       })
 
