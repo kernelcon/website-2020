@@ -265,6 +265,32 @@
 		}, {
 			"req": "Provided - Best Practice guides, cheatsheets, and syntax cards."
 		}]
+	}, 
+	{
+		"title": "Black Hat Go",
+		"hidden": false,
+		"instructor": [{
+			"name": "Chris Patten",
+			"twitter": "",
+			"bio": "Chris Patten has been practicing in the security industry for 25+ years in various capacities. The last decade has been spent consulting to a number of different organizations on adversarial security issues to include adversarial offensive techniques, threat hunting capabilities, and mitigation strategies. Chris' last position was Director of the largest North American dedicated penetration testing team. Prior to formal consulting, Chris honorably served as USAF veteran in the Department of Defense Special Operation's Intelligence community at US-SOCOM consulting to Special Operations Groups on sensitive cyber warfare initiatives. Following Chris' military service, he held lead architect positions at numerous Fortune 500 telecommunication companies working with partners in a research capacity while collaborating with Executive Leadership."
+		}, {
+			"name": "Dan Kottmann",
+			"twitter": "",
+			"bio": "Dan Kottmann has a decade of professional experience in information security focusing on application security, vulnerability assessments, penetration testing, social engineering, physical security, and consulting. Dan has conducted security assessments that include components such as internal/external network, dynamic and static application security testing, social engineering, wireless assessment and intrusion, vulnerability assessments, adversarial simulations, and endpoint resiliency testing. In addition, Dan has executed assessments for various clients based on the Payment Card Industry (PCI) Data Security Standard. Dan also has performed web application development using a number of common frameworks, technologies and languages."
+		}],
+		"courseLength": 1,
+		"day": 1,
+		"minStudents": 10,
+		"maxStudents": 30,
+		"trainingDescription": "Based on the 2020 book Black Hat Go (No Starch Press), this course will guide students on a path to the creation of a basic command-and-control (C2) client/server application. Taught by the book's authors, the course journey begins with a high-level overview of the language, discussing what it is and when it makes sense for development. Next, to ensure students have a basic understanding of the language, we'll review the general syntax, conventions, and idioms. This by no means a comprehensive review of the language but is instead intended to give a brief foundation upon which the subsequent examples will be built. Following this foundational overview, we begin the fun. We start by collaboratively developing a basic HTTP server and a client implant that interacts with the server. As part of this, we'll explore HTTP communications and detail how to very cleanly work with JSON payloads. We'll have the students cross-compile their implants for easy distribution across architectures. As time permits, students will be adding to it the ability to remotely execute operating system commands, increasing security of our interactions by adding authentication and encryption, adding the ability to execute raw shellcode, and creating a concurrent port scanner used by an implant to scan internal network resources.",
+		"prereqs": [{
+			"req": "Basic understanding of Go (preferred)"
+		}],
+		"equipment": [{
+			"req": "Laptop with some type of virtualization software with the ability to run a Linux VM with Go version 1.12.5 or later installed and configured or a Windows VM (preferred)."
+		}, {
+			"req": "Guest / host OS with curl or similar."
+		}]
 	}
 ]
 
