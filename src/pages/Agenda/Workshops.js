@@ -72,11 +72,11 @@ export default class Workshops extends Component {
           </div>
   				<div className='training-desc'>{ele.trainingDescription}</div>
   				<div className='training-prereqs'>
-  					<div className='training-heading'>Prerequisites:</div>
+  					<div className='training-heading'>Students Bring:</div>
   					<div><ul>{prereqs}</ul></div>
   				</div>
           <div className='training-equipment'>
-            <div className='training-heading'>Required Equipment:</div>
+            <div className='training-heading'>Workshop provides:</div>
             <div><ul>{equipment}</ul></div>
           </div>
           <div className='training-equipment'>
