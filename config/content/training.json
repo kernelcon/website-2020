@@ -1,6 +1,7 @@
 [
 	{
 		"title": "Introduction to Ghidra",
+                "id": "ghidra",
 		"hidden": false,
 		"instructor": [{
 			"name": "Chris Eagle",
@@ -25,6 +26,7 @@
 	}, 
 	{
 		"title": "Hands on Web Application Hacking - Intro",
+                "id": "webhacking",
 		"hidden": false,
 		"instructor": [{
 			"name": "Alex Lauerman",
@@ -56,6 +58,7 @@
 	}, 
 	{
 		"title": "Control System Analysis and Defense",
+                "id": "csanalysis",
 		"hidden": false,
 		"instructor": [{
 			"name": "Brad Miller",
@@ -82,6 +85,7 @@
 	}, 
 	{
 		"title": "Network Analysis Workshop",
+                "id": "netanalysis",
 		"hidden": false,
 		"instructor": [{
 			"name": "Brad Miller",
@@ -106,6 +110,7 @@
 	}, 
 	{
 		"title": "Advanced Attack Infrastructure",
+                "id": "aai",
 		"hidden": false,
 		"instructor": [{
 			"name": "Jason Lang",
@@ -128,6 +133,7 @@
 	}, 
 	{
 		"title": "Reverse Engineering with Binary Ninja",
+                "id": "binaryninja",
 		"hidden": false,
 		"instructor": [{
 			"name": "Jordan Wiens",
@@ -150,6 +156,7 @@
 	}, 
 	{
 		"title": "Linux Forensics",
+                "id": "linfn6",
 		"hidden": false,
 		"instructor": [{
 			"name": "Hal Pomeranz",
@@ -176,6 +183,7 @@
 	}, 
 	{
 		"title": "Kubernetes: Build, Secure, Attack",
+                "id": "k8s",
 		"hidden": false,
 		"instructor": [{
 			"name": "Zach Giezen",
@@ -200,6 +208,7 @@
 	}, 
 	{
 		"title": "ELK Herding - Elasticsearch for Threat Hunting and Other Data Fun",
+                "id": "elk",
 		"hidden": false,
 		"instructor": [{
 			"name": "Henry Karpf",
@@ -226,6 +235,7 @@
 	}, 
 	{
 		"title": "Atomic Purple Teaming",
+                "id": "atomicpurple",
 		"hidden": false,
 		"instructor": [{
 			"name": "Jordan Drysdale",
@@ -268,6 +278,7 @@
 	}, 
 	{
 		"title": "Black Hat Go",
+                "id": "bhgo",
 		"hidden": false,
 		"instructor": [{
 			"name": "Chris Patten",

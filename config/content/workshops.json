@@ -1,6 +1,7 @@
 [
 	{
 		"title": "Radio Hacking 101 with RTL-SDR",
+                "id": "rtlsdr",
 		"hidden": false,
 		"instructor": [{
 			"name": "Gus Gorman",
@@ -37,6 +38,7 @@
 	}, 
 	{
 		"title": "Introduction to Hardware Hacking and IoT: Lightstrip Edition",
+                "id": "iotlights",
 		"hidden": false,
 		"instructor": [{
 			"name": "Matt Virus",
@@ -71,6 +73,7 @@
 	}, 
 	{
 		"title": "Introduction to Hardware Hacking and IoT: Smartplug Edition",
+                "id": "iotplugs",
 		"hidden": false,
 		"instructor": [{
 			"name": "Matt Virus",
@@ -105,6 +108,7 @@
 	}, 
 	{
 		"title": "Making Light Work of Data Exfiltration",
+                "id": "lightexfil",
 		"hidden": false,
 		"instructor": [{
 			"name": "Riley Hester",
@@ -143,6 +147,7 @@
 	}, 
 	{
 		"title": "Sensing Things with Sensors and Things",
+                "id": "sensing",
 		"hidden": false,
 		"instructor": [{
 			"name": "Nathan Schlehlein",
