@@ -19,16 +19,43 @@ export default class Agenda extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      defaultTab: 'schedule'
+      defaultTab: 'schedule',
+      goToClass: ''
     }
   }
 
   componentWillMount() {
-    const defaultTab = this.props.location.hash ? this.props.location.hash.split('#')[1] : 'schedule';
+    const trainingClasses = ['aai', 'atomicpurple', 'bhgo', 'csanalysis', 'elk', 'webhacking', 'ghidra', 'k8s', 'linfn6', 'netanalysis', 'binaryninja'];
+    const workshops = ['iotlights', 'iotplugs', 'lightexfil', 'rtlsdr', 'sensing'];
+    let defaultTab = window.location.href.split('#')[1];
+    const goToClass = defaultTab;
+    let className = '';
+
+    if (trainingClasses.includes(goToClass)) {
+      defaultTab = 'training';
+      className = goToClass;
+    } else if (workshops.includes(goToClass)) {
+      defaultTab = 'workshops';
+      className = goToClass;
+    }
+
     this.setState({
-      defaultTab: defaultTab
+      defaultTab: defaultTab,
+      goToClass: className
     });
-    //window.history.pushState(this.props.location.pathname, '', `#${defaultTab}`);
+  }
+
+  componentDidMount() {
+    console.log('this.state', this.state);
+    this.setState({...this.state});
+    const goToClass = this.state.goToClass;
+
+    if (goToClass !== '') {
+      const yOffset = -100;
+      const element = document.getElementsByName(goToClass)[0];
+      const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+      window.scrollTo({top: y, behavior: 'smooth'});
+    }
   }
 
   changeTab(tabId) {

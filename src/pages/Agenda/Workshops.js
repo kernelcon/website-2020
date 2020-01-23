@@ -50,7 +50,7 @@ export default class Workshops extends Component {
       })
 
   		return(
-  			<div className='training-submission' key={idx}>
+  			<div className='training-submission' key={idx} name={ele.id}>
   				<div className='training-title'>
   					<span>{ele.title}</span>
   					<span>{`$${ele.cost}`}</span>

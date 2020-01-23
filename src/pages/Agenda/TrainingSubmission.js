@@ -38,9 +38,9 @@ export default class TrainingSubmission extends Component {
   		});
 
   		return(
-  			<div className='training-submission' key={idx}>
+  			<div className='training-submission' key={idx} name={ele.id}>
   				<div className='training-title'>
-  					<span><a name={ele.id}>{ele.title}</a></span>
+  					<span>{ele.title}</span>
   					<span>{ele.courseLength > 1 ? '$1,000' : '$500'}</span>
   				</div>
 
