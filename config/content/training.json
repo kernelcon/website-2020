@@ -1,316 +1,305 @@
-[
-	{
-		"title": "Introduction to Ghidra",
-                "id": "ghidra",
-		"hidden": false,
-		"instructor": [{
-			"name": "Chris Eagle",
-			"twitter": "@sk3wl",
-			"bio": "Chris Eagle is a security researcher whose interests include computer network operations, computer forensics and reverse/anti-reverse engineering. He was the chief architect of the competition infrastructure for DARPA's Cyber Grand Challenge. He has been a speaker at conferences such as Black Hat, Shmoocon, and Defcon and is the author of \"The IDA Pro Book\". In his spare time he is an inveterate CTF player and has twice won the prestigious capture the flag competition at Defcon."
-		}],
-		"courseLength": 2,
-		"day": 1,
-		"minStudents": 10,
-		"maxStudents": 30,
-		"trainingDescription": "This course is designed to introduce students to the essential features of the Ghidra disassembler/decompiler. The course begins with Ghidra installation and project creation, then moves on to cover all of the default Ghidra displays to understand how they can help you in your reverse engineering efforts. Fundamental concepts such as parameter passing and stack frame are covered using binaries from a variety of architectures in order to understand various Ghidra displays and analysis capabilities. Ghidra’s handling of complex data types is covered from both the disassemblers and the decompilers point of view. The course conclude with a discussion of configuring and using the Ghidra collaboration server, and an introduction to Ghidra scripting. No previous Ghidra or reverse engineering experience is assumed.",
-		"prereqs": [{
-			"req": "Some knowledge of assembly languages (32 and 64-bit x86, ARM and MIPS examples will be utilized)."
-		}, {
-			"req": "The ability to read C is useful for understanding the decompiler’s output"
-		}, {
-			"req": "The ability program in Java and/or Python are essential to understanding the scripting portions of the course."
-		}],
-		"equipment": [{
-			"req": "Students are required to supply their own Windows, Linux, or Mac laptop and must have pre-installed or have the ability to install JRE/JDK 11.0 or greater."
-		}]
-	}, 
-	{
-		"title": "Hands on Web Application Hacking - Intro",
-                "id": "webhacking",
-		"hidden": false,
-		"instructor": [{
-			"name": "Alex Lauerman",
-			"twitter": "@alexlauerman",
-			"bio": "Alex has had a lifelong interest in computer security and is thrilled to have a career in it. He has spent the last decade breaking into applications, networks, and devices. He enjoys application security, cryptography, software defined radio, reverse engineering, exploitation, and developing tools that can help solve security problems at scale. Alex founded SecKC, which is a non-profit organization which is designed to foster information security in Kansas City."
-		}, {
-			"name": "Tyler Rosonke",
-			"twitter": "@zonksec",
-			"bio": "Tyler is a security professional based in Omaha, Nebraska. His main area of focus is in penetration testing. He loves learning and scripting his way out of a tight spot, which makes this area of security right up his alley. Tyler graduated from the University of Nebraska at Omaha with a B.S. in Information Assurance in 2014 and has been working in the offensive security roles ever since. Tyler is highly involved with the security community. He has contributed to open source projects, he has spoken at security conferences (DefCon), and he writes/operates the ZonkSec security blog. If Tyler is not banging his head against his monitor, you’ll likely find him in a garage banging his head against a vintage 2-stroke moped or wandering around in the great outdoors."
+[{
+        "title": "Introduction to Ghidra",
+        "id": "ghidra",
+        "hidden": false,
+        "instructor": [{
+            "name": "Chris Eagle",
+            "twitter": "@sk3wl",
+            "bio": "Chris Eagle is a security researcher whose interests include computer network operations, computer forensics and reverse/anti-reverse engineering. He was the chief architect of the competition infrastructure for DARPA's Cyber Grand Challenge. He has been a speaker at conferences such as Black Hat, Shmoocon, and Defcon and is the author of \"The IDA Pro Book\". In his spare time he is an inveterate CTF player and has twice won the prestigious capture the flag competition at Defcon."
+        }],
+        "courseLength": 2,
+        "day": 1,
+        "minStudents": 10,
+        "maxStudents": 30,
+        "trainingDescription": "This course is designed to introduce students to the essential features of the Ghidra disassembler/decompiler. The course begins with Ghidra installation and project creation, then moves on to cover all of the default Ghidra displays to understand how they can help you in your reverse engineering efforts. Fundamental concepts such as parameter passing and stack frame are covered using binaries from a variety of architectures in order to understand various Ghidra displays and analysis capabilities. Ghidra’s handling of complex data types is covered from both the disassemblers and the decompilers point of view. The course conclude with a discussion of configuring and using the Ghidra collaboration server, and an introduction to Ghidra scripting. No previous Ghidra or reverse engineering experience is assumed.",
+        "prereqs": [{
+            "req": "Some knowledge of assembly languages (32 and 64-bit x86, ARM and MIPS examples will be utilized)."
+        }, {
+            "req": "The ability to read C is useful for understanding the decompiler’s output"
+        }, {
+            "req": "The ability program in Java and/or Python are essential to understanding the scripting portions of the course."
+        }],
+        "equipment": [{
+            "req": "Students are required to supply their own Windows, Linux, or Mac laptop and must have pre-installed or have the ability to install JRE/JDK 11.0 or greater."
+        }]
+    },
+    {
+        "title": "Hands on Web Application Hacking - Intro",
+        "id": "webhacking",
+        "hidden": false,
+        "instructor": [{
+            "name": "Alex Lauerman",
+            "twitter": "@alexlauerman",
+            "bio": "Alex has had a lifelong interest in computer security and is thrilled to have a career in it. He has spent the last decade breaking into applications, networks, and devices. He enjoys application security, cryptography, software defined radio, reverse engineering, exploitation, and developing tools that can help solve security problems at scale. Alex founded SecKC, which is a non-profit organization which is designed to foster information security in Kansas City."
+        }, {
+            "name": "Tyler Rosonke",
+            "twitter": "@zonksec",
+            "bio": "Tyler is a security professional based in Omaha, Nebraska. His main area of focus is in penetration testing. He loves learning and scripting his way out of a tight spot, which makes this area of security right up his alley. Tyler graduated from the University of Nebraska at Omaha with a B.S. in Information Assurance in 2014 and has been working in the offensive security roles ever since. Tyler is highly involved with the security community. He has contributed to open source projects, he has spoken at security conferences (DefCon), and he writes/operates the ZonkSec security blog. If Tyler is not banging his head against his monitor, you’ll likely find him in a garage banging his head against a vintage 2-stroke moped or wandering around in the great outdoors."
 
-		}, {
-			"name": "Matt South",
-			"twitter": "@themattymcfatty",
-			"bio": "Matt has been an amateur security enthusiast since childhood and was a regular 2600 attendee in high school. After graduating The University of Kansas with a B.S. in Computer Science, Matt spent 6 years as an IT Consultant to local businesses in Kansas City. In 2013, he combined his knowledge of business systems and love for security to become a penetration tester for TrustFoundry. Since then, he has hacked on hundreds of systems. He’s given talks at security events such as SecKC and TriKC. He also had the privilege to present a tool of his own design at BlackHat USA 2015 and 2017. When he’s not hacking, you can find Matt fishing with family, traveling with his wife, or killing plants in his garden."
-		}],
-		"courseLength": 1,
-		"day": 2,
-		"minStudents": 5,
-		"maxStudents": 30,
-		"trainingDescription": "Learn the tools and techniques for conducting a web application penetration test. Get your hands dirty with HTTP and Burp Suite. This workshop will provide a solid introduction to web application penetration testing. This class is designed for those with little to no web application penetration testing experience, although it will move quickly. This class will include hands on challenges where attendees use skills acquired during the class to exploit web applications. Attendees will walk away with a basic understanding of the tools and processes for conducting a web application penetration test.",
-		"prereqs": [{
-			"req": "Basic knowledge of HTTP requests and responses."
-		}, {
-			"req": "Any web application programming experience will be helpful, but is not required."
-		}],
-		"equipment": [{
-			"req": "A laptop with Firefox and Java installed. Optionally, bring a Linux instance, such as Kali. Burp licenses will be provided."
-		}]
-	}, 
-	{
-		"title": "Control System Analysis and Defense",
-                "id": "csanalysis",
-		"hidden": false,
-		"instructor": [{
-			"name": "Brad Miller",
-			"twitter": "",
-			"bio": "Brad Miller is a Cyber Training Specialist and Testbed Technician at Nebraska Applied Research Institute (NARI). At NARI, Brad focuses on training cybersecurity padawans and practitioners. He designs and develops cyber curriculum and hands-on exercises for critical infrastructure. Brad specializes in industrial control system (ICS), cyber incident response, physical testbeds, and cyber resiliency. Prior to joining NARI, Brad was active duty in the US Marine Corps where he maintained F-18 Hornets and achieved his Master Training Specialist certification. Brad continues to hone his cyber engineer skills and is currently pursuing CompTIA’s Certified Technical Training (CTT+) certification."
-		}, {
-			"name": "Josh Bunstock",
-			"twitter": "",
-			"bio": "Josh Bunstock is a Cyber Training Specialist and Instructional Design Lead at Nebraska Applied Research Institute (NARI). At NARI, Josh leads the design and delivery of the technical training programs. He develops, maintains, and administers advanced cyber curriculum for critical infrastructure. Josh champions the growth and development of cybersecurity awareness and resiliency. Prior to joining NARI, Josh served as an instructor, electronics technician, security program manager, and undersea research and design technician in the Navy’s Submarine Force. Over his 20 years of service he achieved his Master Training Specialist Mentor certification. Josh received his B.S. in Applied Science and Technology with an emphasis in electronics and is pursuing a master’s degree in Instructional Technology."
-		}],
-		"courseLength": 1,
-		"day": 2,
-		"minStudents": 4,
-		"maxStudents": 20,
-		"trainingDescription": "Ready to get your hands dirty? NARI’s Control System Analysis and Defense workshop is an interactive introduction to the basics of cybersecurity of Industrial Control Systems (ICS) and components. Examine ICS protocols, firewalls, segmentation, device monitoring, and more. You will have the opportunity to interact with live ICS testbeds via multiple hands-on exercises. Leave with a greater understanding of OT equipment and system protocols. Ultimately, you will be equipped with knowledge to protect and defend against malicious attacks.",
-		"prereqs": [{
-			"req": "Basic network understanding"
-		}, {
-			"req": "Familiarity with Wireshark software"
-		}],
-		"equipment": [{
-			"req": "Laptop with VMWare or other virtualization software capable of running an .OVA file."
-		}]
-	}, 
-	{
-		"title": "Network Analysis Workshop",
-                "id": "netanalysis",
-		"hidden": false,
-		"instructor": [{
-			"name": "Brad Miller",
-			"twitter": "",
-			"bio": "Brad Miller is a Cyber Training Specialist and Testbed Technician at Nebraska Applied Research Institute (NARI). At NARI, Brad focuses on training cybersecurity padawans and practitioners. He designs and develops cyber curriculum and hands-on exercises for critical infrastructure. Brad specializes in industrial control system (ICS), cyber incident response, physical testbeds, and cyber resiliency. Prior to joining NARI, Brad was active duty in the US Marine Corps where he maintained F-18 Hornets and achieved his Master Training Specialist certification. Brad continues to hone his cyber engineer skills and is currently pursuing CompTIA’s Certified Technical Training (CTT+) certification."
-		}, {
-			"name": "Josh Bunstock",
-			"twitter": "",
-			"bio": "Josh Bunstock is a Cyber Training Specialist and Instructional Design Lead at Nebraska Applied Research Institute (NARI). At NARI, Josh leads the design and delivery of the technical training programs. He develops, maintains, and administers advanced cyber curriculum for critical infrastructure. Josh champions the growth and development of cybersecurity awareness and resiliency. Prior to joining NARI, Josh served as an instructor, electronics technician, security program manager, and undersea research and design technician in the Navy’s Submarine Force. Over his 20 years of service he achieved his Master Training Specialist Mentor certification. Josh received his B.S. in Applied Science and Technology with an emphasis in electronics and is pursuing a master’s degree in Instructional Technology."
-		}],
-		"courseLength": 1,
-		"day": 1,
-		"minStudents": 4,
-		"maxStudents": 30,
-		"trainingDescription": "Have you ever wondered what network traffic looks like? NARI’s Network Analysis Workshop employs a hands-on approach to develop a keen understanding of IP networks. You will delve into network traffic to discover the intersection between Information Technology (IT) and Operational Technology (OT). Open source tools such as GrassMarlin and Wireshark will be utilized to test your skills and knowledge of industrial protocols like BACnet. You will walk away with a broader understanding of network topologies, models, and communication. More importantly, you will be able to truly look beyond the ones and zeroes.",
-		"prereqs": [{
-			"req": "Participants should have basic network understanding and familiarity with Wireshark software."
-		}],
-		"equipment": [{
-			"req": "Laptop with VMWare or other virtualization software capable of running an .OVA file."
-		}]
-	}, 
-	{
-		"title": "Advanced Attack Infrastructure",
-                "id": "aai",
-		"hidden": false,
-		"instructor": [{
-			"name": "Jason Lang",
-			"twitter": "@curi0usJack",
-			"bio": "Jason Lang (@curi0usJack) is a caffeine-imbued coding hermit, briefly emerging from the Wisconsin woods to congregate with other infosec & PowerShell lovers. Proficient in { }?s, storytelling, and trollery, Jason spends his days on the prowl for customer data and evenings in off-the-grid pursuits. #Nano4lyfeLOLActuallyVIM"
-		}],
-		"courseLength": 2,
-		"day": 1,
-		"minStudents": 10,
-		"maxStudents": 30,
-		"trainingDescription": "Still sending shells directly to your private C2 server? This course will teach you how to proxy your traffic through the cloud (AWS), ensuring your C2 endpoints are protected at all times. We will cover dealing with incoming sandbox connections, domain categorization, infrastructure automation using ansible, as well as complete infrastructure buildout start to phish. :-) Students will come away with full knowledge of how to build out a red team infrastructure capable of handling the demands of modern red teaming, including supporting multiple team members and clients simultaneously while ensuring your C2 servers are protected from prying defenders. While the class is designed for red teamers, defenders are welcome and will learn how modern attack infrastructure is designed and utilized.",
-		"prereqs": [{
-			"req": "Students will be required to register for free AWS and Azure accounts prior to coming to class. Full prerequisite walkthroughs will be provided."
-		}],
-		"equipment": [{
-			"req": "Students will need a laptop with at least 30GB of free space."
-		}, {
-			"req": "Additionally, students will need to have a means of running virtual machines, such as VMWare Fusion/Workstation. Materials and VMs will be provided upon arrival."
-		}]
-	}, 
-	{
-		"title": "Reverse Engineering with Binary Ninja",
-                "id": "binaryninja",
-		"hidden": false,
-		"instructor": [{
-			"name": "Jordan Wiens",
-			"twitter": "@psifertex",
-			"bio": "Jordan Wiens used to play a lot of CTF, now he mostly makes them. He's been a network security engineer, vulnerability researcher, reverse engineer, engineering manager, and now he's mostly trying to figure out how business works and how to be a \"Real Programmer\" as one of the founders of Vector 35, makers of Binary Ninja."
-		}],
-		"courseLength": 2,
-		"day": 1,
-		"minStudents": 10,
-		"maxStudents": 36,
-		"trainingDescription": "While Binary Ninja is often known for its modern look and clean interface, its real power is its API. It's designed to be most powerful not when you're looking at the interface but when you're building onto its powerful API to automate reverse engineering tasks for you. This course assumes some basic knowledge of reverse engineering and shows you how to build on top of the Binary Ninja API to solve a variety of real-world problems. Students will gain fluency with the tool, the API, and be able to easily automate repetitive real world reverse engineering tasks so they can focus on new and interesting problems instead of doing the same tedious work over and over.",
-		"prereqs": [{
-			"req": "Some familiarity with reverse engineering. Advanced knowledge of a particular architecture not required, but most examples will be x86 or x64 shellcode."
-		}],
-		"equipment": [{
-			"req": "Each student will be provided a Binary Ninja non-commercial license for the course."
-		}, {
-			"req": "Each student will be responsible for bringing their own computer that meets the following requirements (http://faq.binary.ninja/en/what-platforms-does-binary-ninja-run-on-66GRPbTBKdZuCqjqc). If running on windows, enabling the Windows Subsystem for Linux is recommended but not required for testing some of the exercises."
-		}]
-	}, 
-	{
-		"title": "Linux Forensics",
-                "id": "linfn6",
-		"hidden": false,
-		"instructor": [{
-			"name": "Hal Pomeranz",
-			"twitter": "",
-			"bio": "A dynamic and experienced technology authority, Hal Pomeranz is an independent digital forensic investigator who has consulted on cases ranging from intellectual property theft, to employee sabotage, to organized cybercrime and malicious software infrastructures. He has spent more than thirty years providing pragmatic Information Technology and Security solutions for some of the world's largest commercial, government, and academic institutions. A leader in the community, Hal is a frequent presenter at national and local technical gatherings. He is co-author of the Command-Line Kung Fu blog and has written numerous books and articles on subjects ranging from Computer Forensics to Information Security to System and Network Management to Programming. Hal has served on the Board of Directors for USENIX, BayLISA, and BackBayLISA and was the Technical Editor for Sys Admin Magazine during its last four years of publication. Raised in the Open Source tradition, Hal shares his most productive tools and techniques with the community via his GitHub and blogging activity."
-		}],
-		"courseLength": 2,
-		"day": 1,
-		"minStudents": 10,
-		"maxStudents": 30,
-		"trainingDescription": "Linux is everywhere-- running in the cloud, on cell phones, and in embedded devices that make up the \"Internet of Things\". Often neglected by their owners, vulnerable Linux systems are low-hanging fruit for attackers wishing to create powerful botnets or mine cryptocurrencies. Ransomware type attacks may target Linux-based database systems and other important infrastructure. As attacks against Linux become more and more common, there is an increasing demand for skilled Linux investigators. But even experiences forensics professionals may lack sufficient background to properly conduct Linux investigations. Linux is its own particular religion, and requires dedicated study and practice to become comfortable. This two-day course is a quick-start into the world of Linux forensics. Learn how to use memory forensics to rapidly triage systems and spot attacker malware and rootkits. Learn where the most critical on-disk artifacts live and how they can help further an investigation. Rapidly process Linux logs and build a clearer picture of what happened on the system.",
-		"prereqs": [{
-			"req": "A basic understanding of forensic tools and processes is assumed."
-		}, {
-			"req": "Linux command-line experience is helpful, but not required."
-		}],
-		"equipment": [{
-			"req": "Students should bring a laptop capable of running a 64-bit Linux VMware virtual machine. Verify your virtualization software is working BEFORE coming to class!"
-		}, {
-			"req": "Laptop should have at least 80GB of free space available"
-		}, {
-			"req": "Courseware and virtual machine lab environment will be provided on USB, so a working USB A port is required."
-		}]
-	}, 
-	{
-		"title": "Kubernetes: Build, Secure, Attack",
-                "id": "k8s",
-		"hidden": false,
-		"instructor": [{
-			"name": "Zach Giezen",
-			"twitter": "@cf_man",
-			"bio": "Zach has many years of appsec and development experience; he currently works as a defender for a large payment processor. In his spare time he likes to be with his wife and four children, riding his Harley, go target shooting, 3d print everything, teach computer science courses for his homeschool cooperative, and rock a drum set if there’s any time left!"
-		}],
-		"courseLength": 1,
-		"day": 1,
-		"minStudents": 10,
-		"maxStudents": 30,
-		"trainingDescription": "Ever wanted to learn Kubernetes but haven set aside the time? Have a cluster but you haven't secured it yet? Don’t know where to start! Want to add container security testing or orchestration security testing to your “bag of tricks”? If you answered yes to one of more of these questions then come join me and others like you for a fun day of hands on exercises and conversation around these exciting topics.",
-		"prereqs": [{
-			"req": "Students need not have any experience with containers or kubernetes, this curriculum will assume some inexperienced container/kubernetes users and proficient users alike and have them securing and attacking the orchestration platform in no time. However, they should be familiar with a terminal (bash,zsh, powershell etc.)"
-		}],
-		"equipment": [{
-			"req": "Students will need to bring a working laptop with wireless connectivity {user must have the ability to download and install the software AND have 20gigs of disk space available for hypervisor if necessary}. (Windows 10, Linux or MacOS) {Live Linux Boot CD’s / USB drives will be available if using older windows}"
-		}, {
-			"req": "In addition to a working laptop with wireless, an ssh client will be needed. (native console or putty is suggested)"
-		}, {
-			"req": "Optional: If we are able to work out (Raspberry PI) use and integration into the class, students will also need to have a USB port available on their laptop!"
-		}]
-	}, 
-	{
-		"title": "ELK Herding - Elasticsearch for Threat Hunting and Other Data Fun",
-                "id": "elk",
-		"hidden": false,
-		"instructor": [{
-			"name": "Henry Karpf",
-			"twitter": "",
-			"bio": "Henry Karpf is currently a Security Researcher within the Counter Threat Unit(TM) at Secureworks®. His work focuses on creating tools to help researchers research. This includes working with “big data”, automation of finding threats, and lots of Elasticsearch. Before switching to finding the threats he spent 9 years with the US Government doing “cyber” before it was called “cyber”. He was also an adjunct instructor at the University of Nebraska at Omaha having taught a few different courses, to include Network Vulnerability Discovery. Outside of work he likes to analyse all the things and travel with his family."
-		}],
-		"courseLength": 1,
-		"day": 1,
-		"minStudents": 6,
-		"maxStudents": 15,
-		"trainingDescription": "This course will cover the basics of the Elastic Stack (a.k.a. ELK, Elastic, Logstash, Kibana), before quickly diving into ingesting real world data to analyse it and find badness. This course is designed for people with little to no experience with Elasticsearch, but do have some experience with threat hunting and log analysis. We will setup Elasticsearch, Logstash, and Kibana, learning about each and how they work together to capture, enrich, and explore data. We will also explore SIEM like capabilities of the ELK stack to explore real world data generated by honeypots and other log sources. You will learn to setup the ELK stack on your system and ingest multiple types of log files, utilizing Kibana for visualization and hunting in those log files. In addition, we will explore some of the more advanced bits of Elasticsearch including ingesting from a multitude of log sources (beats), and exploring some of the open source projects that utilize Elasticsearch in creative ways (honeypots and advanced hunting).",
-		"prereqs": [{
-			"req": "Basics of log analysis - you can look at an apache log and pick apart the parts of it."
-		}, {
-			"req": "Virtual Box - can run a VM (most of the work will be done in a VM to allow for a standard install of tools)."
-		}],
-		"equipment": [{
-			"req": "Relatively modern laptop with an SSD preferred."
-		}, {
-			"req": "8 GB of RAM (16 GB preferred). Need to run a VM with 4 GB of RAM assigned to it."
-		}, {
-			"req": "Latest version of VirtualBox installed."
-		}]
-	}, 
-	{
-		"title": "Atomic Purple Teaming",
-                "id": "atomicpurple",
-		"hidden": false,
-		"instructor": [{
-			"name": "Jordan Drysdale",
-			"twitter": "",
-			"bio": "Jordan was around for the inception of Napster and the explosion of P2P networks. This drove his fascination with network systems and led him toward a career in IT. Jordan’s first gig in the industry included supporting Latin American networking customers for Hewlett Packard's network support division. After five years of support, engineering, training, and stress, Jordan became a wireless escalations team lead and multi-vendor certified problem solver. With kids in tow, Jordan headed back toward the Dakotas to be nearer extended family and friends where he learned Citrix, VMware, VDI, supported Cisco gear, implemented profile management solutions, deployed remote networks at scale, and ensured performance across infrastructure. Before becoming a penetration tester, Jordan supported multiple (50+) domains as part of an MSSP's rock star team. Solutions utilized included HP Networking, FortiGate/FortiManager/FortiWeb/FortiAnalyzer et al., Cisco ASA, HP DL/GL/ML, Dell, VMware, NetApp, and the list goes on. For the last five years, Jordan has been a penetration tester with the Black Hills InfoSec team."
-		}, {
-			"name": "Kent R. Ickler",
-			"twitter": "",
-			"bio": "Kent Ickler started his Information Technology career working for an Internet Service Provider supporting the MidWest's broadband initiatives of the early 2000s. His interest in technology and business operations drove his career to working for multiple Fortune 500 companies and equipping their organizational leadership with business analytical data that would support their technology initiatives. With his continued interest in Business Operations, Kent completed his postgraduate education in Business Management. With an understanding of Information Technology, System Administration, Accounting, and Business Law, Kent has helped businesses leverage technology for competitive advantage while balancing the risks associated with today's dynamic network environments. Kent is a Security Analyst for Black Hills Information Security and Co-Founder of Defensive Origins, a cyber-security research, training, and consulting institution designed to assist Information Security professionals, Systems Administrators, and Organizational Leadership develop, operate, and maintain efficient network operations. Kent has presented at multiple conferences, Webcasts, television, and written blogs discussing the importance of Network Security, Internet Privacy, and the importance of balancing Information Security business risk in todays' organizations."
-		}, {
-			"name": "Derrick Rauch",
-			"twitter": "",
-			"bio": ""
-		}],
-		"courseLength": 2,
-		"day": 1,
-		"minStudents": 10,
-		"maxStudents": 30,
-		"trainingDescription": "You’ve heard this story before. Bad actor walks into a network and pillages the place in swift action. CIO asks \"Where did we go wrong?\" SysAdmin replies \"our password, remote access, workstation restriction, and lack of application whitelisting policies. Oh, and our SIEM didn’t notify us. We just weren’t ready for that attack.\" Atomic Purple Teaming (APT) will guide students through attack and defense methodology using the MITRE ATT&CK Framework and the Atomic Red Team tactics to produce a secure enterprise environment. The course covers secure network designs, OSINT based reconnaissance, basic command and control (C2) operations and modern defenses that stop or slow down current adversarial techniques. Network and Active Directory Best Practices will be leveraged as a framework for implementing network and domain protections to harden networks. Students will have an opportunity to attack their own in-class Active Directory environment with Red Team tactics, implement Blue Team defensery, and manage an environment designed to prevent, slow, identify and highlight attacks. Additionally, the course will guide students through configuring no-nonsense attack identification and alerting that is essential to an effective SOC operation. In a live-environment, students will have the opportunity to demonstrate a secured enterprise environment by utilizing the MITE ATT&CK Framework, Red Team tactics and Blue Team defenses to slow, stop, and identify attacks. Implement better security and tell your CIO how everything went right!",
-		"prereqs": [{
-			"req": "Exposure to Active Directory"
-		}],
-		"equipment": [{
-			"req": "Laptop that is capable of RDP."
-		}, {
-			"req": "Web Browser"
-		}, {
-			"req": "Provided - 90-Day Cloud-Based Linux Instance"
-		}, {
-			"req": "Provided - Courseware USB"
-		}, {
-			"req": "Provided - Digital Copy of Book"
-		}, {
-			"req": "Provided - Windows/Linux ISOs"
-		}, {
-			"req": "Provided - Bound Course Book"
-		}, {
-			"req": "Provided - Best Practice guides, cheatsheets, and syntax cards."
-		}]
-	}, 
-	{
-		"title": "Black Hat Go",
-                "id": "bhgo",
-		"hidden": false,
-		"instructor": [{
-			"name": "Chris Patten",
-			"twitter": "",
-			"bio": "Chris Patten has been practicing in the security industry for 25+ years in various capacities. The last decade has been spent consulting to a number of different organizations on adversarial security issues to include adversarial offensive techniques, threat hunting capabilities, and mitigation strategies. Chris' last position was Director of the largest North American dedicated penetration testing team. Prior to formal consulting, Chris honorably served as USAF veteran in the Department of Defense Special Operation's Intelligence community at US-SOCOM consulting to Special Operations Groups on sensitive cyber warfare initiatives. Following Chris' military service, he held lead architect positions at numerous Fortune 500 telecommunication companies working with partners in a research capacity while collaborating with Executive Leadership."
-		}, {
-			"name": "Dan Kottmann",
-			"twitter": "",
-			"bio": "Dan Kottmann has a decade of professional experience in information security focusing on application security, vulnerability assessments, penetration testing, social engineering, physical security, and consulting. Dan has conducted security assessments that include components such as internal/external network, dynamic and static application security testing, social engineering, wireless assessment and intrusion, vulnerability assessments, adversarial simulations, and endpoint resiliency testing. In addition, Dan has executed assessments for various clients based on the Payment Card Industry (PCI) Data Security Standard. Dan also has performed web application development using a number of common frameworks, technologies and languages."
-		}],
-		"courseLength": 1,
-		"day": 2,
-		"minStudents": 10,
-		"maxStudents": 30,
-		"trainingDescription": "Based on the 2020 book Black Hat Go (No Starch Press), this course will guide students on a path to the creation of a basic command-and-control (C2) client/server application. Taught by the book's authors, the course journey begins with a high-level overview of the language, discussing what it is and when it makes sense for development. Next, to ensure students have a basic understanding of the language, we'll review the general syntax, conventions, and idioms. This by no means a comprehensive review of the language but is instead intended to give a brief foundation upon which the subsequent examples will be built. Following this foundational overview, we begin the fun. We start by collaboratively developing a basic HTTP server and a client implant that interacts with the server. As part of this, we'll explore HTTP communications and detail how to very cleanly work with JSON payloads. We'll have the students cross-compile their implants for easy distribution across architectures. As time permits, students will be adding to it the ability to remotely execute operating system commands, increasing security of our interactions by adding authentication and encryption, adding the ability to execute raw shellcode, and creating a concurrent port scanner used by an implant to scan internal network resources.",
-		"prereqs": [{
-			"req": "Basic understanding of Go (preferred)"
-		}],
-		"equipment": [{
-			"req": "Laptop with some type of virtualization software with the ability to run a Linux VM with Go version 1.12.5 or later installed and configured or a Windows VM (preferred)."
-		}, {
-			"req": "Guest / host OS with curl or similar."
-		}]
-	}
+        }, {
+            "name": "Matt South",
+            "twitter": "@themattymcfatty",
+            "bio": "Matt has been an amateur security enthusiast since childhood and was a regular 2600 attendee in high school. After graduating The University of Kansas with a B.S. in Computer Science, Matt spent 6 years as an IT Consultant to local businesses in Kansas City. In 2013, he combined his knowledge of business systems and love for security to become a penetration tester for TrustFoundry. Since then, he has hacked on hundreds of systems. He’s given talks at security events such as SecKC and TriKC. He also had the privilege to present a tool of his own design at BlackHat USA 2015 and 2017. When he’s not hacking, you can find Matt fishing with family, traveling with his wife, or killing plants in his garden."
+        }],
+        "courseLength": 1,
+        "day": 2,
+        "minStudents": 5,
+        "maxStudents": 30,
+        "trainingDescription": "Learn the tools and techniques for conducting a web application penetration test. Get your hands dirty with HTTP and Burp Suite. This workshop will provide a solid introduction to web application penetration testing. This class is designed for those with little to no web application penetration testing experience, although it will move quickly. This class will include hands on challenges where attendees use skills acquired during the class to exploit web applications. Attendees will walk away with a basic understanding of the tools and processes for conducting a web application penetration test.",
+        "prereqs": [{
+            "req": "Basic knowledge of HTTP requests and responses."
+        }, {
+            "req": "Any web application programming experience will be helpful, but is not required."
+        }],
+        "equipment": [{
+            "req": "A laptop with Firefox and Java installed. Optionally, bring a Linux instance, such as Kali. Burp licenses will be provided."
+        }]
+    },
+    {
+        "title": "Control System Analysis and Defense",
+        "id": "csanalysis",
+        "hidden": false,
+        "instructor": [{
+            "name": "Brad Miller",
+            "twitter": "",
+            "bio": "Brad Miller is a Cyber Training Specialist and Testbed Technician at Nebraska Applied Research Institute (NARI). At NARI, Brad focuses on training cybersecurity padawans and practitioners. He designs and develops cyber curriculum and hands-on exercises for critical infrastructure. Brad specializes in industrial control system (ICS), cyber incident response, physical testbeds, and cyber resiliency. Prior to joining NARI, Brad was active duty in the US Marine Corps where he maintained F-18 Hornets and achieved his Master Training Specialist certification. Brad continues to hone his cyber engineer skills and is currently pursuing CompTIA’s Certified Technical Training (CTT+) certification."
+        }, {
+            "name": "Josh Bunstock",
+            "twitter": "",
+            "bio": "Josh Bunstock is a Cyber Training Specialist and Instructional Design Lead at Nebraska Applied Research Institute (NARI). At NARI, Josh leads the design and delivery of the technical training programs. He develops, maintains, and administers advanced cyber curriculum for critical infrastructure. Josh champions the growth and development of cybersecurity awareness and resiliency. Prior to joining NARI, Josh served as an instructor, electronics technician, security program manager, and undersea research and design technician in the Navy’s Submarine Force. Over his 20 years of service he achieved his Master Training Specialist Mentor certification. Josh received his B.S. in Applied Science and Technology with an emphasis in electronics and is pursuing a master’s degree in Instructional Technology."
+        }],
+        "courseLength": 1,
+        "day": 2,
+        "minStudents": 4,
+        "maxStudents": 20,
+        "trainingDescription": "Ready to get your hands dirty? NARI’s Control System Analysis and Defense workshop is an interactive introduction to the basics of cybersecurity of Industrial Control Systems (ICS) and components. Examine ICS protocols, firewalls, segmentation, device monitoring, and more. You will have the opportunity to interact with live ICS testbeds via multiple hands-on exercises. Leave with a greater understanding of OT equipment and system protocols. Ultimately, you will be equipped with knowledge to protect and defend against malicious attacks.",
+        "prereqs": [{
+            "req": "Basic network understanding"
+        }, {
+            "req": "Familiarity with Wireshark software"
+        }],
+        "equipment": [{
+            "req": "Laptop with VMWare or other virtualization software capable of running an .OVA file."
+        }]
+    },
+    {
+        "title": "Network Analysis Workshop",
+        "id": "netanalysis",
+        "hidden": false,
+        "instructor": [{
+            "name": "Brad Miller",
+            "twitter": "",
+            "bio": "Brad Miller is a Cyber Training Specialist and Testbed Technician at Nebraska Applied Research Institute (NARI). At NARI, Brad focuses on training cybersecurity padawans and practitioners. He designs and develops cyber curriculum and hands-on exercises for critical infrastructure. Brad specializes in industrial control system (ICS), cyber incident response, physical testbeds, and cyber resiliency. Prior to joining NARI, Brad was active duty in the US Marine Corps where he maintained F-18 Hornets and achieved his Master Training Specialist certification. Brad continues to hone his cyber engineer skills and is currently pursuing CompTIA’s Certified Technical Training (CTT+) certification."
+        }, {
+            "name": "Josh Bunstock",
+            "twitter": "",
+            "bio": "Josh Bunstock is a Cyber Training Specialist and Instructional Design Lead at Nebraska Applied Research Institute (NARI). At NARI, Josh leads the design and delivery of the technical training programs. He develops, maintains, and administers advanced cyber curriculum for critical infrastructure. Josh champions the growth and development of cybersecurity awareness and resiliency. Prior to joining NARI, Josh served as an instructor, electronics technician, security program manager, and undersea research and design technician in the Navy’s Submarine Force. Over his 20 years of service he achieved his Master Training Specialist Mentor certification. Josh received his B.S. in Applied Science and Technology with an emphasis in electronics and is pursuing a master’s degree in Instructional Technology."
+        }],
+        "courseLength": 1,
+        "day": 1,
+        "minStudents": 4,
+        "maxStudents": 30,
+        "trainingDescription": "Have you ever wondered what network traffic looks like? NARI’s Network Analysis Workshop employs a hands-on approach to develop a keen understanding of IP networks. You will delve into network traffic to discover the intersection between Information Technology (IT) and Operational Technology (OT). Open source tools such as GrassMarlin and Wireshark will be utilized to test your skills and knowledge of industrial protocols like BACnet. You will walk away with a broader understanding of network topologies, models, and communication. More importantly, you will be able to truly look beyond the ones and zeroes.",
+        "prereqs": [{
+            "req": "Participants should have basic network understanding and familiarity with Wireshark software."
+        }],
+        "equipment": [{
+            "req": "Laptop with VMWare or other virtualization software capable of running an .OVA file."
+        }]
+    },
+    {
+        "title": "Advanced Attack Infrastructure",
+        "id": "aai",
+        "hidden": false,
+        "instructor": [{
+            "name": "Jason Lang",
+            "twitter": "@curi0usJack",
+            "bio": "Jason Lang (@curi0usJack) is a caffeine-imbued coding hermit, briefly emerging from the Wisconsin woods to congregate with other infosec & PowerShell lovers. Proficient in { }?s, storytelling, and trollery, Jason spends his days on the prowl for customer data and evenings in off-the-grid pursuits. #Nano4lyfeLOLActuallyVIM"
+        }],
+        "courseLength": 2,
+        "day": 1,
+        "minStudents": 10,
+        "maxStudents": 30,
+        "trainingDescription": "Still sending shells directly to your private C2 server? This course will teach you how to proxy your traffic through the cloud (AWS), ensuring your C2 endpoints are protected at all times. We will cover dealing with incoming sandbox connections, domain categorization, infrastructure automation using ansible, as well as complete infrastructure buildout start to phish. :-) Students will come away with full knowledge of how to build out a red team infrastructure capable of handling the demands of modern red teaming, including supporting multiple team members and clients simultaneously while ensuring your C2 servers are protected from prying defenders. While the class is designed for red teamers, defenders are welcome and will learn how modern attack infrastructure is designed and utilized.",
+        "prereqs": [{
+            "req": "Students will be required to register for free AWS and Azure accounts prior to coming to class. Full prerequisite walkthroughs will be provided."
+        }],
+        "equipment": [{
+            "req": "Students will need a laptop with at least 30GB of free space."
+        }, {
+            "req": "Additionally, students will need to have a means of running virtual machines, such as VMWare Fusion/Workstation. Materials and VMs will be provided upon arrival."
+        }]
+    },
+    {
+        "title": "Reverse Engineering with Binary Ninja",
+        "id": "binaryninja",
+        "hidden": false,
+        "instructor": [{
+            "name": "Jordan Wiens",
+            "twitter": "@psifertex",
+            "bio": "Jordan Wiens used to play a lot of CTF, now he mostly makes them. He's been a network security engineer, vulnerability researcher, reverse engineer, engineering manager, and now he's mostly trying to figure out how business works and how to be a \"Real Programmer\" as one of the founders of Vector 35, makers of Binary Ninja."
+        }],
+        "courseLength": 2,
+        "day": 1,
+        "minStudents": 10,
+        "maxStudents": 36,
+        "trainingDescription": "While Binary Ninja is often known for its modern look and clean interface, its real power is its API. It's designed to be most powerful not when you're looking at the interface but when you're building onto its powerful API to automate reverse engineering tasks for you. This course assumes some basic knowledge of reverse engineering and shows you how to build on top of the Binary Ninja API to solve a variety of real-world problems. Students will gain fluency with the tool, the API, and be able to easily automate repetitive real world reverse engineering tasks so they can focus on new and interesting problems instead of doing the same tedious work over and over.",
+        "prereqs": [{
+            "req": "Some familiarity with reverse engineering. Advanced knowledge of a particular architecture not required, but most examples will be x86 or x64 shellcode."
+        }],
+        "equipment": [{
+            "req": "Each student will be provided a Binary Ninja non-commercial license for the course."
+        }, {
+            "req": "Each student will be responsible for bringing their own computer that meets the following requirements (http://faq.binary.ninja/en/what-platforms-does-binary-ninja-run-on-66GRPbTBKdZuCqjqc). If running on windows, enabling the Windows Subsystem for Linux is recommended but not required for testing some of the exercises."
+        }]
+    },
+    {
+        "title": "Linux Forensics",
+        "id": "linfn6",
+        "hidden": false,
+        "instructor": [{
+            "name": "Hal Pomeranz",
+            "twitter": "",
+            "bio": "A dynamic and experienced technology authority, Hal Pomeranz is an independent digital forensic investigator who has consulted on cases ranging from intellectual property theft, to employee sabotage, to organized cybercrime and malicious software infrastructures. He has spent more than thirty years providing pragmatic Information Technology and Security solutions for some of the world's largest commercial, government, and academic institutions. A leader in the community, Hal is a frequent presenter at national and local technical gatherings. He is co-author of the Command-Line Kung Fu blog and has written numerous books and articles on subjects ranging from Computer Forensics to Information Security to System and Network Management to Programming. Hal has served on the Board of Directors for USENIX, BayLISA, and BackBayLISA and was the Technical Editor for Sys Admin Magazine during its last four years of publication. Raised in the Open Source tradition, Hal shares his most productive tools and techniques with the community via his GitHub and blogging activity."
+        }],
+        "courseLength": 2,
+        "day": 1,
+        "minStudents": 10,
+        "maxStudents": 30,
+        "trainingDescription": "Linux is everywhere-- running in the cloud, on cell phones, and in embedded devices that make up the \"Internet of Things\". Often neglected by their owners, vulnerable Linux systems are low-hanging fruit for attackers wishing to create powerful botnets or mine cryptocurrencies. Ransomware type attacks may target Linux-based database systems and other important infrastructure. As attacks against Linux become more and more common, there is an increasing demand for skilled Linux investigators. But even experiences forensics professionals may lack sufficient background to properly conduct Linux investigations. Linux is its own particular religion, and requires dedicated study and practice to become comfortable. This two-day course is a quick-start into the world of Linux forensics. Learn how to use memory forensics to rapidly triage systems and spot attacker malware and rootkits. Learn where the most critical on-disk artifacts live and how they can help further an investigation. Rapidly process Linux logs and build a clearer picture of what happened on the system.",
+        "prereqs": [{
+            "req": "A basic understanding of forensic tools and processes is assumed."
+        }, {
+            "req": "Linux command-line experience is helpful, but not required."
+        }],
+        "equipment": [{
+            "req": "Students should bring a laptop capable of running a 64-bit Linux VMware virtual machine. Verify your virtualization software is working BEFORE coming to class!"
+        }, {
+            "req": "Laptop should have at least 80GB of free space available"
+        }, {
+            "req": "Courseware and virtual machine lab environment will be provided on USB, so a working USB A port is required."
+        }]
+    },
+    {
+        "title": "Kubernetes: Build, Secure, Attack",
+        "id": "k8s",
+        "hidden": false,
+        "instructor": [{
+            "name": "Zach Giezen",
+            "twitter": "@cf_man",
+            "bio": "Zach has many years of appsec and development experience; he currently works as a defender for a large payment processor. In his spare time he likes to be with his wife and four children, riding his Harley, go target shooting, 3d print everything, teach computer science courses for his homeschool cooperative, and rock a drum set if there’s any time left!"
+        }],
+        "courseLength": 1,
+        "day": 1,
+        "minStudents": 10,
+        "maxStudents": 30,
+        "trainingDescription": "Ever wanted to learn Kubernetes but haven't set aside the time? Have a cluster but you haven't secured it yet? Don’t know where to start! Want to add container security testing or orchestration security testing to your “bag of tricks”? If you answered yes to one of more of these questions then come join me and others like you for a fun day of hands on exercises and conversation around these exciting topics.",
+        "prereqs": [{
+            "req": "Students need not have any experience with containers or kubernetes, this curriculum will assume some inexperienced container/kubernetes users and proficient users alike and have them securing and attacking the orchestration platform in no time. However, they should be familiar with a terminal (bash,zsh, powershell etc.)"
+        }],
+        "equipment": [{
+            "req": "Students will need to bring a working laptop with wireless connectivity {user must have the ability to download and install the software AND have 20gigs of disk space available for hypervisor if necessary}. (Windows 10, Linux or MacOS) {Live Linux Boot CD’s / USB drives will be available if using older windows}"
+        }, {
+            "req": "In addition to a working laptop with wireless, an ssh client will be needed. (native console or putty is suggested)"
+        }, {
+            "req": "Optional: If we are able to work out (Raspberry PI) use and integration into the class, students will also need to have a USB port available on their laptop!"
+        }]
+    },
+    {
+        "title": "ELK Herding - Elasticsearch for Threat Hunting and Other Data Fun",
+        "id": "elk",
+        "hidden": false,
+        "instructor": [{
+            "name": "Henry Karpf",
+            "twitter": "",
+            "bio": "Henry Karpf is currently a Security Researcher within the Counter Threat Unit(TM) at Secureworks®. His work focuses on creating tools to help researchers research. This includes working with “big data”, automation of finding threats, and lots of Elasticsearch. Before switching to finding the threats he spent 9 years with the US Government doing “cyber” before it was called “cyber”. He was also an adjunct instructor at the University of Nebraska at Omaha having taught a few different courses, to include Network Vulnerability Discovery. Outside of work he likes to analyse all the things and travel with his family."
+        }],
+        "courseLength": 1,
+        "day": 1,
+        "minStudents": 6,
+        "maxStudents": 15,
+        "trainingDescription": "This course will cover the basics of the Elastic Stack (a.k.a. ELK, Elastic, Logstash, Kibana), before quickly diving into ingesting real world data to analyse it and find badness. This course is designed for people with little to no experience with Elasticsearch, but do have some experience with threat hunting and log analysis. We will setup Elasticsearch, Logstash, and Kibana, learning about each and how they work together to capture, enrich, and explore data. We will also explore SIEM like capabilities of the ELK stack to explore real world data generated by honeypots and other log sources. You will learn to setup the ELK stack on your system and ingest multiple types of log files, utilizing Kibana for visualization and hunting in those log files. In addition, we will explore some of the more advanced bits of Elasticsearch including ingesting from a multitude of log sources (beats), and exploring some of the open source projects that utilize Elasticsearch in creative ways (honeypots and advanced hunting).",
+        "prereqs": [{
+            "req": "Basics of log analysis - you can look at an apache log and pick apart the parts of it."
+        }, {
+            "req": "Virtual Box - can run a VM (most of the work will be done in a VM to allow for a standard install of tools)."
+        }],
+        "equipment": [{
+            "req": "Relatively modern laptop with an SSD preferred."
+        }, {
+            "req": "8 GB of RAM (16 GB preferred). Need to run a VM with 4 GB of RAM assigned to it."
+        }, {
+            "req": "Latest version of VirtualBox installed."
+        }]
+    },
+    {
+        "title": "Atomic Purple Teaming",
+        "id": "atomicpurple",
+        "hidden": false,
+        "instructor": [{
+            "name": "Jordan Drysdale",
+            "twitter": "",
+            "bio": "Jordan was around for the inception of Napster and the explosion of P2P networks. This drove his fascination with network systems and led him toward a career in IT. Jordan’s first gig in the industry included supporting Latin American networking customers for Hewlett Packard's network support division. After five years of support, engineering, training, and stress, Jordan became a wireless escalations team lead and multi-vendor certified problem solver. With kids in tow, Jordan headed back toward the Dakotas to be nearer extended family and friends where he learned Citrix, VMware, VDI, supported Cisco gear, implemented profile management solutions, deployed remote networks at scale, and ensured performance across infrastructure. Before becoming a penetration tester, Jordan supported multiple (50+) domains as part of an MSSP's rock star team. Solutions utilized included HP Networking, FortiGate/FortiManager/FortiWeb/FortiAnalyzer et al., Cisco ASA, HP DL/GL/ML, Dell, VMware, NetApp, and the list goes on. For the last five years, Jordan has been a penetration tester with the Black Hills InfoSec team."
+        }, {
+            "name": "Kent R. Ickler",
+            "twitter": "",
+            "bio": "Kent Ickler started his Information Technology career working for an Internet Service Provider supporting the MidWest's broadband initiatives of the early 2000s. His interest in technology and business operations drove his career to working for multiple Fortune 500 companies and equipping their organizational leadership with business analytical data that would support their technology initiatives. With his continued interest in Business Operations, Kent completed his postgraduate education in Business Management. With an understanding of Information Technology, System Administration, Accounting, and Business Law, Kent has helped businesses leverage technology for competitive advantage while balancing the risks associated with today's dynamic network environments. Kent is a Security Analyst for Black Hills Information Security and Co-Founder of Defensive Origins, a cyber-security research, training, and consulting institution designed to assist Information Security professionals, Systems Administrators, and Organizational Leadership develop, operate, and maintain efficient network operations. Kent has presented at multiple conferences, Webcasts, television, and written blogs discussing the importance of Network Security, Internet Privacy, and the importance of balancing Information Security business risk in todays' organizations."
+        }, {
+            "name": "Derrick Rauch",
+            "twitter": "",
+            "bio": ""
+        }],
+        "courseLength": 2,
+        "day": 1,
+        "minStudents": 10,
+        "maxStudents": 30,
+        "trainingDescription": "You’ve heard this story before. Bad actor walks into a network and pillages the place in swift action. CIO asks \"Where did we go wrong?\" SysAdmin replies \"our password, remote access, workstation restriction, and lack of application whitelisting policies. Oh, and our SIEM didn’t notify us. We just weren’t ready for that attack.\" Atomic Purple Teaming (APT) will guide students through attack and defense methodology using the MITRE ATT&CK Framework and the Atomic Red Team tactics to produce a secure enterprise environment. The course covers secure network designs, OSINT based reconnaissance, basic command and control (C2) operations and modern defenses that stop or slow down current adversarial techniques. Network and Active Directory Best Practices will be leveraged as a framework for implementing network and domain protections to harden networks. Students will have an opportunity to attack their own in-class Active Directory environment with Red Team tactics, implement Blue Team defensery, and manage an environment designed to prevent, slow, identify and highlight attacks. Additionally, the course will guide students through configuring no-nonsense attack identification and alerting that is essential to an effective SOC operation. In a live-environment, students will have the opportunity to demonstrate a secured enterprise environment by utilizing the MITE ATT&CK Framework, Red Team tactics and Blue Team defenses to slow, stop, and identify attacks. Implement better security and tell your CIO how everything went right!",
+        "prereqs": [{
+            "req": "Exposure to Active Directory"
+        }],
+        "equipment": [{
+            "req": "Laptop that is capable of RDP."
+        }, {
+            "req": "Web Browser"
+        }, {
+            "req": "Provided - 90-Day Cloud-Based Linux Instance"
+        }, {
+            "req": "Provided - Courseware USB"
+        }, {
+            "req": "Provided - Digital Copy of Book"
+        }, {
+            "req": "Provided - Windows/Linux ISOs"
+        }, {
+            "req": "Provided - Bound Course Book"
+        }, {
+            "req": "Provided - Best Practice guides, cheatsheets, and syntax cards."
+        }]
+    },
+    {
+        "title": "Black Hat Go",
+        "id": "bhgo",
+        "hidden": false,
+        "instructor": [{
+            "name": "Chris Patten",
+            "twitter": "",
+            "bio": "Chris Patten has been practicing in the security industry for 25+ years in various capacities. The last decade has been spent consulting to a number of different organizations on adversarial security issues to include adversarial offensive techniques, threat hunting capabilities, and mitigation strategies. Chris' last position was Director of the largest North American dedicated penetration testing team. Prior to formal consulting, Chris honorably served as USAF veteran in the Department of Defense Special Operation's Intelligence community at US-SOCOM consulting to Special Operations Groups on sensitive cyber warfare initiatives. Following Chris' military service, he held lead architect positions at numerous Fortune 500 telecommunication companies working with partners in a research capacity while collaborating with Executive Leadership."
+        }, {
+            "name": "Dan Kottmann",
+            "twitter": "",
+            "bio": "Dan Kottmann has a decade of professional experience in information security focusing on application security, vulnerability assessments, penetration testing, social engineering, physical security, and consulting. Dan has conducted security assessments that include components such as internal/external network, dynamic and static application security testing, social engineering, wireless assessment and intrusion, vulnerability assessments, adversarial simulations, and endpoint resiliency testing. In addition, Dan has executed assessments for various clients based on the Payment Card Industry (PCI) Data Security Standard. Dan also has performed web application development using a number of common frameworks, technologies and languages."
+        }],
+        "courseLength": 1,
+        "day": 2,
+        "minStudents": 10,
+        "maxStudents": 30,
+        "trainingDescription": "Based on the 2020 book Black Hat Go (No Starch Press), this course will guide students on a path to the creation of a basic command-and-control (C2) client/server application. Taught by the book's authors, the course journey begins with a high-level overview of the language, discussing what it is and when it makes sense for development. Next, to ensure students have a basic understanding of the language, we'll review the general syntax, conventions, and idioms. This by no means a comprehensive review of the language but is instead intended to give a brief foundation upon which the subsequent examples will be built. Following this foundational overview, we begin the fun. We start by collaboratively developing a basic HTTP server and a client implant that interacts with the server. As part of this, we'll explore HTTP communications and detail how to very cleanly work with JSON payloads. We'll have the students cross-compile their implants for easy distribution across architectures. As time permits, students will be adding to it the ability to remotely execute operating system commands, increasing security of our interactions by adding authentication and encryption, adding the ability to execute raw shellcode, and creating a concurrent port scanner used by an implant to scan internal network resources.",
+        "prereqs": [{
+            "req": "Basic understanding of Go (preferred)"
+        }],
+        "equipment": [{
+            "req": "Laptop with some type of virtualization software with the ability to run a Linux VM with Go version 1.12.5 or later installed and configured or a Windows VM (preferred)."
+        }, {
+            "req": "Guest / host OS with curl or similar."
+        }]
+    }
 ]
-
-
-
-
-
-
-
-
-
-
