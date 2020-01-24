@@ -5,6 +5,7 @@ import mhh from '../../static/images/sponsors/MHH.png';
 import splunk from '../../static/images/sponsors/splunk-dark.png';
 import forefront17 from '../../static/images/sponsors/forefront17.png';
 import swlight from '../../static/images/sponsors/swlight.png';
+import securesky from '../../static/images/sponsors/securesky.png';
 
 import './Sponsors.scss';
 
@@ -119,6 +120,13 @@ export default class Sponsors extends Component {
                     className='spons-img other-spons spons-white-img'
                     alt="Splunk"/>
                 </a>
+                <a href="https://securesky.com/"
+                  target="_blank"
+                  rel='noopener noreferrer'>
+                  <img src={securesky}
+                    className='spons-img other-spons spons-white-img'
+                    alt="Secure Sky"/>
+                </a>
               </div>
 
               <div className='spons-block'>
@@ -167,6 +175,13 @@ export default class Sponsors extends Component {
                       <img src={ubtlogo}
                         className='spons-img fdbev-spons spons-white-img'
                         alt="Union Bank & Trust"/>
+                    </a>
+                    <a href="https://securesky.com/"
+                      target="_blank"
+                      rel='noopener noreferrer'>
+                      <img src={securesky}
+                        className='spons-img fdbev-spons spons-white-img'
+                        alt="Secure Sky"/>
                     </a>
                   </div>
 
