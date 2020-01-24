@@ -39,10 +39,12 @@ export default class TrainingSubmission extends Component {
 
   		return(
   			<div className='training-submission' key={idx} name={ele.id}>
-  				<div className='training-title'>
-  					<span>{ele.title}</span>
-  					<span>{ele.courseLength > 1 ? '$1,000' : '$500'}</span>
-  				</div>
+  				<a href={`/agenda#${ele.id}`}>
+            <div className='training-title'>
+    					<span>{ele.title}</span>
+    					<span>{ele.courseLength > 1 ? '$1,000' : '$500'}</span>
+    				</div>
+          </a>
 
   				<div className='training-presenter'>
   					<div className='training-heading'>{ele.instructor.length > 1 ? 'Instructors' : 'Instructor'}:</div>

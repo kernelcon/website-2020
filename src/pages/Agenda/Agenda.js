@@ -11,6 +11,7 @@ import strand from '../../static/images/strand.jpg';
 import sophia from '../../static/images/sophia.jpg';
 import ctf from '../../static/images/logos/ctf_logo.png';
 import toool from '../../static/images/logos/toool.png';
+import hhv from '../../static/images/logos/hhv.png';
 import wifi from '../../static/images/logos/wifi.png';
 
 export default class Agenda extends Component {
@@ -183,6 +184,22 @@ export default class Agenda extends Component {
                 </div>
               </div>
             </div>
+
+
+            <div className='competition-area'>
+              <div className='competition-section'>
+                <div className='competition-name-logo'>
+                  <div className='competition-name'>Hardware Hacking Village</div>
+                  <div className='competition-logo'>
+                    <img src={hhv} width="150" alt='hhv'/>
+                  </div>
+                </div>
+                <div className='competition-description'>
+                  Hardware hackers and novices alike, come learn the secrets of the Kernelcon badge and more at the Hardware Hacking Village. Never soldered? Now’s your chance to play with molten metal! Our experts will help teach you how to add the blinky-blink. More experienced? Chat with the people who created the badge, trade SAOs or bring your own electronics project to show off. We will have small project kits and tools available for everyone to practice their soldering skills. Make something you can call your own, and don’t miss the brightest village at the con - the Hardware Hacking Village.
+                </div>
+              </div>
+            </div>
+
           </div>
         </TabPanel>
 
