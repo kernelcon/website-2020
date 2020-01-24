@@ -177,7 +177,7 @@ export default class Agenda extends Component {
                 <div className='competition-name-logo'>
                   <div className='competition-name'>Hardware Hacking Village</div>
                   <div className='competition-logo'>
-                    <img src={hhv} width="150" alt='hhv'/>
+                    <img src={hhv} width="150" alt='hhv' className='spons-white-img'/>
                   </div>
                 </div>
                 <div className='competition-description'>
