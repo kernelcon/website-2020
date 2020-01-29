@@ -14,6 +14,8 @@ import toool from '../../static/images/logos/toool.png';
 import hhv from '../../static/images/logos/hhv.png';
 import wifi from '../../static/images/logos/wifi.png';
 import mhv from '../../static/images/sponsors/MHH.png';
+import otvlight from '../../static/images/logos/NARI-white.png';
+import otvblack from '../../static/images/logos/NARI-black.png';
 
 export default class Agenda extends Component {
   static displayName = 'Agenda';
@@ -175,7 +177,7 @@ export default class Agenda extends Component {
             <div className='competition-area'>
               <div className='competition-section'>
                 <div className='competition-name-logo'>
-                  <div className='competition-name'>Hardware Hacking Village</div>
+                  <div className='competition-name'>Hardware Hacking</div>
                   <div className='competition-logo'>
                     <img src={hhv} width="150" alt='hhv' className='spons-white-img'/>
                   </div>
@@ -189,7 +191,7 @@ export default class Agenda extends Component {
             <div className='competition-area'>
               <div className='competition-section'>
                 <div className='competition-name-logo'>
-                  <div className='competition-name'>Mental Health and Wellness Village</div>
+                  <div className='competition-name'>Mental Health and Wellness</div>
                   <div className='competition-logo'>
                     <img src={mhv} width="150" alt='hhv'/>
                   </div>
@@ -203,7 +205,22 @@ export default class Agenda extends Component {
             <div className='competition-area'>
               <div className='competition-section'>
                 <div className='competition-name-logo'>
-                  <div className='competition-name'>TOOOL Lockpicking Village</div>
+                  <div className='competition-name'>Operational Technology</div>
+                  <div className='competition-logo'>
+                    <img src={otvblack} className='otv-black' width="150" alt='otv'/>
+                    <img src={otvlight} className='otv-light' width="150" alt='otv'/>
+                  </div>
+                </div>
+                <div className='competition-description'>
+                  Almost every enterprise has an IT network - but have you ever seen an OT network? Visit our operational technology (OT) village complete with testbed exercises on OT components. Two full-size building control system testbeds will be on display with demonstrations given throughout the day. Curious about the traffic? OT PCAP exercises are available for the network investigator in you. 
+                </div>
+              </div>
+            </div>
+
+            <div className='competition-area'>
+              <div className='competition-section'>
+                <div className='competition-name-logo'>
+                  <div className='competition-name'>TOOOL Lockpicking</div>
                   <div className='competition-logo'>
                     <img src={toool} width="150" alt='toool'/>
                   </div>

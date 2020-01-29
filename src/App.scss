@@ -7,6 +7,14 @@ body.light-mode {
     img.con-logo-flip-flip {
         filter: invert(100%);
     }
+
+    .otv-black {
+        display: block;
+        margin-top: -30px;
+    }
+    .otv-light {
+        display: none;
+    }
 }
 
 body.dark-mode {
