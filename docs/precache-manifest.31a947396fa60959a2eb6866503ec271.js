@@ -4,24 +4,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cfp/wifi.pdf"
   },
   {
-    "revision": "203b584b3d1678bc05a69b7d8e6a68ce",
+    "revision": "2da1ae05fd9e13e863a90aca1699304d",
     "url": "/index.html"
   },
   {
-    "revision": "445891b538c4868ec8c1",
+    "revision": "2565e3995541bd804fa6",
     "url": "/static/css/2.194e2ed7.chunk.css"
   },
   {
-    "revision": "5823c55a647cc806c3ed",
-    "url": "/static/css/main.4fab67d3.chunk.css"
+    "revision": "2c3a6a2b7d6ebb985149",
+    "url": "/static/css/main.0c7d1480.chunk.css"
   },
   {
-    "revision": "445891b538c4868ec8c1",
-    "url": "/static/js/2.8b0bd618.chunk.js"
+    "revision": "2565e3995541bd804fa6",
+    "url": "/static/js/2.7387a881.chunk.js"
   },
   {
-    "revision": "5823c55a647cc806c3ed",
-    "url": "/static/js/main.9fe3cf71.chunk.js"
+    "revision": "2c3a6a2b7d6ebb985149",
+    "url": "/static/js/main.18c4cb59.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -36,8 +36,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/NARI-black.507a28c6.png"
   },
   {
+    "revision": "4ddb6c31ae5f603918c0fcafe7bd1438",
+    "url": "/static/media/NARI-dark.4ddb6c31.png"
+  },
+  {
     "revision": "67ce3af4305ef9a63a47766d442e5719",
     "url": "/static/media/NARI-white.67ce3af4.png"
+  },
+  {
+    "revision": "94c0f96d5b22ac033291ab0bee98903a",
+    "url": "/static/media/NARI-white.94c0f96d.png"
   },
   {
     "revision": "cf1f25d03095ed873cc053bbaa942f85",
@@ -110,10 +118,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c552b7f722aa8c54aadf843b02b8604d",
     "url": "/static/media/kernelcon_white.c552b7f7.png"
-  },
-  {
-    "revision": "a24099a7ac88bbee3bb9a2c4f1821860",
-    "url": "/static/media/nari.a24099a7.svg"
   },
   {
     "revision": "fd515d0966abca13bc7dbced1f621646",

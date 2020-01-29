@@ -6,6 +6,8 @@ import splunk from '../../static/images/sponsors/splunk-dark.png';
 import forefront17 from '../../static/images/sponsors/forefront17.png';
 import swlight from '../../static/images/sponsors/swlight.png';
 import securesky from '../../static/images/sponsors/securesky.png';
+import narilight from '../../static/images/sponsors/NARI-white.png';
+import naridark from '../../static/images/sponsors/NARI-dark.png';
 
 import './Sponsors.scss';
 
@@ -145,13 +147,23 @@ export default class Sponsors extends Component {
                     className='spons-img other-spons'
                     alt="MHH"/>
                 </a>
-{/*             <a href="https://nari-cyber.com/"
+                <a href="https://nari-cyber.com/"
                   target="_blank"
-                  rel='noopener noreferrer'>
-                  <img src={nari}
-                    className='spons-img other-spons spons-white-img'
+                  rel='noopener noreferrer'
+                  className='otv-light'>
+                  <img src={narilight}
+                    className='spons-img other-spons'
                     alt="NARI"/>
                 </a>
+                <a href="https://nari-cyber.com/"
+                  target="_blank"
+                  rel='noopener noreferrer'
+                  className='otv-black'>
+                  <img src={naridark}
+                    className='spons-img other-spons'
+                    alt="NARI"/>
+                </a>
+              {/*  
                 <a href="https://nostarch.com/"
                   target="_blank"
                   rel='noopener noreferrer'>
