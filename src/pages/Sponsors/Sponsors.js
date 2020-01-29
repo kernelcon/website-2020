@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import ubtlogo from '../../static/images/sponsors/ubt.png';
 import toool from '../../static/images/sponsors/toool.svg';
+import tooolwhite from '../../static/images/sponsors/toool-white.png';
 import mhh from '../../static/images/sponsors/MHH.png';
+import mhhlight from '../../static/images/sponsors/MHH-white.png';
 import splunk from '../../static/images/sponsors/splunk-dark.png';
 import forefront17 from '../../static/images/sponsors/forefront17.png';
 import swlight from '../../static/images/sponsors/swlight.png';
@@ -135,22 +137,40 @@ export default class Sponsors extends Component {
                 <h4 className='text-highlight spons-title'>Other Sponsors</h4>
                 <a href="https://toool.us/"
                   target="_blank"
-                  rel='noopener noreferrer'>
+                  rel='noopener noreferrer'
+                  className='light-pic'>
+                  <img src={tooolwhite}
+                    className='spons-img other-spons'
+                    alt="TOOOL"/>
+                </a>
+                <a href="https://toool.us/"
+                  target="_blank"
+                  rel='noopener noreferrer'
+                  className='otv-black'>
                   <img src={toool}
                     className='spons-img other-spons'
                     alt="TOOOL"/>
                 </a>
                 <a href="https://www.mentalhealthhackers.org/"
                   target="_blank"
-                  rel='noopener noreferrer'>
+                  rel='noopener noreferrer'
+                  className='otv-black'>
                   <img src={mhh}
+                    className='spons-img other-spons'
+                    alt="MHH"/>
+                </a>
+                <a href="https://www.mentalhealthhackers.org/"
+                  target="_blank"
+                  rel='noopener noreferrer'
+                  className='light-pic'>
+                  <img src={mhhlight}
                     className='spons-img other-spons'
                     alt="MHH"/>
                 </a>
                 <a href="https://nari-cyber.com/"
                   target="_blank"
                   rel='noopener noreferrer'
-                  className='otv-light'>
+                  className='light-pic'>
                   <img src={narilight}
                     className='spons-img other-spons'
                     alt="NARI"/>

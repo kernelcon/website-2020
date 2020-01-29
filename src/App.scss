@@ -8,11 +8,14 @@ body.light-mode {
         filter: invert(100%);
     }
 
+    .dark-pic {
+        display: block;
+    }
     .otv-black {
         display: block;
         margin-top: -30px;
     }
-    .otv-light {
+    .otv-light, .light-pic {
         display: none;
     }
 }

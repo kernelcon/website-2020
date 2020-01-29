@@ -14,6 +14,7 @@ import toool from '../../static/images/logos/toool.png';
 import hhv from '../../static/images/logos/hhv.png';
 import wifi from '../../static/images/logos/wifi.png';
 import mhv from '../../static/images/sponsors/MHH.png';
+import mhvlight from '../../static/images/sponsors/MHH-white.png';
 import otvlight from '../../static/images/logos/NARI-white.png';
 import otvblack from '../../static/images/logos/NARI-black.png';
 
@@ -193,7 +194,8 @@ export default class Agenda extends Component {
                 <div className='competition-name-logo'>
                   <div className='competition-name'>Mental Health and Wellness</div>
                   <div className='competition-logo'>
-                    <img src={mhv} width="150" alt='hhv'/>
+                    <img src={mhv} className='dark-pic' width="150" alt='mhv'/>
+                    <img src={mhvlight} className='light-pic' width="150" alt='mhv'/>
                   </div>
                 </div>
                 <div className='competition-description'>
