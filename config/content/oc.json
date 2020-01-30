@@ -74,17 +74,34 @@
         "heading": "Capture the Flag Ops",
         "people": [
             {
-                "id": 11,
+                "id": 12,
                 "name": "Nate Wood",
                 "title": "CTF Operations",
                 "image": "nate.png",
                 "twitter": "woodnsec"
             }, {
-                "id": 12,
+                "id": 13,
                 "name": "Jeris Rue",
                 "title": "CTF Operations",
                 "image": "jeris.png",
                 "twitter": "elaboraterues"
+            }
+        ]
+    }, {
+        "heading": "Technical Program Committee",
+        "people": [
+            {
+                "id": 14,
+                "name": "Catherine Dodge",
+                "title": "Program Committee",
+                "image": "catherine.png",
+                "twitter": "fembotspice"
+            }, {
+                "id": 15,
+                "name": "Trevor Taylor",
+                "title": "Program Committee",
+                "image": "trevor.png",
+                "twitter": "0x5858c390"
             }
         ]
     }
