@@ -107,12 +107,15 @@ export default class Home extends Component {
                 <span className='highlight-spans'><a className='text-highlight' href='/agenda#keynotes'>Keynotes</a></span>
               </div>
               <div className='highlight-text-box'>
-                <span className='highlight-spans'><a className='text-highlight' href='/agenda#villages'>Villages</a></span>
-              </div>
-              <div className='highlight-text-box'>
+                <span className='num-highlight'>2</span>
                 <span className='highlight-spans'><a className='text-highlight' href='/agenda#competitions'>Competitions</a></span>
               </div>
               <div className='highlight-text-box'>
+                <span className='num-highlight'>4</span>
+                <span className='highlight-spans'><a className='text-highlight' href='/agenda#villages'>Villages</a></span>
+              </div>
+              <div className='highlight-text-box'>
+                <span className='num-highlight'>5</span>
                 <span className='highlight-spans'><a className='text-highlight' href='/agenda#workshops'>Hands-on Workshops</a></span>
               </div>
             </div>

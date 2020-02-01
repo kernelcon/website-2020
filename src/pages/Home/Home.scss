@@ -150,6 +150,12 @@ body.dark-mode {
             font-size: 2.5em;
             line-height: 1.2;
             margin-left: 20px;
+
+            .highlight-text-box {
+                display: flex;
+                align-items: center;
+            }
+
             .vision-highlight {
                 font-size: 30px;
                 font-family: 'Jura';
@@ -159,6 +165,11 @@ body.dark-mode {
                 font-family: Lato, Gotham, Arial;
                 font-weight: 900;
                 margin-right: 20px;
+                font-size: 50px;
+                color: #666;
+                -webkit-text-fill-color: transparent; /*#dae5ff; /* Will override color (regardless of order) */
+                -webkit-text-stroke-width: 1px;
+                -webkit-text-stroke-color: #409ABF;
             }
             .highlight-spans {
                 text-transform: uppercase;
@@ -170,7 +181,7 @@ body.dark-mode {
             }
             .highlight-boxes {
                 background-color: aliceblue;
-                padding: 20px 20px 20px 50px;
+                padding: 20px 20px 20px 35px;
                 border-radius: 5px;
                 box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25), 0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
                 transition-property: color, background-color, box-shadow, transform;

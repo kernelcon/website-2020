@@ -300,6 +300,8 @@
             "req": "Laptop with some type of virtualization software with the ability to run a Linux VM with Go version 1.12.5 or later installed and configured or a Windows VM (preferred)."
         }, {
             "req": "Guest / host OS with curl or similar."
+        },  {
+            "req": "Provided - Copy of the book Black Hat Go."
         }]
     }
 ]
