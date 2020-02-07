@@ -10,6 +10,8 @@ import swlight from '../../static/images/sponsors/swlight.png';
 import securesky from '../../static/images/sponsors/securesky.png';
 import narilight from '../../static/images/sponsors/NARI-white.png';
 import naridark from '../../static/images/sponsors/NARI-dark.png';
+import perspectadark from '../../static/images/sponsors/perspecta-dark.png';
+import perspectalight from '../../static/images/sponsors/perspecta-light.png';
 
 import './Sponsors.scss';
 
@@ -214,6 +216,22 @@ export default class Sponsors extends Component {
                       <img src={securesky}
                         className='spons-img fdbev-spons spons-white-img'
                         alt="Secure Sky"/>
+                    </a>
+                    <a href="https://perspecta.com/"
+                      target="_blank"
+                      rel='noopener noreferrer'
+                      className='light-pic'>
+                      <img src={perspectalight}
+                        className='spons-img fdbev-spons'
+                        alt="Perspecta"/>
+                    </a>
+                    <a href="https://perspecta.com/"
+                      target="_blank"
+                      rel='noopener noreferrer'
+                      className='dark-pic'>
+                      <img src={perspectadark}
+                        className='spons-img fdbev-spons'
+                        alt="Perspecta"/>
                     </a>
                   </div>
 

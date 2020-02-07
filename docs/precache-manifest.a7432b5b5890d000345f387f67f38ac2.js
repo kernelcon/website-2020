@@ -4,24 +4,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cfp/wifi.pdf"
   },
   {
-    "revision": "12acb9100d11175d04f6ace4198cdc0e",
+    "revision": "b047cd1cce197c18b380cd0d85d779ff",
     "url": "/index.html"
   },
   {
-    "revision": "198b7585f8bedddb0b8a",
+    "revision": "ff917b288965855cd1c4",
     "url": "/static/css/2.194e2ed7.chunk.css"
   },
   {
-    "revision": "0e919cd2665081b46254",
-    "url": "/static/css/main.0adb07d8.chunk.css"
+    "revision": "591aedb81e08986717fa",
+    "url": "/static/css/main.3bc76097.chunk.css"
   },
   {
-    "revision": "198b7585f8bedddb0b8a",
-    "url": "/static/js/2.590f4728.chunk.js"
+    "revision": "ff917b288965855cd1c4",
+    "url": "/static/js/2.bc44fb3b.chunk.js"
   },
   {
-    "revision": "0e919cd2665081b46254",
-    "url": "/static/js/main.59bc2b39.chunk.js"
+    "revision": "591aedb81e08986717fa",
+    "url": "/static/js/main.8e06ddf7.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -130,6 +130,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fd515d0966abca13bc7dbced1f621646",
     "url": "/static/media/nate.fd515d09.png"
+  },
+  {
+    "revision": "3eefc7996a6ae5998f4e52eef0c839da",
+    "url": "/static/media/perspecta-dark.3eefc799.png"
+  },
+  {
+    "revision": "4e6a8809d0f03adc92b5ac84ed5969b3",
+    "url": "/static/media/perspecta-light.4e6a8809.png"
   },
   {
     "revision": "870bb4a57b6f24780e18d09e8f3c91af",
