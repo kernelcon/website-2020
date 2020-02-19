@@ -12,6 +12,10 @@ import narilight from '../../static/images/sponsors/NARI-white.png';
 import naridark from '../../static/images/sponsors/NARI-dark.png';
 import perspectadark from '../../static/images/sponsors/perspecta-dark.png';
 import perspectalight from '../../static/images/sponsors/perspecta-light.png';
+import guidepointdark from '../../static/images/sponsors/guidepoint-dark.png';
+import guidepointlight from '../../static/images/sponsors/guidepoint-light.png';
+import checkpointdark from '../../static/images/sponsors/cp-black.png';
+import checkpointlight from '../../static/images/sponsors/cp-white.png';
 
 import './Sponsors.scss';
 
@@ -46,24 +50,51 @@ export default class Sponsors extends Component {
 
             <div className='text-block spons-groups'>
 
-{/*              <div className='spons-block'>
-                <h2 className='gold spons-title'>Platinum</h2>
-                <a href="https://www.netscout.com/"
-                  target="_blank"
-                  rel='noopener noreferrer'>
-                  <img src={netscout}
-                    className='spons-img plat-spons'
-                    alt="NETSCOUT"/>
-                </a>
-                <a href="https://www.endgame.com/"
-                  target="_blank"
-                  rel='noopener noreferrer'>
-                  <img src={endgamelogo}
-                    className='spons-img plat-spons'
-                    alt="ENDGAME"/>
-                </a>
+              <div className='spons-block'>
+                <h2 className='text-highlight spons-title'>Platinum</h2>
+
+                <div className='two-line'>
+                  <a href="https://www.checkpoint.com/"
+                    target="_blank"
+                    rel='noopener noreferrer'
+                    className='light-pic'>
+                    <img src={checkpointlight}
+                      className='spons-img half-plat-spons'
+                      alt="Checkpoint"/>
+                  </a>
+                  <a href="https://www.guidepointsecurity.com/"
+                    target="_blank"
+                    rel='noopener noreferrer'
+                    className='light-pic'>
+                    <img src={guidepointlight}
+                      className='spons-img half-plat-spons'
+                      alt="GuidePoint Security"/>
+                  </a>
+                </div>
+
+                <div className='two-line'>
+                  <a href="https://www.checkpoint.com/"
+                    target="_blank"
+                    rel='noopener noreferrer'
+                    className='dark-pic'>
+                    <img src={checkpointdark}
+                      className='spons-img half-plat-spons'
+                      alt="Checkpoint"/>
+                  </a>
+                  <a href="https://www.guidepointsecurity.com/"
+                    target="_blank"
+                    rel='noopener noreferrer'
+                    className='dark-pic'>
+                    <img src={guidepointdark}
+                      className='spons-img half-plat-spons'
+                      alt="GuidePoint Security"/>
+                  </a>
+                </div>
+
+
               </div>
 
+{/*
               <div className='spons-block'>
                 <h3 className='gold spons-title'>Gold</h3>
                 <a href="https://www.secureworks.com/"

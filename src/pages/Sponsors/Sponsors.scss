@@ -52,6 +52,10 @@
         align-items: center;
         justify-content: space-evenly;
         padding: 0vw 5vw;
+
+        a {
+          margin: 0px 30px;
+        }
       }
       .spons-img {
         max-width:100%;
@@ -61,6 +65,9 @@
 
       .plat-spons {
         max-width: calc(28vh + 28vw);
+      }
+      .half-plat-spons {
+        max-width: calc(15vh + 15vw);
       }
       .gold-spons {
         max-width: calc(25vh + 25vw);
