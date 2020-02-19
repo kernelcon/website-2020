@@ -4,7 +4,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cfp/wifi.pdf"
   },
   {
-    "revision": "078a38ad756c77ababbceecea8026215",
+    "revision": "cdcfb314e74bf1d7965e61cbed4caf6c",
     "url": "/index.html"
   },
   {
@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.194e2ed7.chunk.css"
   },
   {
-    "revision": "5cd73786dbd38e8943c7",
+    "revision": "18fbf196f88317fc182b",
     "url": "/static/css/main.5d6dc849.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.7b2aab67.chunk.js"
   },
   {
-    "revision": "5cd73786dbd38e8943c7",
-    "url": "/static/js/main.ee949a8e.chunk.js"
+    "revision": "18fbf196f88317fc182b",
+    "url": "/static/js/main.74d6e67c.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",

@@ -251,7 +251,7 @@ export default class Sponsors extends Component {
                     <a href="https://perspecta.com/"
                       target="_blank"
                       rel='noopener noreferrer'
-                      className='light-pic'>
+                      className='dark-pic'>
                       <img src={perspectalight}
                         className='spons-img fdbev-spons'
                         alt="Perspecta"/>
@@ -259,7 +259,7 @@ export default class Sponsors extends Component {
                     <a href="https://perspecta.com/"
                       target="_blank"
                       rel='noopener noreferrer'
-                      className='dark-pic'>
+                      className='light-pic'>
                       <img src={perspectadark}
                         className='spons-img fdbev-spons'
                         alt="Perspecta"/>
