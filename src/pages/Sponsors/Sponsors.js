@@ -248,22 +248,6 @@ export default class Sponsors extends Component {
                         className='spons-img fdbev-spons spons-white-img'
                         alt="Secure Sky"/>
                     </a>
-                    <a href="https://perspecta.com/"
-                      target="_blank"
-                      rel='noopener noreferrer'
-                      className='dark-pic'>
-                      <img src={perspectalight}
-                        className='spons-img fdbev-spons'
-                        alt="Perspecta"/>
-                    </a>
-                    <a href="https://perspecta.com/"
-                      target="_blank"
-                      rel='noopener noreferrer'
-                      className='light-pic'>
-                      <img src={perspectadark}
-                        className='spons-img fdbev-spons'
-                        alt="Perspecta"/>
-                    </a>
                   </div>
 
                   <div className='single-foodbev-spons'>
@@ -288,6 +272,22 @@ export default class Sponsors extends Component {
                       <img src={swlight}
                         className='spons-img fdbev-spons spons-white-img'
                         alt="Secureworks"/>
+                    </a>
+                    <a href="https://perspecta.com/"
+                      target="_blank"
+                      rel='noopener noreferrer'
+                      className='dark-pic'>
+                      <img src={perspectalight}
+                        className='spons-img fdbev-spons'
+                        alt="Perspecta"/>
+                    </a>
+                    <a href="https://perspecta.com/"
+                      target="_blank"
+                      rel='noopener noreferrer'
+                      className='light-pic'>
+                      <img src={perspectadark}
+                        className='spons-img fdbev-spons'
+                        alt="Perspecta"/>
                     </a>
                   </div>
 
