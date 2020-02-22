@@ -19,6 +19,7 @@ import Home from './pages/Home/Home';
 import Sponsors from './pages/Sponsors/Sponsors';
 import Venue from './pages/Venue/Venue';
 import Register from './pages/Register/Register';
+import Speakers from './pages/Speakers/Speakers';
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
           <Route exact path="/venue" component={Venue} />
           <Route exact path="/register" component={Register} />
           <Route exact path="/bio" component={Bio} />
+          <Route exact path="/speakers" component={Speakers} />
         </div>
       </div>
       <Footer />

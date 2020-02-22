@@ -1,0 +1,139 @@
+@import '../../static/styles/base/variables';
+
+.speakers {
+  .title {
+    margin-top: 0px;
+  }
+}
+
+.speaker-section {
+  margin-top: 30px;
+  padding-bottom: 50px;
+}
+
+.keynote-section {
+  display: flex;
+
+
+  .kernelcon-text-area {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bio-name {
+    margin: 30px 0px 0px 0px;
+  }
+  .bio-title {
+    margin-block-start: 10px;
+    font-weight: 100;
+    letter-spacing: 2px;
+
+    a {
+      color: $text-highlight;
+      text-decoration: none;
+
+      &:not(:first-child) {
+        &:before {
+          content: "\2022";
+          color: $text-highlight;
+          margin: 0px 8px;
+        }
+      }
+    }
+
+  }
+  .bio-text {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .keynote-image-area {
+    padding: 40px 10px 10px 20px;
+  }
+}
+
+
+
+.speaker-section {
+  .title {
+    padding-bottom: 30px;
+  }
+  .title-reversed {
+    padding: 20px 0px;
+  }
+
+  .speakers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .individual-speaker-section {
+      padding-bottom: 30px;
+      display: flex;
+      flex-direction: row;
+      width: 460px;
+
+      .bio-image {
+        border-radius: 50%;
+      }
+
+      h3 {
+        font-size: 1.25em;
+        font-family: 'Jura', 'Montserrat', sans-serif;
+        margin-top: 0px;
+        margin-bottom: 10px;
+      }
+
+      .speaker-image {
+        display: flex;
+        flex-direction: column;
+        padding-right: 15px;
+      }
+      .speaker-wording {
+        display: flex;
+        flex-direction: column;
+
+        a {
+          text-decoration: none;
+          font-size: 20px;
+          font-family: 'Jura';
+          /*color: black;*/
+        }
+
+        .speaker-titles {
+          color: $text-highlight;
+          /*margin-bottom: 10px;*/
+
+          span {
+            &:not(:first-child) {
+              &:before {
+                content: "\2022";
+                color: $text-highlight;
+                margin: 0px 8px;
+              }
+            }
+          }
+        }
+
+        .bio-image {
+          float:right;
+          margin-top: -30px;
+          padding: 0px 5px 5px 5px;
+          width: 130px;
+          height: 130px;
+        }
+
+        p {
+          margin-block-start: 0.5em;
+          font-weight: 300;
+          font-size: 15px;
+          line-height: 20px;
+        }
+
+      }
+    }
+  }
+}
+

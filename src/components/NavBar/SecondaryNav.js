@@ -20,10 +20,10 @@ export default class SecondaryNav extends Component {
             menu = {
               <div className='nav-links'>
                 <a href="/venue">Venue</a>
-                <a href="/dates">Dates</a>
-                <a href="/open-calls">Open Calls</a>
                 <a href="/agenda">Agenda</a>
+                <a href="/speakers">Speakers</a>
                 <a href="/agenda#training">Training</a>
+                <a href="/agenda#workshops">Workshops</a>
                 <a href="/register">Register</a>
                 <a href="/sponsors">Sponsors</a>
                 <a href="/about">About</a>
