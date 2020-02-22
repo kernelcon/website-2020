@@ -1,0 +1,31 @@
+[
+ {
+    "title": "The Beginner’s Guide to Pentesting ICS:  How NOT to Shut Down A Power Grid",
+    "speaker": "Dan Bougere",
+    "talk_id": "introics",
+    "speaker_id": "dbougere",
+    "company": "",
+    "twitter": "@Rouxgaru",
+    "github": "",
+    "linkedin": "danbougere",
+    "image": "dbougere.jpg",
+    "length": "60",
+    "technical": "2",
+    "bio": "Dan Bougere is a Principal Cybersecurity Consultant at Revolutionary Security, LLC. Dan has over 17 years of combined experience in both government and commercial sectors as a contractor for the Department of Defense, an analyst in the National Security Agency's TAO office, and other roles with intelligence community partners, business, utilities, and local governments.  Dan earned a BS degree in Software Engineering Technology from the University of Southern Mississippi, a MS degree in Information Assurance from Capitol Technology University, and a MS degree in Technology Studies from Eastern Michigan University. Dan holds multiple certifications from SANS, CompTIA, ISC2, and ISACA.",
+    "abstract": "Learn what exactly is SCADA/ICS, why it's important, how horrifyingly ancient it all still is, and how to pentest it without kicking over generators or flooding toxic gases everywhere! If you want to hear jaw dropping stories, lose sleep over chemical plants on your commute, or find that nice job niche that's hiring everywhere now is your chance."
+  },{
+    "title": "Zero to Hero",
+    "speaker": "Christopher Wright",
+    "talk_id": "zhero",
+    "speaker_id": "cwright",
+    "company": "Infogressive",
+    "twitter": "",
+    "github": "",
+    "linkedin": "",
+    "image": "",
+    "length": "20",
+    "technical": "1",
+    "bio": "Husband, Father, Homebrewer, Ham, Hacker.",
+    "abstract": "Having to start over again after being fired from a 5-year job, I saw the trend of hacks and saw that cybersecurity was going to be a low unemployment industry. I went back to college and started this new career path at the age of 34. This presentation will showcase the path I have made going from graduating college with a BSIT degree and zero industry experience to getting a SoC analyst job to becoming a project engineer inside of 1 year from date of hire."
+  }
+]
