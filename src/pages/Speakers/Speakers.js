@@ -24,16 +24,16 @@ export default class Speakers extends Component {
   }
 
   getSpeakers() {
-    // Order Alphabetically
-    const speakers = config.sort((a,b) => (a.speaker > b.speaker) ? 1 : ((b.speaker > a.speaker) ? -1 : 0));
+    // Get Speakers
+    const speakers = config.map(a => a.speaker).flat();
     
-    console.log(JSON.stringify(speakers))
-
-
+    // Order Alphabetically
+    const speakers_ordered = speakers.sort((a,b) => (a.name > b.name) ? 1 : ((b.name > a.name) ? -1 : 0));
+    
     // Because of the way I stack two per row, get a new kernel that's not it's neighbor either up or down.
     let lastKernelIndex = 99;
     let secondLastKernelIndex = 100;
-    const speakerGroup = speakers.filter((el) => {
+    const speakerGroup = speakers_ordered.filter((el) => {
       if (el.hidden === "true") {
         return false;
       }
@@ -50,7 +50,7 @@ export default class Speakers extends Component {
         <Individuals key={idx}
           speaker_id={ele.speaker_id}
           talk_id={ele.talk_id}
-          speaker={ele.speaker} 
+          speaker={ele.name} 
           company={ele.company}
           twitter={ele.twitter}
           image={img}
@@ -65,14 +65,10 @@ export default class Speakers extends Component {
   render() {
     const speakers = this.getSpeakers();
     return (
-      <div id='main_hero' className=''>
-        <div className='container'>
-          <div className='speaker-section'>
-            <h1 className='title-reversed'>Speakers</h1>
-            <div className='speakers'>
-              {speakers}
-            </div>
-          </div>
+      <div className='venue-section speaker-section'>
+        <h3 className='title'>Speakers</h3>
+        <div className='speakers'>
+          {speakers}
         </div>
       </div>
     );
