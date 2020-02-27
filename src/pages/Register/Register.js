@@ -36,14 +36,8 @@ class Register extends Component {
         </div>   
         <div className='text-area'>
           <h3 className='title'>Volunteers</h3>
-          <p className='tab-paragraph'>Thanks to all those who helped make the first Kernelcon a success! We are seeking hard-working, community-loving volunteers again for 2020, sign up below!  As a volunteer you will receive free entry into the conference. For updates, please follow <a href='https://twitter.com/_kernelcon_' className='text-highlight' rel='noopener noreferrer' target='_blank'>@_kernelcon_</a> on twitter.</p>
+          <p className='tab-paragraph'>Thanks to those that have signed up to help the con be successful in 2020! See you next year! For updates, please follow <a href='https://twitter.com/_kernelcon_' className='text-highlight' rel='noopener noreferrer' target='_blank'>@_kernelcon_</a> on twitter.</p>
         
-          <a className='reg-button'
-            href="https://docs.google.com/forms/d/e/1FAIpQLScPCLkIEX0G_3zftN0sNt-ClsHiasThBMAasjvs3B176yGN3A/viewform?usp=sf_link"
-            rel='noopener noreferrer'
-            target='_blank'>
-            Sign Up to Volunteer
-          </a>
 
         </div>
       </div>
