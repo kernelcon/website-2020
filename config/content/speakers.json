@@ -483,7 +483,7 @@
     "pdf": "",
     "talk_id": "trolling",
     "length": "60",
-    "technical": "4",
+    "technical": "5",
     "abstract": "Over the course of the past year A large percentage of time has been invested into developing a Virtual Processor that has its own unique Architecture. The architecture was designed and implemented by Jacob Mohrbutter specifically for the Kernelcon 2020 CTF. The goal of the project was to build an esoteric language with a limited set of primitive instructions that could be used to build uniquely difficult challenges for even the most technically affluent individuals. This Talk provides an overview of various aspects of the design, implementation, and inspiration that lead to the development of the Emoji Assembler."
   },{
     "title": "Astrophotography - Backyard Robotics for Art and Science",
