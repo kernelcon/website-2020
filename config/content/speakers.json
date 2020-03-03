@@ -17,7 +17,7 @@
     "technical": "2",
     "abstract": "Learn what exactly is SCADA/ICS, why it's important, how horrifyingly ancient it all still is, and how to pentest it without kicking over generators or flooding toxic gases everywhere! If you want to hear jaw dropping stories, lose sleep over chemical plants on your commute, or find that nice job niche that's hiring everywhere now is your chance."
   },{
-    "title": "Zero to Hero",
+    "title": "From Zero to Hero to Bit to Byte",
     "speaker": [{
         "name": "Christopher Wright",
         "speaker_id": "cwright",
@@ -25,7 +25,7 @@
         "twitter": "",
         "github": "",
         "linkedin": "",
-        "image": "",
+        "image": "cwright.png",
         "bio": "Husband, Father, Homebrewer, Ham, Hacker."
     }],
     "talk_id": "zhero",
@@ -251,7 +251,7 @@
     "speaker": [{
         "name": "Jamie Maguire",
         "speaker_id": "jmaguire",
-        "company": "",
+        "company": "High Point Networks",
         "twitter": "",
         "github": "",
         "linkedin": "",
@@ -383,8 +383,8 @@
         "twitter": "@ronw123",
         "github": "",
         "linkedin": "https://www.linkedin.com/in/ronwoerner/",
-        "image": "",
-        "bio": "Ron Woerner, CISSP, CISM has over 20 years of IT and Security experience and is a noted consultant, speaker and writer in the Security industry. As President and Chief Trusted Advisor at RWX Security Solutions, he works as an IT Security Consultant performing security audit and risk assessments for small, medium, and large organizations. Ron established the Cybersecurity Studies program at Bellevue University, an NSA Center of Academic Excellence where he still teaches. He has been a featured speaker at the Omaha TEDx, (ISC)2, ISACA, and RSA conferences. His crowning achievement was being selected as the AFA CyberPatriot Mentor of the Year in 2014 for his work with High School Students. Ron loves to talk to others who are passionate about Security and Privacy."
+        "image": "rwoerner.jpg",
+        "bio": "Ron Woerner, CISSP, CISM is a noted consultant, speaker and writer in the Security industry. As the Cyber-AAA Chief Security Evangelist, he delivers assessments, awareness and answers to small, medium, and large organizations. Ron established the Cybersecurity Studies program at Bellevue University, an NSA Center of Academic Excellence where he still teaches. He has been a featured speaker at the TEDx, (ISC)2, ISACA, and RSA conferences. Ron is always looking for more hackers."
     }],
     "talk_id": "careerhack",
     "pdf": "",
