@@ -147,6 +147,17 @@ export default class Agenda extends Component {
                   <p className='tab-paragraph'>She has co-authored policy papers on topics in offensive cyber including an <a href='https://www.lawfareblog.com/risks-huawei-risk-mitigation' className='text-highlight' target="_blank" rel="noopener noreferrer">Executive Order and a Lawfare article</a> on the risks associated with Huawei 5G. <a className='text-highlight' href='https://www.sophia.re/#pcs' target="_blank" rel="noopener noreferrer">A mostly complete listing of conference talks and publications.</a></p>
                 </div>
 
+                <div className='keynote-talk'>
+                  <div className='keynote-topic'>In Search of Lost Bytes: Hardware Implants and the Trouble with Supply Chains</div>
+                  <div className='keynote-abstract'>
+                    <p className='tab-paragraph'>Digital markets have quickly grown to international proportions, complexities in materials, development, and distribution have developed accordingly, resulting in market efficiency and, often overlooked, incalculable risks.</p>
+                    <p className='tab-paragraph'>There is a fine line between acceptable and irreconcilable risk, while some risks are mitigatable, others are not, and ignoring the facts has disproportionate consequences. This presentation will explore modern supply chain security risks through a technical deep dive of 5G infrastructure and the political battles surrounding it.</p>
+                    <p className='tab-paragraph'>However, a wider acknowledgment of the supply chain problem doesn’t make it go away. We need to understand the inherent hardware vulnerabilities exposed. Currently, confidence in hardware security relies too much implicit trust — overlooking serious threats. Assurance in this area is hard won, manual, and costly.</p>
+                    <p className='tab-paragraph'>To highlight this, several hardware implant techniques will be discussed, showcasing various attack methods as well as the point at which they are most likely to be exploited in a standard supply chain.</p>
+                  </div>
+                </div>
+
+
               </div>
               <div className='keynote-right'>
                 <img src={sophia}
