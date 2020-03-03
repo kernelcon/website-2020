@@ -4,7 +4,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cfp/wifi.pdf"
   },
   {
-    "revision": "2ed41d950d567618f23e207cea6ec308",
+    "revision": "33f01031dea7e0effda23c658d30cdb5",
     "url": "/index.html"
   },
   {
@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.3c32b2af.chunk.css"
   },
   {
-    "revision": "793901afd9c867c42979",
+    "revision": "a7f6d0ff67c41ce7ec96",
     "url": "/static/css/main.922217db.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.0d3f0401.chunk.js"
   },
   {
-    "revision": "793901afd9c867c42979",
-    "url": "/static/js/main.cfb3b73c.chunk.js"
+    "revision": "a7f6d0ff67c41ce7ec96",
+    "url": "/static/js/main.6b26fd4e.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -242,6 +242,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2ab0f005b44fb41938dba763cdd67b4c",
     "url": "/static/media/mbayley.2ab0f005.png"
+  },
+  {
+    "revision": "97edd09ecac0ebf61b22932895f51b1d",
+    "url": "/static/media/mbenoit.97edd09e.jpg"
   },
   {
     "revision": "476893cf2f62be1a32204d9b1d281495",

@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.922217db.chunk.css",
-    "main.js": "/static/js/main.cfb3b73c.chunk.js",
+    "main.js": "/static/js/main.6b26fd4e.chunk.js",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "static/css/2.3c32b2af.chunk.css": "/static/css/2.3c32b2af.chunk.css",
     "static/js/2.0d3f0401.chunk.js": "/static/js/2.0d3f0401.chunk.js",
     "cfp/wifi.pdf": "/cfp/wifi.pdf",
     "index.html": "/index.html",
-    "precache-manifest.77b5865b81fe6ce0b81f936342168137.js": "/precache-manifest.77b5865b81fe6ce0b81f936342168137.js",
+    "precache-manifest.5e53c3c440fb238a66e97b52d4cf07a6.js": "/precache-manifest.5e53c3c440fb238a66e97b52d4cf07a6.js",
     "service-worker.js": "/service-worker.js",
     "static/media/0.png": "/static/media/0.b6f1bbd7.png",
     "static/media/1.png": "/static/media/1.08972f78.png",
@@ -62,6 +62,7 @@
     "static/media/kernelcon_vision.png": "/static/media/kernelcon_vision.affac703.png",
     "static/media/kernelcon_white.png": "/static/media/kernelcon_white.c552b7f7.png",
     "static/media/mbayley.png": "/static/media/mbayley.2ab0f005.png",
+    "static/media/mbenoit.jpg": "/static/media/mbenoit.97edd09e.jpg",
     "static/media/mborn.jpg": "/static/media/mborn.476893cf.jpg",
     "static/media/nate.png": "/static/media/nate.fd515d09.png",
     "static/media/oparkins.png": "/static/media/oparkins.e20c17c7.png",
