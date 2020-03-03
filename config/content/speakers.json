@@ -77,13 +77,13 @@
         "github": "",
         "linkedin": "",
         "image": "",
-        "bio": "I am currently employed at Cboe Global Markets as an Information Security Specialist. I am interested in all facets of computer engineering, and I am especially drawn to enterprise system architecture, complex system management, and network security."
+        "bio": "Mr. W. S. Cheng works at Cboe Global Markets as an Information Security Specialist.  He was educated at Johns Hopkins University, California Institute of the Arts, and the University of Kansas.  Mr. Cheng attended Superbowl LIV in Miami."
     }],
     "talk_id": "epo",
     "pdf": "",
     "length": "20",
     "technical": "3",
-    "abstract": "When CBOE (Chicago Board Options Exchange) acquired Bats Global Markets, senior management decided to move forward with Bats technology.  The plan was straightforward:  Decommission legacy CBOE systems.  However, 40+ years of knowledge hoarding and 40+ years without documentation, Cboe's security operations turned to me.  I was then tasked with turning this off."
+    "abstract": "When CBOE (Chicago Board Options Exchange) acquired Bats Global Markets, senior management decided to move forward with Bats technology.  The plan was straightforward:  decommission legacy CBOE systems.  However, 40+ years without documentation, and the handful of folks who knew systems dependencies leaving the company, Cboe's security operations turned to me."
   },{
     "title": "Building a Vulnerability Management Program - Avoiding Pitfalls, Managing Risk, and Mastering CYA",
     "speaker": [{
