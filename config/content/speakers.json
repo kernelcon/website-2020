@@ -110,7 +110,7 @@
         "twitter": "@jaylagorio",
         "github": "",
         "linkedin": "",
-        "image": "",
+        "image": "jlagorio.jpg",
         "bio": "Jay Lagorio, software engineer and independent security researcher, has been building computers and networks and writing code nearly his entire life. He received a B.S. in Computer Science from UMBC in 2008 and an M. Eng. from the Naval Postgraduate School in 2015. He's a Private Investigator in Washington, DC and specializes in Windows development and OSINT."
     }],
     "talk_id": "diypancreas",
@@ -450,7 +450,7 @@
     "pdf": "",
     "length": "20",
     "technical": "2",
-    "abstract": "Smart homes can be a highly contested cybersecurity topics. Some professionals are fearful of the technology that can be too close to home - and for good reason. With the current political climate regarding foreign made devices, many devices are not safe to have in the home. This should not stop professionals from gaining more experience about a rapidly expanding technology, but instead, they should figure out a way to create a secure smart home. This talk covers one such design and implementation of a secure smart home."
+    "abstract": "Smart homes can be a highly contested cybersecurity topic. Some professionals are fearful of the technology that can be too close to home - and for good reason. With the current political climate regarding foreign made devices, many devices are not safe to have in the home. This should not stop professionals from gaining more experience with a rapidly expanding technology and figuring out a way to use it effectively. This talk describes a design and implementation of a secure smart home."
   },{
     "title": "Tales from the Rainbow Series, Vol 1: How the Orange Book got its Color",
     "speaker": [{
