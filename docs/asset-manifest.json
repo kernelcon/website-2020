@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.922217db.chunk.css",
-    "main.js": "/static/js/main.6b26fd4e.chunk.js",
+    "main.js": "/static/js/main.b964f27f.chunk.js",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "static/css/2.3c32b2af.chunk.css": "/static/css/2.3c32b2af.chunk.css",
     "static/js/2.0d3f0401.chunk.js": "/static/js/2.0d3f0401.chunk.js",
     "cfp/wifi.pdf": "/cfp/wifi.pdf",
     "index.html": "/index.html",
-    "precache-manifest.5e53c3c440fb238a66e97b52d4cf07a6.js": "/precache-manifest.5e53c3c440fb238a66e97b52d4cf07a6.js",
+    "precache-manifest.2b70ebd705879484a9c7813cae839dc3.js": "/precache-manifest.2b70ebd705879484a9c7813cae839dc3.js",
     "service-worker.js": "/service-worker.js",
     "static/media/0.png": "/static/media/0.b6f1bbd7.png",
     "static/media/1.png": "/static/media/1.08972f78.png",
@@ -53,6 +53,7 @@
     "static/media/jason.png": "/static/media/jason.ef532274.png",
     "static/media/jeris.png": "/static/media/jeris.bbf0c139.png",
     "static/media/jerry.png": "/static/media/jerry.e6f0fcb6.png",
+    "static/media/jlagorio.jpg": "/static/media/jlagorio.50961318.jpg",
     "static/media/jmaguire.jpg": "/static/media/jmaguire.57d52319.jpg",
     "static/media/justin.jpg": "/static/media/justin.06c8049d.jpg",
     "static/media/justin.png": "/static/media/justin.d6c5596a.png",
