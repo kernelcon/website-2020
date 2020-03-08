@@ -17,7 +17,7 @@
     "technical": "2",
     "abstract": "Learn what exactly is SCADA/ICS, why it's important, how horrifyingly ancient it all still is, and how to pentest it without kicking over generators or flooding toxic gases everywhere! If you want to hear jaw dropping stories, lose sleep over chemical plants on your commute, or find that nice job niche that's hiring everywhere now is your chance."
   },{
-    "title": "From Zero to Hero to Bit to Byte",
+    "title": "Bit to Byte",
     "speaker": [{
         "name": "Christopher Wright",
         "speaker_id": "cwright",
@@ -263,23 +263,6 @@
     "length": "60",
     "technical": "2",
     "abstract": "The first step of a Penetration Test is often called Reconnaissance, Information Gathering or OSINT. During this step, Penetration Testers attempt to gather as much information as they can about a target environment by using publicly available information. Unfortunately, this step may be ignored or not completed thoroughly.  This is intended to be a 101-level presentation in which we discuss how an attacker may conduct reconnaissance against a target, and what specific information they might be interested in gathering. We will cover specific tools including theHarvester, Shodan, Recon-ng and more. This presentation is intended to give Security Professionals and Administrators an understanding of how attackers conduct information gathering against environments. Audience members will see specific examples of tools and techniques that they can apply to their own environments. We will not cover any new or novel techniques, but my goal is to provide the audience with the knowledge to gather meaningful information quickly."
-  },{
-    "title": "How to run effective phishing campaigns",
-    "speaker": [{
-        "name": "Dan Amodio",
-        "speaker_id": "damodio",
-        "company": "",
-        "twitter": "",
-        "github": "",
-        "linkedin": "",
-        "image": "damodio.png",
-        "bio": "Dan grew up hacking, and somehow made a career our of it. He has worked on information security with some of the largest companies across the globe, from AppSec to Red Teaming. Outside work he enjoys music, games, and family time."
-    }],
-    "talk_id": "effectivephishing",
-    "pdf": "",
-    "length": "60",
-    "technical": "3",
-    "abstract": "This talk will teach you the basics of running a phishing campaign as an internal program, or an external assessment. Topics covered will include crafting a pretext, building sites, tools and techniques, post exploitation, measuring results, and war stories."
   },{
     "title": "Bio Hack: How Integrative Medicine principles can change the game in Cyber Security",
     "speaker": [{
