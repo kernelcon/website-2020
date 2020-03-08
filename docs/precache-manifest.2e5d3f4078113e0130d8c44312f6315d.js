@@ -4,24 +4,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cfp/wifi.pdf"
   },
   {
-    "revision": "31c01715037ce0596fe898c13d9ccb47",
+    "revision": "b2213c7500060bc18f0bff5ed98aaaeb",
     "url": "/index.html"
   },
   {
-    "revision": "fede71aafe4f1cfb5816",
-    "url": "/static/css/2.194e2ed7.chunk.css"
+    "revision": "651bc82c962f1416d445",
+    "url": "/static/css/2.3c32b2af.chunk.css"
   },
   {
-    "revision": "78248bd3ae4b47869896",
-    "url": "/static/css/main.34f6bc27.chunk.css"
+    "revision": "547fb1080f4a5618ee84",
+    "url": "/static/css/main.09291151.chunk.css"
   },
   {
-    "revision": "fede71aafe4f1cfb5816",
-    "url": "/static/js/2.2c5582dd.chunk.js"
+    "revision": "651bc82c962f1416d445",
+    "url": "/static/js/2.434b5718.chunk.js"
   },
   {
-    "revision": "78248bd3ae4b47869896",
-    "url": "/static/js/main.d951b3c8.chunk.js"
+    "revision": "547fb1080f4a5618ee84",
+    "url": "/static/js/main.2a92eea4.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -242,6 +242,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c552b7f722aa8c54aadf843b02b8604d",
     "url": "/static/media/kernelcon_white.c552b7f7.png"
+  },
+  {
+    "revision": "71d8b288cba9bc18bb4a145077d11ea0",
+    "url": "/static/media/kphan.71d8b288.jpg"
   },
   {
     "revision": "2ab0f005b44fb41938dba763cdd67b4c",
