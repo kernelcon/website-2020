@@ -158,10 +158,10 @@
         "name": "Kandy Phan",
         "speaker_id": "kphan",
         "company": "Sandia",
-        "twitter": "",
+        "twitter": "@kphan451",
         "github": "",
         "linkedin": "",
-        "image": "",
+        "image": "kphan.jpg",
         "bio": "Kandy is a cybersecurity researcher and red team lead."
     }],
     "talk_id": "redbluemetrics",
@@ -451,23 +451,6 @@
     "length": "20",
     "technical": "2",
     "abstract": "Smart homes can be a highly contested cybersecurity topic. Some professionals are fearful of the technology that can be too close to home - and for good reason. With the current political climate regarding foreign made devices, many devices are not safe to have in the home. This should not stop professionals from gaining more experience with a rapidly expanding technology and figuring out a way to use it effectively. This talk describes a design and implementation of a secure smart home."
-  },{
-    "title": "Tales from the Rainbow Series, Vol 1: How the Orange Book got its Color",
-    "speaker": [{
-        "name": "Blaine Burnham",
-        "speaker_id": "bburnham",
-        "company": "",
-        "twitter": "",
-        "github": "",
-        "linkedin": "",
-        "image": "bburnham.png",
-        "bio": "Blaine W. Burnham has dedicated many years to cybersecurity education as a founder of research organizations, first at the NSA and later at leading universities, where he worked to formalize undergraduate, master's and doctorate-level degree programs."
-    }],
-    "talk_id": "orangebook",
-    "pdf": "",
-    "length": "60",
-    "technical": "1",
-    "abstract": "Comprising far more than the colors of the rainbow, over more than a decade the US Department of Defense (later NCSC) published standards relating to the security of computing and network systems.  Many of these 'books' laid foundation work for today's standards.  Some are still cited as reference material when improving some aspect of security implementations.  In this talk I'll discuss the series, and highlight several in the series, sprinkling in first-hand experience in the creation of and/or following implementation."
   },{
     "title": "Emoji Assembler: Trolling the CTF",
     "speaker": [{
