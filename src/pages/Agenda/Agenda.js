@@ -18,6 +18,8 @@ import mhvlight from '../../static/images/sponsors/MHH-white.png';
 import otvlight from '../../static/images/logos/NARI-white.png';
 import otvblack from '../../static/images/logos/NARI-black.png';
 import bnb from '../../static/images/logos/BNB.png';
+import resume from '../../static/images/logos/resume.svg'
+import hiringlooking from '../../static/images/logos/hiringlooking.png';
 
 export default class Agenda extends Component {
   static displayName = 'Agenda';
@@ -80,6 +82,7 @@ export default class Agenda extends Component {
           <Tab tabFor="workshops">Workshops</Tab>
           <Tab tabFor="villages">Villages</Tab>
           <Tab tabFor="competitions">Competitions</Tab>
+          <Tab tabFor="careers">Careers</Tab>
         </TabList>
         <TabPanel tabId="schedule">
           <div className='text-area'>
@@ -306,6 +309,41 @@ export default class Agenda extends Component {
                 <div className='competition-description'>
                   Backdoors & Breaches, and Incident Response card game from Black Hills Information Security & Active Countermeasures has been spreading across the hacking community, and Kernelcon is happy to host one of the first Competitive Backdoors & Breaches events!  Stop by on Friday to learn how to play the competitive version of Backdoors & Breaches, and then sign up for the tournament on Saturday.  
                   <p style={{marginTop: '18px'}}>For more information on Backdoors & Breaches you can visit <a rel='noopener noreferrer' href='https://www.backdoorsandbreaches.com' className='text-highlight' target='_blank'>backdoorsandbreaches.com</a>, but to learn how to play competitively before Kernelcon you will have to watch this webcast with Kernelcon keynote speaker John Strand - <a rel='noopener noreferrer' href='https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwjfwdX2wYzoAhVQma0KHXZEBx8QwqsBMAB6BAgJEAQ&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DDriVsih8Hsc&usg=AOvVaw24wY2lCPcMGuAZ1jZDj2YN' target='_blank' className='text-highlight'>Introducing Competitive Backdoors & Breaches!</a></p>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </TabPanel>
+
+
+        <TabPanel tabId="careers">
+          <div className='text-area'>
+            <h3 className='title'>Careers</h3>            
+            <div className='competition-area'>
+              <div className='competition-section'>
+                <div className='competition-name-logo'>
+                  <div className='competition-name'>Resume Review</div>
+                  <div className='competition-logo'>
+                    <img src={resume} alt='Resume Review'/>
+                  </div>
+                </div>
+                <div className='competition-description'>
+                  Did you know your should update your resume every six months, even if you’re not looking for a new job?  Have a recruiting expert take a look at your resume and assist with advice on making it the best it can be.
+                  <p style={{marginTop: '18px'}}>Sam Harvey, Warren Fish and Sydney Hardin of TEKsystems are volunteering on Friday, March 27th at the Kernelcon Resume Review table to provide professional resume review assistance. Attendees are welcome to walk up to the table at any point throughout the day and should expect to spend 15-20 minutes discussing resume updates. A printer will be located at the table for all attendees to print and then partner with the available team member on resume recommendations.</p>
+                </div>
+              </div>
+
+              <div className='competition-section'>
+                <div className='competition-name-logo'>
+                  <div className='competition-name'>Hiring or Looking?</div>
+                  <div className='competition-logo'>
+                    <img src={hiringlooking} alt='Hiring Or Looking?' />
+                  </div>
+                </div>
+                <div className='competition-description'>
+                  Pick up a Hiring or Looking bracelet at the Kernelcon Resume Review table and wear it around the con to spark a conversation.  Who knows, you might just find your dream job or your next superstar employee right at Kernelcon! 
                 </div>
               </div>
 
