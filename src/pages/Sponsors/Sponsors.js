@@ -100,7 +100,7 @@ export default class Sponsors extends Component {
 
               </div>
 
-              <div className='spons-block'>
+{/*              <div className='spons-block'>
                 <h3 className='text-highlight spons-title'>Gold</h3>
                 <div className='two-line'>
                   <a href="https://fnbo.com/"
@@ -119,10 +119,19 @@ export default class Sponsors extends Component {
                   </a>
                 </div>
               </div>
-
-{/*
-               <h3 className='gold'>Silver</h3> 
 */}
+
+              <div className='spons-block'>
+                <h3 className='text-highlight spons-title'>Silver</h3> 
+                <a href="https://fnbo.com/"
+                  target="_blank"
+                  rel='noopener noreferrer'>
+                  <img src={fnbo}
+                    className='spons-img half-gold-spons spons-white-img'
+                    alt="First National Bank"/>
+                </a>
+              </div>
+
               <div className='spons-block'>
                 <h3 className='text-highlight spons-title'>Bronze</h3>
                 <a href="https://www.secureworks.com/"
