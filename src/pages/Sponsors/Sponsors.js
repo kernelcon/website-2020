@@ -16,6 +16,12 @@ import guidepointdark from '../../static/images/sponsors/guidepoint-dark.png';
 import guidepointlight from '../../static/images/sponsors/guidepoint-light.png';
 import checkpointdark from '../../static/images/sponsors/cp-black.png';
 import checkpointlight from '../../static/images/sponsors/cp-white.png';
+import sirius from '../../static/images/sponsors/Sirius.svg';
+import fnbo from '../../static/images/sponsors/fnbo.png';
+import fnts from '../../static/images/sponsors/fnts.png';
+import nostarch from '../../static/images/sponsors/nostarch.png';
+import cag from '../../static/images/sponsors/conagra.png';
+import cagw from '../../static/images/sponsors/conagraw.png';
 
 import './Sponsors.scss';
 
@@ -94,34 +100,27 @@ export default class Sponsors extends Component {
 
               </div>
 
-{/*
               <div className='spons-block'>
-                <h3 className='gold spons-title'>Gold</h3>
-                <a href="https://www.secureworks.com/"
-                  target="_blank"
-                  rel='noopener noreferrer'>
-                  <img src={swlogo}
-                    className='spons-img gold-spons'
-                    alt="Secure Works"/>
-                </a>
+                <h3 className='text-highlight spons-title'>Gold</h3>
                 <div className='two-line'>
                   <a href="https://fnbo.com/"
                     target="_blank"
                     rel='noopener noreferrer'>
                     <img src={fnbo}
-                      className='spons-img half-gold-spons'
+                      className='spons-img half-gold-spons spons-white-img'
                       alt="First National Bank"/>
                   </a>
                   <a href="https://www.fnts.com/"
                     target="_blank"
                     rel='noopener noreferrer'>
                     <img src={fnts}
-                      className='spons-img half-gold-spons'
+                      className='spons-img half-gold-spons spons-white-img'
                       alt="First National Technology Solutions"/>
                   </a>
                 </div>
               </div>
-              
+
+{/*
                <h3 className='gold'>Silver</h3> 
 */}
               <div className='spons-block'>
@@ -132,6 +131,33 @@ export default class Sponsors extends Component {
                   <img src={swlight}
                     className='spons-img other-spons spons-white-img'
                     alt="Secureworks"/>
+                </a>
+                <a href="https://www.conagrabrands.com/"
+                  target="_blank"
+                  rel='noopener noreferrer'
+                  className='light-pic'>
+                  <img src={cagw}
+                    className='spons-img other-spons'
+                    alt="ConAgra Brands"/>
+                </a>
+                <a href="https://www.conagrabrands.com/"
+                  target="_blank"
+                  rel='noopener noreferrer'
+                  className='otv-black'>
+                  <img src={cag}
+                    className='spons-img other-spons'
+                    alt="ConAgra Brands"/>
+                </a>
+              </div>
+
+              <div className='spons-block'>
+                <h3 className='text-highlight spons-title'>Tin</h3>
+                <a href="https://www.siriuscom.com/"
+                  target="_blank"
+                  rel='noopener noreferrer'>
+                  <img src={sirius}
+                    className='spons-img other-spons spons-white-img'
+                    alt="Sirius"/>
                 </a>
               </div>
 
@@ -215,6 +241,13 @@ export default class Sponsors extends Component {
                   <img src={naridark}
                     className='spons-img other-spons'
                     alt="NARI"/>
+                </a>
+                <a href="https://nostarch.com/"
+                  target="_blank"
+                  rel='noopener noreferrer'>
+                  <img src={nostarch}
+                    className='spons-img other-spons spons-white-img'
+                    alt="NoStarch Press"/>
                 </a>
               {/*  
                 <a href="https://nostarch.com/"
