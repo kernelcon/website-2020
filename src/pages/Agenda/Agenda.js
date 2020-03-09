@@ -17,6 +17,7 @@ import mhv from '../../static/images/sponsors/MHH.png';
 import mhvlight from '../../static/images/sponsors/MHH-white.png';
 import otvlight from '../../static/images/logos/NARI-white.png';
 import otvblack from '../../static/images/logos/NARI-black.png';
+import bnb from '../../static/images/logos/BNB.png';
 
 export default class Agenda extends Component {
   static displayName = 'Agenda';
@@ -286,6 +287,29 @@ export default class Agenda extends Component {
                   Have you ever wanted to crack your neighbors WiFi network?  We all have at one point or another.  Come on down to the WiFi Fox and Hound where you can crack WiFi networks in a safe, consensual, and legal competition designed to test your abilities in WEP, WPA, and WPA2 cracking.  We will be hiding access points around the hotel with various levels of security on them.  It will be your job to find them, and break into the networks and recover the key/flag.  Once you have the flag enter it in the scoring site to get those points! Contest will run the duration of the conference. Think you have what it takes? Then come show us your 1337 WiFi skillz and compete in the WiFi Fox and Hound event.  Even if you're new to WiFi hacking, we'll have plenty of resources to help you along your way.  You can even win fabulous prizes!
                 </div>
               </div>
+
+
+
+              <div className='competition-section'>
+                <div className='competition-name-logo'>
+                  <div className='competition-name'>Backdoors & Breaches</div>
+                  <div className='competition-logo'>
+                    <img src={bnb} alt='Backdoors & Breaches' />
+                  </div>
+                  <a className='update-button'
+                    href="https://docs.google.com/forms/d/e/1FAIpQLScQykbvNzuoQXWFBWHEbCUm7ZEK39pF3gHKaYVCJW7CPphd9Q/viewform?usp=sf_link"
+                    rel='noopener noreferrer'
+                    target='_blank'>
+                    Sign Up for Updates
+                  </a>
+                </div>
+                <div className='competition-description'>
+                  Backdoors & Breaches, and Incident Response card game from Black Hills Information Security & Active Countermeasures has been spreading across the hacking community, and Kernelcon is happy to host one of the first Competitive Backdoors & Breaches events!  Stop by on Friday to learn how to play the competitive version of Backdoors & Breaches, and then sign up for the tournament on Saturday.  
+                  <p style={{marginTop: '18px'}}>For more information on Backdoors & Breaches you can visit <a rel='noopener noreferrer' href='https://www.backdoorsandbreaches.com' className='text-highlight' target='_blank'>backdoorsandbreaches.com</a>, but to learn how to play competitively before Kernelcon you will have to watch this webcast with Kernelcon keynote speaker John Strand - <a rel='noopener noreferrer' href='https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwjfwdX2wYzoAhVQma0KHXZEBx8QwqsBMAB6BAgJEAQ&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DDriVsih8Hsc&usg=AOvVaw24wY2lCPcMGuAZ1jZDj2YN' target='_blank' className='text-highlight'>Introducing Competitive Backdoors & Breaches!</a></p>
+                </div>
+              </div>
+
+
             </div>
           </div>
         </TabPanel>
