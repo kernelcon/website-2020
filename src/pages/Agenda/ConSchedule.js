@@ -4,8 +4,8 @@ import './Schedule.scss';
 
 import config from 'speakersConfig';
 
-class Schedule extends Component {
-  static displayName = 'Schedule';
+class ConSchedule extends Component {
+  static displayName = 'ConSchedule';
 
   constructor(props) {
   	super(props);
@@ -236,5 +236,5 @@ class Schedule extends Component {
   }
 }
 
-export default Schedule;
+export default ConSchedule;
 

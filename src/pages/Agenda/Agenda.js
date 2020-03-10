@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import { Tabs, Tab, TabPanel, TabList } from 'react-web-tabs';
 import MediaQuery from 'react-responsive';
 
-import Schedule from './Schedule';
+import TalksSchedule from './TalksSchedule';
+import ConSchedule from './ConSchedule';
 import TrainingSubmissions from './TrainingSubmission';
 import Workshops from './Workshops';
 
@@ -86,8 +87,7 @@ export default class Agenda extends Component {
         </TabList>
         <TabPanel tabId="schedule">
           <div className='text-area'>
-          	<h3 className='title'>Schedule</h3>
-          	<Schedule />
+          	<TalksSchedule />
           </div>
         </TabPanel>
         <TabPanel tabId="keynotes">
