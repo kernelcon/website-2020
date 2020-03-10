@@ -21,6 +21,13 @@ body.light-mode {
 }
 
 body.dark-mode {
+    .modal-content, .modal-header {
+        background-color: #10171d;
+
+        .modal-title {
+            color: #eee;
+        }
+    }
     background-color: #10171d;
     color: #dfdfdf;
     .navbar,
