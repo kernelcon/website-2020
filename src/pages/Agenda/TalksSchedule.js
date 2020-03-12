@@ -344,20 +344,6 @@ class TalksSchedule extends Component {
 	            	</div>
 	            </a>
 
-	            <a className="both-tracks" onClick={this.popModal('Break for Dinner', '1720', '1900', "We break for dinner and encourage you to try out one of our hundreds of downtown Omaha restaurants!  Be sure to come back as we setup events for the Kernel Panic Party!", '')}>
-	              <div className="box">
-	                <span className="talk-time">1720</span>
-	                <span>Dinner Break</span>
-	              </div>
-	            </a>
-
-	            <a className="both-tracks" onClick={this.popModal('Kernel Panic Party', '1900', '2200', 'Join us for cocktails and appetizers at our legendary Kernel Panic party! During the party we will also host Tech Olympics and Who\'s Slide Is It Anyways.', '')}>
-	              <div className="box">
-	                <span className="talk-time">1900</span>
-	                <span>Kernel Panic Party</span>
-	              </div>
-	            </a>
-
             </div>
         	</div>
         }

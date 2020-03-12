@@ -19,7 +19,6 @@ export default class SecondaryNav extends Component {
             smallMenuClassName="nav-small"
             menu = {
               <div className='nav-links'>
-                <a href="/venue">Venue</a>
                 <a href="/agenda">Agenda</a>
                 <a href="/speakers">Speakers</a>
                 <a href="/agenda#training">Training</a>
