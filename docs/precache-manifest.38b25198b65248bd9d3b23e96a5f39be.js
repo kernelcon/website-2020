@@ -4,7 +4,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cfp/wifi.pdf"
   },
   {
-    "revision": "22a38890fb922b7cd844b8bbac046579",
+    "revision": "cf2f4490d08df937bc04dafe51f5c0a3",
     "url": "/index.html"
   },
   {
