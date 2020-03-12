@@ -85,6 +85,23 @@
     }
 }
 
+.covid-nav {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    background-color: #ffffb9;
+    color: red;
+    z-index: 6;
+
+    .covid-wording {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
 @media only screen and (min-width:992px) {
     div.nav-small {
         display: none !important;

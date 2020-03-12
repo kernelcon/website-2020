@@ -6,6 +6,7 @@ import './App.scss';
 import Footer from './components/Footer/Footer';
 import NavBar from './components/NavBar/NavBar';
 import SecondaryNav from './components/NavBar/SecondaryNav';
+import CovidNav from './components/NavBar/CovidNav';
 
 // Import Pages
 import About from './pages/About/About';
@@ -13,6 +14,7 @@ import Admin from './pages/Admin/Admin';
 import Agenda from './pages/Agenda/Agenda';
 import Bio from './pages/Agenda/Bio';
 import Conference from './pages/Conference/Conference';
+import Covid from './pages/Covid/Covid';
 import Dates from './pages/Dates/Dates';
 import OpenCalls from './pages/OpenCalls/OpenCalls';
 import Home from './pages/Home/Home';
@@ -26,6 +28,7 @@ function App() {
     <Router>
       <NavBar />
       <SecondaryNav />
+      <CovidNav />
       <div className='page-box'>
         <div className='container'>
           <Route exact path='/' component={Home} />
@@ -40,6 +43,7 @@ function App() {
           <Route exact path="/register" component={Register} />
           <Route exact path="/bio" component={Bio} />
           <Route exact path="/speakers" component={Speakers} />
+          <Route exact path="/virtual" component={Covid} />
         </div>
       </div>
       <Footer />

@@ -96,7 +96,7 @@ export default class Home extends Component {
               </div>
               <div className='highlight-text-box'>
                 <span className='num-highlight'>2</span>
-                <span className='highlight-spans'>DAYS OF TALKS</span>
+                <span className='highlight-spans'>DAYS OF <a className='text-highlight' href='/agenda#schedule'>TALKS</a></span>
               </div>
               <div className='highlight-text-box'>
                 <span className='num-highlight'>2</span>

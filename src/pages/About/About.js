@@ -3,6 +3,7 @@ import { Tabs, Tab, TabPanel, TabList } from 'react-web-tabs';
 import MediaQuery from 'react-responsive';
 import FAQ from './FAQ';
 import Organizers from './Organizers';
+import Dates from '../Dates/Dates';
 import './About.scss';
 
 import Kernelcon from '../../static/images/logos/kernelcon_black.png';
@@ -49,6 +50,7 @@ export default class About extends Component {
           <Tab tabFor="contact">Contact</Tab>
           <Tab tabFor="faq">FAQ</Tab>
           <Tab tabFor="archive">Archive</Tab>
+          <Tab tabFor="dates">Dates</Tab>
         </TabList>
         <span>
           <TabPanel tabId="kernelcon">
@@ -239,6 +241,9 @@ export default class About extends Component {
               target='_blank'>
               Kernelcon 2019: Origin Story
             </a>
+          </TabPanel>
+          <TabPanel tabId="dates">
+            <Dates />
           </TabPanel>
         </span>
       </Tabs>
