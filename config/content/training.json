@@ -131,29 +131,6 @@
         }]
     },
     {
-        "title": "Reverse Engineering with Binary Ninja",
-        "id": "binaryninja",
-        "hidden": false,
-        "instructor": [{
-            "name": "Jordan Wiens",
-            "twitter": "@psifertex",
-            "bio": "Jordan Wiens used to play a lot of CTF, now he mostly makes them. He's been a network security engineer, vulnerability researcher, reverse engineer, engineering manager, and now he's mostly trying to figure out how business works and how to be a \"Real Programmer\" as one of the founders of Vector 35, makers of Binary Ninja."
-        }],
-        "courseLength": 2,
-        "day": 1,
-        "minStudents": 10,
-        "maxStudents": 36,
-        "trainingDescription": "While Binary Ninja is often known for its modern look and clean interface, its real power is its API. It's designed to be most powerful not when you're looking at the interface but when you're building onto its powerful API to automate reverse engineering tasks for you. This course assumes some basic knowledge of reverse engineering and shows you how to build on top of the Binary Ninja API to solve a variety of real-world problems. Students will gain fluency with the tool, the API, and be able to easily automate repetitive real world reverse engineering tasks so they can focus on new and interesting problems instead of doing the same tedious work over and over.",
-        "prereqs": [{
-            "req": "Some familiarity with reverse engineering. Advanced knowledge of a particular architecture not required, but most examples will be x86 or x64 shellcode."
-        }],
-        "equipment": [{
-            "req": "Each student will be provided a Binary Ninja non-commercial license for the course."
-        }, {
-            "req": "Each student will be responsible for bringing their own computer that meets the following requirements (http://faq.binary.ninja/en/what-platforms-does-binary-ninja-run-on-66GRPbTBKdZuCqjqc). If running on windows, enabling the Windows Subsystem for Linux is recommended but not required for testing some of the exercises."
-        }]
-    },
-    {
         "title": "Linux Forensics",
         "id": "linfn6",
         "hidden": false,
