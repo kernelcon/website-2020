@@ -58,34 +58,6 @@
         }]
     },
     {
-        "title": "Control System Analysis and Defense",
-        "id": "csanalysis",
-        "hidden": false,
-        "instructor": [{
-            "name": "Brad Miller",
-            "twitter": "",
-            "bio": "Brad Miller is a Cyber Training Specialist and Testbed Technician at Nebraska Applied Research Institute (NARI). At NARI, Brad focuses on training cybersecurity padawans and practitioners. He designs and develops cyber curriculum and hands-on exercises for critical infrastructure. Brad specializes in industrial control system (ICS), cyber incident response, physical testbeds, and cyber resiliency. Prior to joining NARI, Brad was active duty in the US Marine Corps where he maintained F-18 Hornets and achieved his Master Training Specialist certification. Brad continues to hone his cyber engineer skills and is currently pursuing CompTIA’s Certified Technical Training (CTT+) certification."
-        }, {
-            "name": "Josh Bunstock",
-            "twitter": "",
-            "bio": "Josh Bunstock is a Cyber Training Specialist and Instructional Design Lead at Nebraska Applied Research Institute (NARI). At NARI, Josh leads the design and delivery of the technical training programs. He develops, maintains, and administers advanced cyber curriculum for critical infrastructure. Josh champions the growth and development of cybersecurity awareness and resiliency. Prior to joining NARI, Josh served as an instructor, electronics technician, security program manager, and undersea research and design technician in the Navy’s Submarine Force. Over his 20 years of service he achieved his Master Training Specialist Mentor certification. Josh received his B.S. in Applied Science and Technology with an emphasis in electronics and is pursuing a master’s degree in Instructional Technology."
-        }],
-        "courseLength": 1,
-        "day": 2,
-        "time": "8:00 AM - 5:00 PM, with one hour lunch break",
-        "minStudents": 4,
-        "maxStudents": 20,
-        "trainingDescription": "Ready to get your hands dirty? NARI’s Control System Analysis and Defense workshop is an interactive introduction to the basics of cybersecurity of Industrial Control Systems (ICS) and components. Examine ICS protocols, firewalls, segmentation, device monitoring, and more. You will have the opportunity to interact with live ICS testbeds via multiple hands-on exercises. Leave with a greater understanding of OT equipment and system protocols. Ultimately, you will be equipped with knowledge to protect and defend against malicious attacks.",
-        "prereqs": [{
-            "req": "Basic network understanding"
-        }, {
-            "req": "Familiarity with Wireshark software"
-        }],
-        "equipment": [{
-            "req": "Laptop with VMWare or other virtualization software capable of running an .OVA file."
-        }]
-    },
-    {
         "title": "Network Analysis Workshop",
         "id": "netanalysis",
         "hidden": false,
