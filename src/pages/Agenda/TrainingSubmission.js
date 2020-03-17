@@ -58,6 +58,10 @@ export default class TrainingSubmission extends Component {
             <div className='training-heading'>{ele.courseLength > 1 ? 'Dates:' : 'Date:'}</div>
             <div>{ele.courseLength > 1 ? 'Wednesday, March 25 and Thursday, March 26, 2020' : ele.day > 1 ? 'Thursday, March 26, 2020': 'Wednesday, March 25, 2020'}</div>
           </div>
+          <div className='training-format'>
+            <div className='training-heading'>{ele.courseLength > 1 ? 'Times:' : 'Time:'}</div>
+            <div>{ele.courseLength > 1 ? `${ele.time} each day` : ele.time}</div>
+          </div>
   				<div className='training-desc'>{ele.trainingDescription}</div>
   				<div className='training-prereqs'>
   					<div className='training-heading'>Prerequisites:</div>
