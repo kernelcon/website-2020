@@ -195,7 +195,7 @@
         "twitter": "@mattaustin",
         "github": "",
         "linkedin": "",
-        "image": "",
+        "image": "matt.png",
         "bio": "Matt Austin is a security researcher and bug bounty hunter with 15 years of appsec experience. He is also the Director of Security Research at Contrast Security focused on runtime security assessment and protection through instrumentation."
     }],
     "talk_id": "exploitdesktop",
