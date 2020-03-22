@@ -545,5 +545,22 @@
     "length": "60",
     "technical": "3",
     "abstract": "The Ketogenic diet has taken form over the past few years and it actually works. So how can we apply something similar to our application security practices? Application security traditionally focuses on tools or manual testing. We traditionally do “static (SAST)” or “dynamic (DAST)” tool assessments and label them as a “full” or “time-boxed” assessment. The driving force is usually budget or lack thereof, so how do we trim down our assessment methodologies yet be efficient, precise and beneficial? There are many ways to be more efficient in the way we AppSec to get the most benefit out of the time we have. Whether it be making risk-based decisions, looking for patterns, understanding frameworks and their built-in protections, we can make intelligent choices and guesses. David Lindner will walk through some tips and tricks that will help consultants and internal testers alike focus on the fat of applications in a shortened timeframe."
+  },{
+    "title": "How to Pave a Path Forward for InfoSec by Hacking Hearts and Minds",
+    "speaker": [{
+        "name": "Chad Calease",
+        "speaker_id": "ccalease",
+        "company": "",
+        "twitter": "",
+        "github": "",
+        "linkedin": "",
+        "image": "",
+        "bio": "Parent, partner, ludic, neurodivergent, grateful for many gifts. Mom said, 'There's always one weirdo on every bus.' But I can never find them"
+    }],
+    "talk_id": "pave",
+    "pdf": "",
+    "length": "60",
+    "technical": "1",
+    "abstract": "Messages transmitted about privacy and security over the past 200 years or so haven’t always been very friendly or accessible and many are in direct contrast to today’s definitions, expectations, and requirements. We’ll take a fast but memorable stroll through history to illuminate a new path forward lit by some quick-win hacks to address these cultural challenges and elevate our understanding of, interest in, and ability to hack how our families, friends, colleagues, clients, and - potentially - how the world-at-large thinks about, understands, and values privacy and information security."
   }
 ]
