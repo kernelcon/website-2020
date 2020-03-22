@@ -1,5 +1,6 @@
 @import 'static/styles/base/base';
 body.light-mode {
+    .st0{fill:#000;}
     background-color: #e3e3e3;
     color: #333;
     transition: background-color 0.3s ease;
@@ -21,6 +22,7 @@ body.light-mode {
 }
 
 body.dark-mode {
+    .st0{fill:#FFFFFF;}
     .modal-content, .modal-header {
         background-color: #10171d;
 
