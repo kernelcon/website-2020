@@ -363,7 +363,7 @@
         "name": "Tyler Rosonke",
         "speaker_id": "trosonke",
         "company": "",
-        "twitter": "zonksec",
+        "twitter": "@zonksec",
         "github": "",
         "linkedin": "",
         "image": "",
@@ -372,7 +372,7 @@
         "name": "Aaron Gunning",
         "speaker_id": "agunning",
         "company": "",
-        "twitter": "scotchsec",
+        "twitter": "@scotchsec",
         "github": "",
         "linkedin": "",
         "image": "",
@@ -517,7 +517,7 @@
         "name": "Dan Tentler",
         "speaker_id": "dtentler",
         "company": "Phobos",
-        "twitter": "viss",
+        "twitter": "@viss",
         "github": "",
         "linkedin": "",
         "image": "dtentler.jpg",
@@ -534,7 +534,7 @@
         "name": "David Lindner",
         "speaker_id": "dlinder",
         "company": "Contrast Security",
-        "twitter": "golfhackerdave",
+        "twitter": "@golfhackerdave",
         "github": "",
         "linkedin": "",
         "image": "dlindner.jpg",
@@ -562,5 +562,48 @@
     "length": "60",
     "technical": "1",
     "abstract": "Messages transmitted about privacy and security over the past 200 years or so haven’t always been very friendly or accessible and many are in direct contrast to today’s definitions, expectations, and requirements. We’ll take a fast but memorable stroll through history to illuminate a new path forward lit by some quick-win hacks to address these cultural challenges and elevate our understanding of, interest in, and ability to hack how our families, friends, colleagues, clients, and - potentially - how the world-at-large thinks about, understands, and values privacy and information security."
+  }, {
+    "title": "Pirate Radio: Riding the Ragged Edges",
+    "speaker": [{
+        "name": "Michael Tomasiewicz",
+        "speaker_id": "mikeyt",
+        "company": "",
+        "twitter": "",
+        "github": "",
+        "linkedin": "",
+        "image": "",
+        "bio": "Michael is a Lead Cyber Engineer for the Omaha Public Power District.  He is usually refered to as 'Mikey T', as Tomasiewicz is wholly unpronounceable. Mikey T is not s0pr1337hx0r, but considered in some circles to be an idiot savant, sans that pesky savant part.  Regardless, he is an accomplished and entertaining speaker.  In his spare time you will find him either reading, taking something apart, or loudly cursing a scuffed up 1.68\" dimpled projectile."
+    }], 
+    "talk_id": "pirate",
+    "pdf": "",
+    "length": "20",
+    "technical": "2",
+    "abstract": "For the hobbyist, radio is technically fascinating.  For the uninitiated, black-magical.  What they both have in common? The FCC will be happy to fine the S#!& out of you if you violate the law regarding illegal uses of reserved bands, particularly commercial FM frequencies.  We'll talk about why \"pirates\" pirate on FM, affordable gear options, and how to experiment with the technology without being fined back to the stoneage."
+  }, {
+    "title": "WannaWorm",
+    "speaker": [{
+        "name": "Michael Kunz",
+        "speaker_id": "kunz",
+        "company": "",
+        "twitter": "",
+        "github": "",
+        "linkedin": "",
+        "image": "",
+        "bio": "Michael is a University of Nebraska at Omaha Alumni. He co-founded UNO's capture the flag team, Nullify, and has been working in the government sector for 6 years."
+    }], 
+    "talk_id": "worm",
+    "pdf": "",
+    "length": "20",
+    "technical": "5",
+    "abstract": "Ever wonder how to build a worm?  Mike will demonstrate how to build a ghetto worm using wanna cry.  He's also going to talking about some of his work with large scale emulation using the government funded Open Source tool Minimega.  Combining the two, he'll use Minimega to run the worm."
   }
 ]
+
+
+
+
+
+
+
+
+
