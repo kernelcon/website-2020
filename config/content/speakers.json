@@ -358,6 +358,32 @@
     "technical": "3",
     "abstract": "These days, everyone is looking for the phish that is either a generic drive-by or a more targeted campaign, such as a weaponized ransomware attack. Blue teams are smarter, instrumentation is smarter, and detection capabilities have advanced; especially in enterprise networks.  Further, set aside all of the click-through/pre-manufactured commodity phishing security awareness services for a moment. The real question, what happens when adversaries aren’t so brazen with their tactics and take smarter steps to counter detection?  Pre-emptive strike campaigns that are both innocuous (almost forgettable) to glean target details before the real attack, the correct tooling to prevent prying defenders from reaching the command and control redirectors or malware servers, blacklists and whitelists, domain registration misdirection, and quite possibly peering into the void of the vast amounts of signal-to-noise honeypot data trawling the Internet while using it to become more situationally aware.  The operators at STACKTITAN will discuss all of these topics and how proprietary tooling has helped shift their perspective on effective phishing techniques. Additionally, REAL mitigation techniques will be discussed to better prepare organizations to defend against these attack campaigns. In conclusion, the presentation will be informative with plenty of opportunity for collaborative discussion."
   },{
+    "title": "Kernelcon2020 Badge: nonononoyes",
+    "speaker": [{
+        "name": "Tyler Rosonke",
+        "speaker_id": "trosonke",
+        "company": "",
+        "twitter": "zonksec",
+        "github": "",
+        "linkedin": "",
+        "image": "",
+        "bio": "Tyler is a security professional based in Omaha, Nebraska. His main area of focus is in penetration testing. He loves learning and scripting his way out of a tight spot, which makes this area of security right up his alley. Tyler graduated from the University of Nebraska at Omaha with a B.S. in Information Assurance in 2014 and has been working in the offensive security roles ever since. Tyler is highly involved with the security community. He has contributed to open source projects, he has spoken at security conferences (DefCon), and he writes/operates the ZonkSec security blog. If Tyler is not banging his head against his monitor, you’ll likely find him in a garage banging his head against a vintage 2-stroke moped or wandering around in the great outdoors."
+    }, {
+        "name": "Aaron Gunning",
+        "speaker_id": "agunning",
+        "company": "",
+        "twitter": "scotchsec",
+        "github": "",
+        "linkedin": "",
+        "image": "",
+        "bio": "Aaron is an amateur hardware hacker and a professional security analyst. At hacker cons in meat-space, he is usually found in a hardware hacking village or the bar.  Sometimes both at the same time. Antics and sarcasm can be found on the interwebs @Scotchsec."
+    }],
+    "talk_id": "nonononoyes",
+    "pdf": "",
+    "length": "60",
+    "technical": "3",
+    "abstract": "Ever been curious about how electronic badges, or printed circuit boards (PCB) in general, get made? Come ride along with this year's Kernelcon badge makers, @zonksec and @scotchsec, as they explain the rollercoaster of turning the Hack-Master badge idea into a reality!"
+  },{
     "title": "Hacking your Cybersecurity Career",
     "speaker": [{
         "name": "Ron Woerner",
