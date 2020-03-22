@@ -528,5 +528,22 @@
     "length": "60",
     "technical": "3",
     "abstract": "The computer security industry several huge problems. These problems routinely coagulate together to from 'digital binary explosives' - naturally, in the wild. We can use these to gain access to places we shouldn't be able to reach. Imagine being able to have access to every spy satellite at once. How many barriers could you see past? What could you assert about a place? Could digital binary explosives get you past any of those barriers? It's broadly known just how ineffective the security industry is right now - but we're all happy living in denial about it. The security posture of large companies who were recently breached and did huge public DFIR campaigns are great examples, and live demos are even better examples - we're doing both. Live, on-stage, we'll discover some companies who have not yet been breached, but are candidates for a breach based on their security posture, and we'll cover how the current 'curriculum' of  'how to get a job in infosec' is partially to blame."
+  },{
+    "title": "KetoAppSec: It’s All about the FATS",
+    "speaker": [{
+        "name": "David Lindner",
+        "speaker_id": "dlinder",
+        "company": "Contrast Security",
+        "twitter": "golfhackerdave",
+        "github": "",
+        "linkedin": "",
+        "image": "dlindner.jpg",
+        "bio": "David Lindner is the Director of Application Security at Contrast Security. As an experienced application security professional with over 18 years of experience in the computer security industry, Lindner has worked within multiple disciplines in the security field, from application development, network architecture design and support, IT security and consulting, security training and application security. Over the past 10 years, he has specialized in all things related to mobile applications and securing them. Lindner has supported many different clients including financial, government, automobile, healthcare and retail. In his spare time, he hones his mobile and IoT testing skills by participating in numerous bug bounties."
+    }],
+    "talk_id": "keto",
+    "pdf": "",
+    "length": "60",
+    "technical": "3",
+    "abstract": "The Ketogenic diet has taken form over the past few years and it actually works. So how can we apply something similar to our application security practices? Application security traditionally focuses on tools or manual testing. We traditionally do “static (SAST)” or “dynamic (DAST)” tool assessments and label them as a “full” or “time-boxed” assessment. The driving force is usually budget or lack thereof, so how do we trim down our assessment methodologies yet be efficient, precise and beneficial? There are many ways to be more efficient in the way we AppSec to get the most benefit out of the time we have. Whether it be making risk-based decisions, looking for patterns, understanding frameworks and their built-in protections, we can make intelligent choices and guesses. David Lindner will walk through some tips and tricks that will help consultants and internal testers alike focus on the fat of applications in a shortened timeframe."
   }
 ]
