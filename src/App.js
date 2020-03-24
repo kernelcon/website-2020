@@ -44,6 +44,10 @@ function App() {
           <Route exact path="/bio" component={Bio} />
           <Route exact path="/speakers" component={Speakers} />
           <Route exact path="/virtual" component={Covid} />
+          <Route exact path="/virtualvillages/nari" component={() => {
+            window.location.href = 'https://zoom.us/j/251444995?pwd=bGZCNzVBTFc2bTRNYUFlZTRuZ1RLdz09';
+            return null;
+          }}/>
         </div>
       </div>
       <Footer />
