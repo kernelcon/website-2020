@@ -173,15 +173,14 @@ export default class Agenda extends Component {
         </TabPanel>
         <TabPanel tabId="training" className="training">
           <div className='text-area'>
-            <h3 className='title'>Training</h3>
+            <h3 className='title'>Training -<div className='sold-out'>SOLD OUT - we'll bring back more next year!</div></h3>
             <div className='training-call-out'><b className='note'>Note:</b><em>Conference admission included with every training class!  If you've already registered and want to add a training class, please contact registration@kernelcon.org.</em></div>
             <TrainingSubmissions />
           </div>
         </TabPanel>
         <TabPanel tabId="workshops" className="training">
           <div className='text-area'>
-            <h3 className='title'>Workshops</h3>
-            <a class="sold_out" href="https://abc.com/">Sold out</a>
+            <h3 className='title'>Workshops -<div className='sold-out'>SOLD OUT - we'll bring back more next year!</div></h3>
             <div className='training-call-out'><b className='note'>Note:</b><em>Workshops can be purchased as an add-on when registering.  If you've already registered and want to add a workshop, please contact registration@kernelcon.org.  Hands-on workshops occur multiple times during the conference, choose the time that best fits your schedule.</em></div>
             <Workshops />
           </div>
