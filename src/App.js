@@ -45,7 +45,7 @@ function App() {
           <Route exact path="/speakers" component={Speakers} />
           <Route exact path="/virtual" component={Covid} />
           <Route exact path="/virtual/villages/ot-village" component={() => {
-            window.location.href = 'https://support.apple.com/en-us/HT201295';
+            window.location.href = 'https://unomaha.zoom.us/j/341711080';
             return null;
           }}/>
           <Route exact path="/virtual/villages/mhh" component={() => {
@@ -58,6 +58,14 @@ function App() {
           }}/>
           <Route exact path="/virtual/chat" component={() => {
             window.location.href = 'https://discord.gg/usxmf8d';
+            return null;
+          }}/>
+          <Route exact path="/virtual/terrified-chipmunk" component={() => {
+            window.location.href = 'https://vimeo.com/event/29942';
+            return null;
+          }}/>
+          <Route exact path="/virtual/bat-of-doom" component={() => {
+            window.location.href = 'https://vimeo.com/event/29941';
             return null;
           }}/>
         </div>
