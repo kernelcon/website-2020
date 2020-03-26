@@ -56,6 +56,10 @@ function App() {
             window.location.href = 'https://zoom.us/j/387758968?pwd=Y1owQmU1ZDRMeEowbWhDVkg2ZENwdz09';
             return null;
           }}/>
+          <Route exact path="/virtual/chat" component={() => {
+            window.location.href = 'https://discord.gg/usxmf8d';
+            return null;
+          }}/>
         </div>
       </div>
       <Footer />

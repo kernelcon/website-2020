@@ -452,12 +452,20 @@ module.exports = function(webpackEnv) {
                 'sass-loader'
               ),
             },
-           {
+            {
               test: /\.(pdf|md|txt|docx|odt|tex)$/,
               include: paths.appSrc,
               loader: require.resolve('file-loader'),
               options: {
                 name: 'cfp/[name].[ext]',
+              },
+            },
+            {
+              test: /\.(pdf)$/,
+              include: paths.appSrc,
+              loader: require.resolve('file-loader'),
+              options: {
+                name: 'program/[name].[ext]',
               },
             },
             // "file" loader makes sure those assets get served by WebpackDevServer.

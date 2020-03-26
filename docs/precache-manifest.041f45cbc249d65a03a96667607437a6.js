@@ -4,7 +4,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cfp/wifi.pdf"
   },
   {
-    "revision": "e4832787ecaa69dead060be9f41cf608",
+    "revision": "cf9adf86238d8ee3319d36015b9e3b1c",
     "url": "/index.html"
   },
   {
@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.194e2ed7.chunk.css"
   },
   {
-    "revision": "452215e889ebda3838b7",
+    "revision": "f3f36288f9f9f3c85648",
     "url": "/static/css/main.7a98c6f9.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.e09122e1.chunk.js"
   },
   {
-    "revision": "452215e889ebda3838b7",
-    "url": "/static/js/main.83d2c6ea.chunk.js"
+    "revision": "f3f36288f9f9f3c85648",
+    "url": "/static/js/main.594d7ecc.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -366,10 +366,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a287009013a72a9039f2d35c9c22b211",
     "url": "/static/media/splunk-dark.a2870090.png"
-  },
-  {
-    "revision": "f7a44fe2a33610799edd3cafc1278441",
-    "url": "/static/media/splunk-light.f7a44fe2.png"
   },
   {
     "revision": "a25ec298c5a65773c6ccd2ba99ba47bf",

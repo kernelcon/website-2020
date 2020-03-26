@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.7a98c6f9.chunk.css",
-    "main.js": "/static/js/main.83d2c6ea.chunk.js",
-    "main.js.map": "/static/js/main.83d2c6ea.chunk.js.map",
+    "main.js": "/static/js/main.594d7ecc.chunk.js",
+    "main.js.map": "/static/js/main.594d7ecc.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
     "static/css/2.194e2ed7.chunk.css": "/static/css/2.194e2ed7.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.e09122e1.chunk.js.map": "/static/js/2.e09122e1.chunk.js.map",
     "cfp/wifi.pdf": "/cfp/wifi.pdf",
     "index.html": "/index.html",
-    "precache-manifest.fab644fdb65c68d224e47a03ebd3b293.js": "/precache-manifest.fab644fdb65c68d224e47a03ebd3b293.js",
+    "precache-manifest.041f45cbc249d65a03a96667607437a6.js": "/precache-manifest.041f45cbc249d65a03a96667607437a6.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.194e2ed7.chunk.css.map": "/static/css/2.194e2ed7.chunk.css.map",
     "static/css/main.7a98c6f9.chunk.css.map": "/static/css/main.7a98c6f9.chunk.css.map",
@@ -98,7 +98,6 @@
     "static/media/securesky.png": "/static/media/securesky.870bb4a5.png",
     "static/media/sophia.jpg": "/static/media/sophia.05892e91.jpg",
     "static/media/splunk-dark.png": "/static/media/splunk-dark.a2870090.png",
-    "static/media/splunk-light.png": "/static/media/splunk-light.f7a44fe2.png",
     "static/media/sticker-sheet-proof.png": "/static/media/sticker-sheet-proof.a25ec298.png",
     "static/media/strand.jpg": "/static/media/strand.28be082c.jpg",
     "static/media/texas_cyber.png": "/static/media/texas_cyber.b61797c9.png",
