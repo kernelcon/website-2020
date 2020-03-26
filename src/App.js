@@ -45,7 +45,7 @@ function App() {
           <Route exact path="/speakers" component={Speakers} />
           <Route exact path="/virtual" component={Covid} />
           <Route exact path="/virtual/villages/ot-village" component={() => {
-            window.location.href = 'https://zoom.us/j/251444995?pwd=bGZCNzVBTFc2bTRNYUFlZTRuZ1RLdz09';
+            window.location.href = 'https://support.apple.com/en-us/HT201295';
             return null;
           }}/>
           <Route exact path="/virtual/villages/mhh" component={() => {
