@@ -61,11 +61,11 @@ function App() {
             return null;
           }}/>
           <Route exact path="/virtual/terrified-chipmunk" component={() => {
-            window.location.href = 'https://vimeo.com/event/29942';
+            window.location.href = 'https://vimeo.com/event/30498';
             return null;
           }}/>
           <Route exact path="/virtual/bat-of-doom" component={() => {
-            window.location.href = 'https://vimeo.com/event/29941';
+            window.location.href = 'https://vimeo.com/event/30495';
             return null;
           }}/>
         </div>
