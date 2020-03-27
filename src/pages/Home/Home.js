@@ -43,7 +43,9 @@ export default class Home extends Component {
             Register Now
           </a>
           <a className='reg-button'
-            href={pdf}>
+            href={pdf}
+            rel='noopener noreferrer'
+            target='_blank'>
             Kernelcon 2020 Program
           </a>
 
