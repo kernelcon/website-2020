@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
+    "revision": "42bfa5ad73225d8e865cc45d89f90b07",
+    "url": "/cfp/kc2020_program.pdf"
+  },
+  {
     "revision": "cd4a1ca608c143324bb594b1cbb10ece",
     "url": "/cfp/wifi.pdf"
   },
   {
-    "revision": "4377e655a308721bd57b9b9c2627f8c6",
+    "revision": "d24d908f4fd1e22e6b1c88b1d300e78e",
     "url": "/index.html"
   },
   {
-    "revision": "2c125d92dbd65e5374a9",
+    "revision": "6ae733204037b2451d35",
     "url": "/static/css/2.194e2ed7.chunk.css"
   },
   {
-    "revision": "64020c43b0a5f689d698",
+    "revision": "b97cc33bd905d39ee9c4",
     "url": "/static/css/main.7a98c6f9.chunk.css"
   },
   {
-    "revision": "2c125d92dbd65e5374a9",
-    "url": "/static/js/2.e09122e1.chunk.js"
+    "revision": "6ae733204037b2451d35",
+    "url": "/static/js/2.89223cd7.chunk.js"
   },
   {
-    "revision": "64020c43b0a5f689d698",
-    "url": "/static/js/main.7777b803.chunk.js"
+    "revision": "b97cc33bd905d39ee9c4",
+    "url": "/static/js/main.c1718da2.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",

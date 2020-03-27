@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Vision from '../../static/images/kernelcon_vision.png';
 import BlackLogo from '../../static/images/logos/kernelcon_black.png';
 import Modal from '../../components/Modal/Modal';
+import pdf from '../../program/kc2020_program.pdf';
 
 import './Home.scss';
 
@@ -41,12 +42,12 @@ export default class Home extends Component {
             target='_blank'>
             Register Now
           </a>
-          <button className='reg-button'
-            onClick={this.toggleModal}>
-            Sign up for updates
-          </button>
+          <a className='reg-button'
+            href={pdf}>
+            Kernelcon 2020 Program
+          </a>
 
-          <Modal show={this.state.isOpen}
+{/*          <Modal show={this.state.isOpen}
             onClose={this.toggleModal}
             title='Subscribe for Updates'
             modalContentStyle={modalContentStyle}
@@ -61,7 +62,7 @@ export default class Home extends Component {
                 style={{'marginLeft': '0px', 'width': '580px', 'height': '720px'}}>
                 Loading...
               </iframe>
-          </Modal>
+          </Modal>*/}
 
     <div className='twitter-zone twitter-dark'>
         <a className="twitter-timeline"
