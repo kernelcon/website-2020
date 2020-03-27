@@ -68,6 +68,10 @@ function App() {
             window.location.href = 'https://vimeo.com/event/30495';
             return null;
           }}/>
+          <Route exact path="/store" component={() => {
+            window.location.href = 'https://shop.spreadshirt.com/kernelcon-cyber-shop/';
+            return null;
+          }}/>
         </div>
       </div>
       <Footer />
