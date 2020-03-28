@@ -72,6 +72,10 @@ function App() {
             window.location.href = 'https://shop.spreadshirt.com/kernelcon-cyber-shop/';
             return null;
           }}/>
+          <Route exact path="/survey" component={() => {
+            window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSfwj4nMukdrv1VF792pyVnVpKCi6vcW3LcoHxp7KZTTpMb6pQ/viewform?usp=sf_link';
+            return null;
+          }}/>
         </div>
       </div>
       <Footer />
