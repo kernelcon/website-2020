@@ -26,6 +26,7 @@
         "github": "",
         "linkedin": "",
         "image": "cwright.png",
+        "pdfdownload": "K2020-cwright.pdf",
         "bio": "Husband, Father, Homebrewer, Ham, Hacker."
     }],
     "talk_id": "zhero",
@@ -77,6 +78,7 @@
         "github": "",
         "linkedin": "",
         "image": "mbenoit.jpg",
+        "pdfdownload": "K2020-mbeniot.pdf",
         "bio": "Megan Benoit has spent most of the last 20 years building vulnerability management and incident response programs, architecting and deploying security solutions, and asking people if they’ve tried turning it off and on again. Megan currently works as a Senior Network Security Engineer and has worked for the DoD, healthcare, and retail industries. Her hobbies include chasing pokemon, denying firewall change requests, and yoga, recently completing a 200 hour yoga teacher training course."
     }],
     "talk_id": "cya",
@@ -111,6 +113,7 @@
         "github": "",
         "linkedin": "",
         "image": "scurry.png",
+        "pdfdownload": "K2020-scurry.pdf",
         "bio": "Sam Curry is a full time bug bounty hunter and security consultant through 17security, LLC. He has been active in the security community since 2015 and runs a blog dedicated to advancing web application security research at samcurry.net."
     }],
     "talk_id": "webcontext",
@@ -145,6 +148,7 @@
         "github": "",
         "linkedin": "",
         "image": "kphan.jpg",
+        "pdfdownload": "K2020-kphan.pdf",
         "bio": "Kandy is a cybersecurity researcher and red team lead."
     }],
     "talk_id": "redbluemetrics",
@@ -376,6 +380,7 @@
         "github": "",
         "linkedin": "https://www.linkedin.com/in/ronwoerner/",
         "image": "rwoerner.jpg",
+        "pdfdownload": "K2020-rwoerner.pdf",
         "bio": "Ron Woerner, CISSP, CISM is a noted consultant, speaker and writer in the Security industry. As the Cyber-AAA Chief Security Evangelist, he delivers assessments, awareness and answers to small, medium, and large organizations. Ron established the Cybersecurity Studies program at Bellevue University, an NSA Center of Academic Excellence where he still teaches. He has been a featured speaker at the TEDx, (ISC)2, ISACA, and RSA conferences. Ron is always looking for more hackers."
     }],
     "talk_id": "careerhack",
