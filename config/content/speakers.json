@@ -26,7 +26,7 @@
         "github": "",
         "linkedin": "",
         "image": "cwright.png",
-        "pdfdownload": "K2020-cwright.pdf",
+        "pdfdownload": "K2020_cwright.pdf",
         "bio": "Husband, Father, Homebrewer, Ham, Hacker."
     }],
     "talk_id": "zhero",
@@ -78,7 +78,7 @@
         "github": "",
         "linkedin": "",
         "image": "mbenoit.jpg",
-        "pdfdownload": "K2020-mbeniot.pdf",
+        "pdfdownload": "K2020_mbeniot.pdf",
         "bio": "Megan Benoit has spent most of the last 20 years building vulnerability management and incident response programs, architecting and deploying security solutions, and asking people if they’ve tried turning it off and on again. Megan currently works as a Senior Network Security Engineer and has worked for the DoD, healthcare, and retail industries. Her hobbies include chasing pokemon, denying firewall change requests, and yoga, recently completing a 200 hour yoga teacher training course."
     }],
     "talk_id": "cya",
@@ -113,7 +113,7 @@
         "github": "",
         "linkedin": "",
         "image": "scurry.png",
-        "pdfdownload": "K2020-scurry.pdf",
+        "pdfdownload": "K2020_scurry.pdf",
         "bio": "Sam Curry is a full time bug bounty hunter and security consultant through 17security, LLC. He has been active in the security community since 2015 and runs a blog dedicated to advancing web application security research at samcurry.net."
     }],
     "talk_id": "webcontext",
@@ -148,7 +148,7 @@
         "github": "",
         "linkedin": "",
         "image": "kphan.jpg",
-        "pdfdownload": "K2020-kphan.pdf",
+        "pdfdownload": "K2020_kphan.pdf",
         "bio": "Kandy is a cybersecurity researcher and red team lead."
     }],
     "talk_id": "redbluemetrics",
@@ -243,6 +243,7 @@
         "github": "",
         "linkedin": "",
         "image": "",
+        "pdfdownload": "K2020_jmaguire.pdf",
         "bio": "Jamie Maguire is a Senior Security Engineer at High Point Networks where he focuses on Penetration Testing and Vulnerability Assessment services. Over the past nine years Jamie has held various roles in IT and Security including: Helpdesk Support, Network Administration and Vulnerability Management. To unplug from technology, Jamie enjoys spending time with his dog Frank and reading. Jamie just finished Click Here to Kill Everybody."
     }],
     "talk_id": "osintro",
@@ -294,6 +295,7 @@
         "github": "",
         "linkedin": "https://www.linkedin.com/in/michael-born-89080324/",
         "image": "mborn.jpg",
+        "pdfdownload": "K2020_mborn.jpg",
         "bio": "Michael Born works as a Sr. Security Consultant for SecureSky, Inc. in Omaha, NE. His primary duties include performing various security assessments for on-prem and cloud environments. Michael is the author of Binary Analysis Cookbook from Packt Publishing, participates in the local DC402 group and co-leads the Omaha chapter of OWASP. Michael enjoys hacking, learning new skills, shooting, and particpating in capture the flag events."
     }],
     "talk_id": "top10cloud",
@@ -380,7 +382,7 @@
         "github": "",
         "linkedin": "https://www.linkedin.com/in/ronwoerner/",
         "image": "rwoerner.jpg",
-        "pdfdownload": "K2020-rwoerner.pdf",
+        "pdfdownload": "K2020_rwoerner.pdf",
         "bio": "Ron Woerner, CISSP, CISM is a noted consultant, speaker and writer in the Security industry. As the Cyber-AAA Chief Security Evangelist, he delivers assessments, awareness and answers to small, medium, and large organizations. Ron established the Cybersecurity Studies program at Bellevue University, an NSA Center of Academic Excellence where he still teaches. He has been a featured speaker at the TEDx, (ISC)2, ISACA, and RSA conferences. Ron is always looking for more hackers."
     }],
     "talk_id": "careerhack",
@@ -441,7 +443,7 @@
         "github": "",
         "linkedin": "",
         "image": "oparkins.png",
-        "pdfdownload": "K2020-oparkins.pdf",
+        "pdfdownload": "K2020_oparkins.pdf",
         "bio": "Owen Parkins is a graduate student at New Mexico Institute of Mining and Technology. He will be graduating in May with his Master's degree in Computer Science with a focus in Cybersecurity. His primary skill set includes system administration, vulnerability analysis, and exploit development."
     }],
     "talk_id": "smarthome",
@@ -510,6 +512,7 @@
         "github": "",
         "linkedin": "",
         "image": "dlindner.jpg",
+        "pdfdownload": "K2020_dlindner.pdf",
         "bio": "David Lindner is the Director of Application Security at Contrast Security. As an experienced application security professional with over 18 years of experience in the computer security industry, Lindner has worked within multiple disciplines in the security field, from application development, network architecture design and support, IT security and consulting, security training and application security. Over the past 10 years, he has specialized in all things related to mobile applications and securing them. Lindner has supported many different clients including financial, government, automobile, healthcare and retail. In his spare time, he hones his mobile and IoT testing skills by participating in numerous bug bounties."
     }],
     "talk_id": "keto",
