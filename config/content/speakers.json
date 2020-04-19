@@ -63,7 +63,7 @@
         "bio": "Heather Lawrence is a data scientist for the Nebraska Applied Research Institute who earned her undergraduate and masters degrees in Computer Engineering from the University of Central Florida. In previous lives she was a USN nuke, VA photographer, NCCDC winner, Hack@UCF mom, and darknet marketplace miner. Her current research centers on the application of machine learning to intrusion detection. She serves the community through volunteer work for Kernelcon and DEF CON as well as facilitating logistics as a member of the VetSec and B-Sides Orlando boards."
     }],
     "talk_id": "cyberdata",
-    "pdf": "",
+    "pdf": "K2020_hlawrence.pdf",
     "length": "60",
     "technical": "2",
     "abstract": "While the foray to apply machine learning to information security is new, there remain challenges to creating and accessing datasets that are beneficial to security research. This talk is going to discuss our journey in creating an open-source network security dataset, the community-accepted guidelines to creating good data, and the challenges we faced. Moreover, this talk examines the gap between academic datasets and data released by the professional community before providing resources to new datasets that have been released in neighboring areas."
