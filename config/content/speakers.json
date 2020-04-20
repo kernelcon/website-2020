@@ -1,22 +1,5 @@
 [
  {
-    "title": "The Beginner’s Guide to Pentesting ICS:  How NOT to Shut Down A Power Grid",
-    "speaker": [{
-        "name": "Dan Bougere",
-        "speaker_id": "dbougere",
-        "company": "",
-        "twitter": "@Rouxgaru",
-        "github": "",
-        "linkedin": "danbougere",
-        "image": "dbougere.jpg",
-        "bio": "Dan Bougere is a Principal Cybersecurity Consultant at Revolutionary Security, LLC. Dan has over 17 years of combined experience in both government and commercial sectors as a contractor for the Department of Defense, an analyst in the National Security Agency's TAO office, and other roles with intelligence community partners, business, utilities, and local governments.  Dan earned a BS degree in Software Engineering Technology from the University of Southern Mississippi, a MS degree in Information Assurance from Capitol Technology University, and a MS degree in Technology Studies from Eastern Michigan University. Dan holds multiple certifications from SANS, CompTIA, ISC2, and ISACA."
-    }],
-    "talk_id": "introics",
-    "pdf": "",
-    "length": "60",
-    "technical": "2",
-    "abstract": "Learn what exactly is SCADA/ICS, why it's important, how horrifyingly ancient it all still is, and how to pentest it without kicking over generators or flooding toxic gases everywhere! If you want to hear jaw dropping stories, lose sleep over chemical plants on your commute, or find that nice job niche that's hiring everywhere now is your chance."
-  },{
     "title": "Bit to Byte",
     "speaker": [{
         "name": "Christopher Wright",
@@ -30,6 +13,7 @@
     }],
     "talk_id": "zhero",
     "pdf": "K2020_cwright.pdf",
+    "video": "https://www.youtube.com/watch?v=FVZvtv2JUFA",
     "length": "20",
     "technical": "1",
     "abstract": "Having to start over again after being fired from a 5-year job, I saw the trend of hacks and saw that cybersecurity was going to be a low unemployment industry. I went back to college and started this new career path at the age of 34. This presentation will showcase the path I have made going from graduating college with a BSIT degree and zero industry experience to getting a SoC analyst job to becoming a project engineer inside of 1 year from date of hire."
@@ -47,6 +31,7 @@
     }],
     "talk_id": "smb",
     "pdf": "",
+    "video": "https://www.youtube.com/watch?v=qtMapKmSFUc",
     "length": "60",
     "technical": "2",
     "abstract": "Small and Medium businesses are prime targets for malicious actors. Lacking the budgetary freedom that larger businesses may have for cyber security and limited personnel resources presents a large bullseye on many small and medium business. This talk addresses various free or built-in options for an organization to use to protect their systems from cyber attacks and reduce their attackable surface."
@@ -64,6 +49,7 @@
     }],
     "talk_id": "cyberdata",
     "pdf": "K2020_hlawrence.pdf",
+    "video": "https://www.youtube.com/watch?v=JCTI4fZfxgU",
     "length": "60",
     "technical": "2",
     "abstract": "While the foray to apply machine learning to information security is new, there remain challenges to creating and accessing datasets that are beneficial to security research. This talk is going to discuss our journey in creating an open-source network security dataset, the community-accepted guidelines to creating good data, and the challenges we faced. Moreover, this talk examines the gap between academic datasets and data released by the professional community before providing resources to new datasets that have been released in neighboring areas."
@@ -80,7 +66,8 @@
         "bio": "Megan Benoit has spent most of the last 20 years building vulnerability management and incident response programs, architecting and deploying security solutions, and asking people if they’ve tried turning it off and on again. Megan currently works as a Senior Network Security Engineer and has worked for the DoD, healthcare, and retail industries. Her hobbies include chasing pokemon, denying firewall change requests, and yoga, recently completing a 200 hour yoga teacher training course."
     }],
     "talk_id": "cya",
-    "pdf": "K2020_mbeniot.pdf",
+    "pdf": "K2020_mbenoit.pdf",
+    "video": "https://www.youtube.com/watch?v=UuLxACx3MEM",
     "length": "60",
     "technical": "3",
     "abstract": "Building a vulnerability management program often feels like eating an elephant that’s guarded by sharks — every time you try to take a bite, you’re dodging someone that’s trying to take a bite out of you. I am going to walk you through building an effective vulnerability management program: avoiding and mitigating common problems, navigating the organizational waters, and getting the most bang for your buck when it comes to reducing your risk. Vulnerability management is more than just running a scan and putting in tickets for remediation — it’s about managing the people involved in the scanning and remediation processes and finding a middle ground that reduces your risk and makes operations happy."
@@ -98,6 +85,7 @@
     }],
     "talk_id": "diypancreas",
     "pdf": "K2020_jlagorio.pdf",
+    "video": "https://www.youtube.com/watch?v=LCCrjU70ZDg",
     "length": "60",
     "technical": "3",
     "abstract": "Technology to manage diabetes revolves around stagnated tech from the 80s and 90s. Hackers took their lives into their own hands by developing open source hardware and software to augment inadequate products. Developing and building a DIY artificial pancreas, its iterations, and real-life examples of will be discussed and at least one will be working on the presenter. Taking the human out of the loop and replacing them with technology increases quality of life. See what happens when hackers decide they’re not waiting around for government and the MedTech industry to do better.  Managing diabetes revolves around stagnated tech from the 80s and 90s. Hackers took their lives into their hands by augmenting inadequate products after market. Building iterations of a DIY artificial pancreas and real-life examples of will be discussed and at least one will be working on the presenter. Replacing human intervention with technology betters quality of life. See what happens when hackers decide they’re not waiting around for government and the MedTech industry to do better."
@@ -115,6 +103,7 @@
     }],
     "talk_id": "webcontext",
     "pdf": "K2020_scurry.pdf",
+    "video": "https://www.youtube.com/watch?v=hWmXEAi9z5w",
     "length": "60",
     "technical": "3",
     "abstract": "This talk explores attacking various 'secondary contexts' in web applications where data is being passed to an underlying internal HTTP server.  We will explore the different approaches to targeting limited-access/internal APIs, the very strange interactions between different servers within the stack, and lastly the different types of vulnerabilities present in second stage HTTP services."
@@ -132,6 +121,7 @@
     }],
     "talk_id": "keydup",
     "pdf": "",
+    "video": "https://www.youtube.com/watch?v=Mh5bE7Ur2ko",
     "length": "60",
     "technical": "2",
     "abstract": "Have you ever seen someone just walking around with a key hanging on thier belt? How about a wall of keys behind a security desk? Better yet, has anyone you know every posted a picture of the keys to the new home they just bought? Well, what if you could take a picture and easily duplicate that key with a 3D Printer? Sound like something from a James Bond film? Well it's not! Better yet, if you can just get a moment alone with a key, you can get an imprint of it in less than 2 minutes, return the key to the owner and then cast a duplicate of that key for later use."
@@ -166,6 +156,7 @@
     }],
     "talk_id": "ghidra4life",
     "pdf": "K2020_ceagle.pdf",
+    "video": "https://www.youtube.com/watch?v=KL1jE9dxas0",
     "length": "60",
     "technical": "4",
     "abstract": "Anyone that knows me also knows that I'm a huge IDA Pro fanboy. Ghidra, the NSA's answer to IDA, has been in the public's hands for about a year now, so where does that leave me?  Still solidly in the IDA camp, but that doesn't mean that Ghidra hasn't had an impact on my life. Thanks to the magic of open source we can take one of Ghidra's nicest features and bolt it onto IDA to fill some gaps in IDA coverage. In this talk, I'll introduce the 'Binary Lifting Component' (it's kinder name), or just blc for short, plugin for IDA.  blc takes the core of Ghidra's decompiler capability and builds an IDA plugin around it to add decompilation capability to IDA for all processors supported by Ghidra."
@@ -200,6 +191,7 @@
     }],
     "talk_id": "letmein",
     "pdf": "",
+    "video": "https://www.youtube.com/watch?v=Tvv7ZUuLaf8",
     "length": "60",
     "technical": "2",
     "abstract": "Charles Dickens is quoted as saying, 'A very little key will open a very heavy door.' Physical penetration testing is often overlooked when it comes time for a company's annual security assessment. Oftentimes, physical is left out for even a full-scope Red Team exercise. I've heard all of the reasons (excuses) why: 'we have guards,' 'we have locks,' 'card reader access,' 'we know it's an issue, just not a priority,' or 'it seems like cheating,' and the list goes on. I am here to discuss why Physical Penetration Testing/Physical Red Teaming is not only beneficial, but also crucial to a company's security well-being. I will review what physical red teaming is, how physical red teaming differs from traditional physical penetration tests, some of the tactics used in bypassing physical security controls, how closely tied physical security is to the overall posture and effectiveness of security training programs and policies, and will give several scenarios in which a physical intrusion opened several more doors (pun intended) during Red Team excursions."
@@ -243,6 +235,7 @@
     }],
     "talk_id": "osintro",
     "pdf": "K2020_jmaguire.pdf",
+    "video": "https://www.youtube.com/watch?v=QgHcvb6D3So",
     "length": "60",
     "technical": "2",
     "abstract": "The first step of a Penetration Test is often called Reconnaissance, Information Gathering or OSINT. During this step, Penetration Testers attempt to gather as much information as they can about a target environment by using publicly available information. Unfortunately, this step may be ignored or not completed thoroughly.  This is intended to be a 101-level presentation in which we discuss how an attacker may conduct reconnaissance against a target, and what specific information they might be interested in gathering. We will cover specific tools including theHarvester, Shodan, Recon-ng and more. This presentation is intended to give Security Professionals and Administrators an understanding of how attackers conduct information gathering against environments. Audience members will see specific examples of tools and techniques that they can apply to their own environments. We will not cover any new or novel techniques, but my goal is to provide the audience with the knowledge to gather meaningful information quickly."
@@ -260,6 +253,7 @@
     }],
     "talk_id": "biohack",
     "pdf": "",
+    "video": "https://www.youtube.com/watch?v=AVqeYA8-IuE",
     "length": "60",
     "technical": "3",
     "abstract": "Cyber Security is an exceedingly complex space that requires extreme levels of investment in people, processes, and technology to make a large impact on an organization. Despite the investment, we often sit in the 'spin zone' and accept the status quo and lack of progress. However, there are parallels we can draw from other complex fields (in this case healthcare) to help us consider fundamental or alternative methods for solving the complex security issues we face. Join me in understanding the similarities between patient wellness and Cyber Security and the opportunities that lie ahead for us to improve our capabilities."
@@ -277,6 +271,7 @@
     }],
     "talk_id": "breakingbarriers",
     "pdf": "",
+    "video": "https://www.youtube.com/watch?v=U1gye84Txrg",
     "length": "60",
     "technical": "1",
     "abstract": "Barriers can slow us down from reaching our goals but they don’t have to block us. The key is not letting the gates stop you in your tracks and instead finding a way around or through them. This is hard enough without throwing in the introversion and imposter syndrome common to our industry.  Join me while I walk through my journey overcoming the challenges of being an introvert trying to learn while overcoming the imposter syndrome that says I can't. You'll walk away with strategies to create opportunities that will showcase your strengths and ways to overcome the internal monologue that forever tells us we can't."
@@ -294,6 +289,7 @@
     }],
     "talk_id": "top10cloud",
     "pdf": "K2020_mborn.jpg",
+    "video": "https://www.youtube.com/watch?v=K8BfA8lzca8",
     "length": "60",
     "technical": "2",
     "abstract": "As organizations move their traditional on-prem environments to the cloud, penetration testing tools and techniques must also adapt. This talk will highlight the top 10 tools every penetration tester should add to their arsenal when performing a penetration assessment against a cloud environment. Tools covered will work against Azure/Office 365, Google Cloud/G Suite, and AWS."
@@ -311,6 +307,7 @@
     }],
     "talk_id": "redteamblueteam",
     "pdf": "",
+    "video": "https://www.youtube.com/watch?v=ifImQaHEhqY",
     "length": "60",
     "technical": "3",
     "abstract": "How blue teamers and red teamers think is fundamentally different. This talk will delve into some of those details from a perspective of appreciating the differences – but it will not focus exclusively on them, as it is geared towards how to build a strong security team in general. Some of the aspects of a good blue team is Incident Response team, tuning a SIEM, solidifying network security and other opportunities for a better overall security posture. It will not focus on KU Health system and our systems/solutions, but instead will involve leadership strategies, technical details, and security posturing areas to consider."
@@ -337,6 +334,7 @@
     }],
     "talk_id": "betterphishing",
     "pdf": "",
+    "video": "https://www.youtube.com/watch?v=E8KaQ7UL1L0",
     "length": "60",
     "technical": "3",
     "abstract": "These days, everyone is looking for the phish that is either a generic drive-by or a more targeted campaign, such as a weaponized ransomware attack. Blue teams are smarter, instrumentation is smarter, and detection capabilities have advanced; especially in enterprise networks.  Further, set aside all of the click-through/pre-manufactured commodity phishing security awareness services for a moment. The real question, what happens when adversaries aren’t so brazen with their tactics and take smarter steps to counter detection?  Pre-emptive strike campaigns that are both innocuous (almost forgettable) to glean target details before the real attack, the correct tooling to prevent prying defenders from reaching the command and control redirectors or malware servers, blacklists and whitelists, domain registration misdirection, and quite possibly peering into the void of the vast amounts of signal-to-noise honeypot data trawling the Internet while using it to become more situationally aware.  The operators at STACKTITAN will discuss all of these topics and how proprietary tooling has helped shift their perspective on effective phishing techniques. Additionally, REAL mitigation techniques will be discussed to better prepare organizations to defend against these attack campaigns. In conclusion, the presentation will be informative with plenty of opportunity for collaborative discussion."
@@ -363,6 +361,7 @@
     }],
     "talk_id": "nonononoyes",
     "pdf": "",
+    "video": "https://www.youtube.com/watch?v=VYY81450_RM",
     "length": "60",
     "technical": "3",
     "abstract": "Ever been curious about how electronic badges, or printed circuit boards (PCB) in general, get made? Come ride along with this year's Kernelcon badge makers, @zonksec and @scotchsec, as they explain the rollercoaster of turning the Hack-Master badge idea into a reality!"
@@ -380,6 +379,7 @@
     }],
     "talk_id": "careerhack",
     "pdf": "K2020_rwoerner.pdf",
+    "video": "https://www.youtube.com/watch?v=0M5SHUT5VAQ",
     "length": "20",
     "technical": "1",
     "abstract": "'How do I find a job in cybersecurity?' This is an issue for both new and experienced professionals. There continues to be a disconnect between those hiring and those looking.  This session explains solutions to overcome the cybersecurity hiring gap. Whether attendees are looking to break into cybersecurity or land their next job, they can use hacker skills to make it happen. In this session, I’ll explain three traits of a well-rounded cybersecurity professional, three areas for balanced learning, and steps for hacking your career including visualizing your goals, knowing the best path for you, social engineering your next boss, active learning and keeping your skills sharp. This session also presents the difference cybersecurity career paths based on the NIST National Initiative for Cybersecurity Education (NICE). To get the right job, use hacking techniques to break through the hiring process.  Learn how here."
@@ -423,6 +423,7 @@
     }],
     "talk_id": "bunny",
     "pdf": "",
+    "video": "https://www.youtube.com/watch?v=YQT2hTQzmOU",
     "length": "20",
     "technical": "1",
     "abstract": "Ever wanted to steal passwords and run other programs in seconds with only a small USB sized tool? No? Well, now you can! The Bash Bunny will allow you to program keystroke attacks, which then are executed at lightning speed once you plug it in. In this talk you will learn the basics of this device and a few programs."
@@ -491,6 +492,7 @@
     }],
     "talk_id": "missiles",
     "pdf": "",
+    "video": "https://www.youtube.com/watch?v=b-ydD5emKnw",
     "length": "60",
     "technical": "3",
     "abstract": "The computer security industry several huge problems. These problems routinely coagulate together to from 'digital binary explosives' - naturally, in the wild. We can use these to gain access to places we shouldn't be able to reach. Imagine being able to have access to every spy satellite at once. How many barriers could you see past? What could you assert about a place? Could digital binary explosives get you past any of those barriers? It's broadly known just how ineffective the security industry is right now - but we're all happy living in denial about it. The security posture of large companies who were recently breached and did huge public DFIR campaigns are great examples, and live demos are even better examples - we're doing both. Live, on-stage, we'll discover some companies who have not yet been breached, but are candidates for a breach based on their security posture, and we'll cover how the current 'curriculum' of  'how to get a job in infosec' is partially to blame."
@@ -508,6 +510,7 @@
     }],
     "talk_id": "keto",
     "pdf": "K2020_dlindner.pdf",
+    "video": "https://www.youtube.com/watch?v=MSA9ZmBu1-s",
     "length": "60",
     "technical": "3",
     "abstract": "The Ketogenic diet has taken form over the past few years and it actually works. So how can we apply something similar to our application security practices? Application security traditionally focuses on tools or manual testing. We traditionally do “static (SAST)” or “dynamic (DAST)” tool assessments and label them as a “full” or “time-boxed” assessment. The driving force is usually budget or lack thereof, so how do we trim down our assessment methodologies yet be efficient, precise and beneficial? There are many ways to be more efficient in the way we AppSec to get the most benefit out of the time we have. Whether it be making risk-based decisions, looking for patterns, understanding frameworks and their built-in protections, we can make intelligent choices and guesses. David Lindner will walk through some tips and tricks that will help consultants and internal testers alike focus on the fat of applications in a shortened timeframe."
@@ -525,6 +528,7 @@
     }],
     "talk_id": "pave",
     "pdf": "",
+    "video": "https://www.youtube.com/watch?v=B556fz2Ku-s",
     "length": "60",
     "technical": "1",
     "abstract": "Messages transmitted about privacy and security over the past 200 years or so haven’t always been very friendly or accessible and many are in direct contrast to today’s definitions, expectations, and requirements. We’ll take a fast but memorable stroll through history to illuminate a new path forward lit by some quick-win hacks to address these cultural challenges and elevate our understanding of, interest in, and ability to hack how our families, friends, colleagues, clients, and - potentially - how the world-at-large thinks about, understands, and values privacy and information security."
@@ -542,6 +546,7 @@
     }], 
     "talk_id": "pirate",
     "pdf": "",
+    "video": "https://www.youtube.com/watch?v=URrdJtjZ_24",
     "length": "20",
     "technical": "2",
     "abstract": "For the hobbyist, radio is technically fascinating.  For the uninitiated, black-magical.  What they both have in common? The FCC will be happy to fine the S#!& out of you if you violate the law regarding illegal uses of reserved bands, particularly commercial FM frequencies.  We'll talk about why \"pirates\" pirate on FM, affordable gear options, and how to experiment with the technology without being fined back to the stoneage."

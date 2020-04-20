@@ -1,5 +1,6 @@
 @import '../../static/styles/base/variables';
 
+
 .schedule {
 	display: flex;
 	flex-direction: row;
@@ -170,7 +171,14 @@
         border-left: 1px solid #777;
         border-right: 1px solid #777;
       }
-      .pdfdownload{
+      .video {
+        white-space: nowrap;
+        font-family: 'Jura';
+        padding: 0px 20px;
+        border-left: 1px solid #777;
+        border-right: 1px solid #777;
+      }
+      .pdf {
         white-space: nowrap;
         font-family: 'Jura';
         padding: 0px 20px;

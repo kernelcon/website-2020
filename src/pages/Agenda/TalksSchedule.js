@@ -5,6 +5,23 @@ import './Schedule.scss';
 
 import config from 'speakersConfig';
 
+//this 2019 carry-over hack still seems horrible, there still must be a better way...
+import tossaway01 from '../../files/K2020_ceagle.pdf';
+import tossaway02 from '../../files/K2020_dlindner.pdf';
+import tossaway03 from '../../files/K2020_jlagorio.pdf';
+import tossaway04 from '../../files/K2020_kphan.pdf';
+import tossaway05 from '../../files/K2020_mbenoit.pdf';
+import tossaway06 from '../../files/K2020_oparkins.pdf';
+import tossaway07 from '../../files/K2020_rwoerner.pdf';
+import tossaway08 from '../../files/K2020_cwright.pdf';
+import tossaway09 from '../../files/K2020_hlawrence.pdf';
+import tossaway10 from '../../files/K2020_jmaguire.pdf';
+import tossaway11 from '../../files/K2020_kphan.pdf';
+import tossaway12 from '../../files/K2020_mborn.pdf';
+import tossaway13 from '../../files/K2020_rgeorge.pdf';
+import tossaway14 from '../../files/K2020_scurry.pdf';
+
+
 class TalksSchedule extends Component {
   static displayName = 'TalksSchedule';
 
@@ -92,6 +109,24 @@ class TalksSchedule extends Component {
         	{speakers}
 
           <div className='length'>{`${ele.length} minutes`}</div>
+
+          {ele.video && <div className='video'>
+             <a href={ele.video}
+               target='_blank'
+               rel='noopener noreferrer'>
+               VIDEO
+             </a>
+
+          </div>}
+
+          {ele.pdf && <div className='pdf'>
+             <a href={`cfp/${ele.pdf}`}
+               target='_blank'
+               rel='noopener noreferrer'>
+               SLIDES
+             </a>
+
+          </div>}
 
           {ele.technical && <div className='technical'>
             <DonutChart value={percentTechnical} />
