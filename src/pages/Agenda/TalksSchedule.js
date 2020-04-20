@@ -110,21 +110,38 @@ class TalksSchedule extends Component {
 
           <div className='length'>{`${ele.length} minutes`}</div>
 
-          {ele.video && <div className='video'>
+          {(ele.video || ele.pdf) && <div className='talk-icon-bar'>
+           {ele.video && <span className='talk-icons'>
              <a href={ele.video}
                target='_blank'
                rel='noopener noreferrer'>
-               VIDEO
+               <svg className='talk-icons'
+                 fill="#FF0000"
+                 aria-labelledby='youtube-icon'
+                 role="img"
+                 viewBox="0 0 24 24"
+                 xmlns="http://www.w3.org/2000/svg">
+                 <title>YouTube icon</title>
+                 <path d="M23 7a2.88 2.88 0 0 0-2-2c-1.79-.48-9-.48-9-.48S4.81 4.51 3 5a2.88 2.88 0 0 0-2 2 29.93 29.93 0 0 0-.5 5.56A29.93 29.93 0 0 0 1 18.1a2.88 2.88 0 0 0 2 2c1.79.48 9 .48 9 .48s7.19 0 9-.48a2.88 2.88 0 0 0 2-2 29.93 29.93 0 0 0 .48-5.54A29.93 29.93 0 0 0 23 7zM9.7 16V9.11l6 3.45z"/>
+               </svg>
              </a>
+             </span>}
 
-          </div>}
+              {ele.pdf && <span className='talk-icons'>
+                <a href={`cfp/${ele.pdf}`}
+                  target='_blank'
+                  rel='noopener noreferrer'>
+                  <svg className='talk-icons'
+                    aria-labelledby='pdf-icon'
+                    role='img'
+                    viewBox='0 0 24 24'
+                    xmlns='http://www.w3.org/2000/svg'>
+                    <title id='pdf-icon'>PDF icon</title>
+                    <path d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8.5 7.5c0 .83-.67 1.5-1.5 1.5H9v2H7.5V7H10c.83 0 1.5.67 1.5 1.5v1zm5 2c0 .83-.67 1.5-1.5 1.5h-2.5V7H15c.83 0 1.5.67 1.5 1.5v3zm4-3H19v1h1.5V11H19v2h-1.5V7h3v1.5zM9 9.5h1v-1H9v1zM4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm10 5.5h1v-3h-1v3z"/>
+                  </svg>
+                </a>
+              </span>}
 
-          {ele.pdf && <div className='pdf'>
-             <a href={`cfp/${ele.pdf}`}
-               target='_blank'
-               rel='noopener noreferrer'>
-               SLIDES
-             </a>
 
           </div>}
 
