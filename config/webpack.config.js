@@ -465,6 +465,14 @@ module.exports = function(webpackEnv) {
               include: paths.appSrc,
               loader: require.resolve('file-loader'),
               options: {
+                name: 'files/[name].[ext]',
+              },
+            },
+            {
+              test: /\.(pdf)$/,
+              include: paths.appSrc,
+              loader: require.resolve('file-loader'),
+              options: {
                 name: 'program/[name].[ext]',
               },
             },
