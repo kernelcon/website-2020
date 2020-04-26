@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.f204aab1.chunk.css",
-    "main.js": "/static/js/main.a3b2244f.chunk.js",
+    "main.js": "/static/js/main.ad206ab3.chunk.js",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "static/css/2.3c32b2af.chunk.css": "/static/css/2.3c32b2af.chunk.css",
     "static/js/2.6aa386f2.chunk.js": "/static/js/2.6aa386f2.chunk.js",
@@ -21,7 +21,7 @@
     "cfp/kc2020_program.pdf": "/cfp/kc2020_program.pdf",
     "cfp/wifi.pdf": "/cfp/wifi.pdf",
     "index.html": "/index.html",
-    "precache-manifest.65877c2ba21fe4ebb1f06a91b690b5c3.js": "/precache-manifest.65877c2ba21fe4ebb1f06a91b690b5c3.js",
+    "precache-manifest.cdef6fb4f76e09a4cf92efa78ddd88bf.js": "/precache-manifest.cdef6fb4f76e09a4cf92efa78ddd88bf.js",
     "service-worker.js": "/service-worker.js",
     "static/media/0.png": "/static/media/0.b6f1bbd7.png",
     "static/media/1.png": "/static/media/1.08972f78.png",
