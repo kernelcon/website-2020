@@ -20,6 +20,7 @@ import tossaway11 from '../../files/K2020_kphan.pdf';
 import tossaway12 from '../../files/K2020_mborn.pdf';
 import tossaway13 from '../../files/K2020_rgeorge.pdf';
 import tossaway14 from '../../files/K2020_scurry.pdf';
+import tossaway15 from '../../files/K2020_rmacababbad.pdf';
 
 
 class TalksSchedule extends Component {
