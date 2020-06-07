@@ -44,6 +44,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cfp/K2020_rgeorge.pdf"
   },
   {
+    "revision": "d338da0cc8386f3e84c6f246ce6f7e47",
+    "url": "/cfp/K2020_rmacababbad.pdf"
+  },
+  {
     "revision": "36fe21b23fd6480c2712be63a3db5a9e",
     "url": "/cfp/K2020_rwoerner.pdf"
   },
@@ -60,24 +64,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cfp/wifi.pdf"
   },
   {
-    "revision": "72a7f09c227ce9fe1c8d51e7d713fa23",
+    "revision": "9840c303a481f4907f3b79d8f62b20ec",
     "url": "/index.html"
   },
   {
-    "revision": "e7b64ec3ee5228748891",
+    "revision": "9ee7f5afd138f7c11762",
     "url": "/static/css/2.3c32b2af.chunk.css"
   },
   {
-    "revision": "ad568d112423116cea69",
-    "url": "/static/css/main.f204aab1.chunk.css"
+    "revision": "98dd40a5a3c1a361ce31",
+    "url": "/static/css/main.c2918eec.chunk.css"
   },
   {
-    "revision": "e7b64ec3ee5228748891",
-    "url": "/static/js/2.6aa386f2.chunk.js"
+    "revision": "9ee7f5afd138f7c11762",
+    "url": "/static/js/2.83cc39c5.chunk.js"
   },
   {
-    "revision": "ad568d112423116cea69",
-    "url": "/static/js/main.ad206ab3.chunk.js"
+    "revision": "98dd40a5a3c1a361ce31",
+    "url": "/static/js/main.ab8a4666.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
